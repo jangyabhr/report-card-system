@@ -98,7 +98,7 @@ function loadReport(adm) {
         <td class="mc-hfy">-</td>
         <td class="mc-pt">-</td>
         <td class="mc-pt">-</td>
-        <td class="mc-ann">${annMark !== "-" ? annMark + " + " + iaMark : "-"}</td>
+        <td class="mc-ann">${typeof totMark === "number" ? totMark : "-"}</td>
         <td class="wt-pct">${wt}</td>
         <td class="grade-cell" style="background:${gInfo.color}">${gInfo.grade}</td>
       </tr>`;
@@ -166,12 +166,12 @@ function loadReport(adm) {
         </div>
         <div class="chart-wrap">
           <div class="chart-title">Yearly Report</div>
-          <canvas id="yearlyChart" width="290" height="190"></canvas>
+          <canvas id="yearlyChart"></canvas>
         </div>
       </div>
 
       <!-- Scholastic Area -->
-      <table class="scholastic-table">
+      <div class="table-scroll"><table class="scholastic-table">
         <tbody>
           <tr><td class="area-banner" colspan="9">SCHOLASTIC AREA</td></tr>
           <tr>
@@ -221,6 +221,8 @@ function loadReport(adm) {
           </tr>
         </tbody>
       </table>
+
+      </table></div>
 
       <div class="grading-note">
         8 Point Grading Scale :
@@ -303,13 +305,13 @@ function renderChart(s) {
       }]
     },
     options: {
-      responsive: false,
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
         y: {
           beginAtZero: true, max: 100,
-          title: { display: true, text: "Percentage", font: { size: 9 } },
-          ticks: { font: { size: 9 } }
+          ticks: { font: { size: 9 }, stepSize: 10 }
         },
         x: { ticks: { font: { size: 9 } } }
       }
