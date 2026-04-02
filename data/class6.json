@@ -1,0 +1,17 @@
+{
+  "1001": {
+    "name": "Sample Student",
+    "roll": 1,
+    "section": "A",
+    "exams": {
+      "ANNUAL": {
+        "ENGLISH": 85,
+        "ODIA": 78
+      }
+    },
+    "total": 163,
+    "percent": 81.5,
+    "grade": "A2",
+    "rank": 1
+  }
+}
