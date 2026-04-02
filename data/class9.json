@@ -1,0 +1,103 @@
+{
+  "ADM/001": {
+    "name": "STUDENT NAME",
+    "father_name": "FATHER NAME",
+    "dob": "01-01-2012",
+    "roll": 1,
+    "section": "A",
+    "attendance": 95,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 40,
+        "ODIA": 40,
+        "HINDI": 40,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 40,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 40,
+        "ODIA": 40,
+        "HINDI": 40,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 40,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "HFY": {
+        "ENGLISH": 100,
+        "ODIA": 100,
+        "HINDI": 100,
+        "SANSKRIT": 100,
+        "MATHEMATICS": 100,
+        "SCIENCE": 100,
+        "SOCIAL SCIENCE": 100,
+        "ICT": 100
+      },
+      "PT-III": {
+        "ENGLISH": 40,
+        "ODIA": 40,
+        "HINDI": 40,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 40,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "PT-IV": {
+        "ENGLISH": 40,
+        "ODIA": 40,
+        "HINDI": 40,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 40,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "ANNUAL": {
+        "ENGLISH": 80,
+        "ODIA": 80,
+        "HINDI": 80,
+        "SANSKRIT": 80,
+        "MATHEMATICS": 80,
+        "SCIENCE": 80,
+        "SOCIAL SCIENCE": 80,
+        "ICT": 80
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 20,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 100,
+        "ODIA": 100,
+        "HINDI": 100,
+        "SANSKRIT": 100,
+        "MATHEMATICS": 100,
+        "SCIENCE": 100,
+        "SOCIAL SCIENCE": 100,
+        "ICT": 100
+      }
+    },
+    "total": 800,
+    "percent": 100.0,
+    "grade": "A1",
+    "rank": 1
+  }
+}

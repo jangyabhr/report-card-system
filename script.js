@@ -3,6 +3,9 @@ let chartInstance = null;
 
 const SUBJECTS = ["ENGLISH", "ODIA", "HINDI", "SANSKRIT", "MATHEMATICS", "SCIENCE", "SOCIAL SCIENCE", "ICT"];
 
+// Max marks per exam for percentage calculation
+const EXAM_MAX = { "PT-I": 320, "PT-II": 320, "HFY": 800, "PT-III": 320, "PT-IV": 320 };
+
 const GRADE_SCALE = [
   { min: 91, grade: "A1", color: "#2e7d32" },
   { min: 81, grade: "A2", color: "#388e3c" },
@@ -22,8 +25,31 @@ function getGrade(pct) {
 }
 
 function getClassName() {
-  const map = { class6: "VI", class7: "VII", class8: "VIII", class9: "IX", class10: "X" };
+  const map = {
+    class6: "VI", class7: "VII", class8: "VIII", class9: "IX",
+    class10: "X", class11: "XI", class12: "XII"
+  };
   return map[document.getElementById("classSelect").value] || "";
+}
+
+// Render a mark cell — shows ABS in red, number normally, "-" for null/undefined
+function mc(val, cssClass) {
+  const display = (val === null || val === undefined) ? "-" : val;
+  const isAbs   = val === "ABS";
+  const extra   = isAbs ? ' style="background:#ffcdd2;color:#b71c1c;font-weight:bold"' : '';
+  return `<td class="${cssClass}"${extra}>${display}</td>`;
+}
+
+// Sum numeric marks for an exam across all subjects (skip ABS/null)
+function examTotal(exams, key) {
+  const e = exams[key];
+  if (!e) return null;
+  let sum = 0, count = 0;
+  for (const sub of SUBJECTS) {
+    const v = e[sub];
+    if (typeof v === "number") { sum += v; count++; }
+  }
+  return count === SUBJECTS.length ? sum : (count > 0 ? sum : null);
 }
 
 async function loadClassData() {
@@ -41,7 +67,6 @@ async function loadClassData() {
 }
 
 loadClassData();
-
 document.getElementById("classSelect").addEventListener("change", loadClassData);
 
 document.getElementById("search").addEventListener("input", function () {
@@ -65,55 +90,73 @@ document.getElementById("search").addEventListener("input", function () {
 });
 
 function loadReport(adm) {
-  const s = data[adm];
-  const cls = getClassName();
-  const annual = s.exams.ANNUAL || {};
-  const ia     = s.exams.IA     || {};
-  const totals = s.exams.TOTAL  || {};
+  const s      = data[adm];
+  const cls    = getClassName();
+  const exams  = s.exams || {};
+  const annual = exams.ANNUAL || {};
+  const totals = exams.TOTAL  || {};
 
-  // PASS: every subject annual marks >= 33 out of 80
+  // PASS: all annual exam marks >= 33 out of 80
   const passed = SUBJECTS.every(sub => {
     const m = annual[sub];
-    return m === "ABS" || m === undefined ? false : m >= 33;
+    return typeof m === "number" && m >= 33;
   });
 
-  // Build subject rows
+  // ── Subject rows ────────────────────────────────────────────────────
   let subjectRows = "";
   for (const sub of SUBJECTS) {
-    const annMark  = annual[sub]  ?? "-";
-    const iaMark   = ia[sub]     ?? "-";
-    const totMark  = totals[sub] ?? "-";
+    const pt1 = exams["PT-I"]?.[sub]   ?? null;
+    const pt2 = exams["PT-II"]?.[sub]  ?? null;
+    const hfy = exams["HFY"]?.[sub]    ?? null;
+    const pt3 = exams["PT-III"]?.[sub] ?? null;
+    const pt4 = exams["PT-IV"]?.[sub]  ?? null;
+    const ann = totals[sub]            ?? null;  // ANNUAL + IA combined
 
-    let wt = "-", gInfo = { grade: "-", color: "#ccc" };
-    if (typeof totMark === "number") {
-      wt = totMark.toFixed(1);
-      gInfo = getGrade(totMark);
+    let wt = "-", gInfo = { grade: "-", color: "#ddd" };
+    if (typeof ann === "number") {
+      wt    = ann.toFixed(1);
+      gInfo = getGrade(ann);
+    } else if (ann === "ABS") {
+      wt = "ABS"; gInfo = { grade: "ABS", color: "#ffcdd2" };
     }
 
     subjectRows += `
       <tr>
         <td class="sub-name">${sub}</td>
-        <td class="mc-pt">-</td>
-        <td class="mc-pt">-</td>
-        <td class="mc-hfy">-</td>
-        <td class="mc-pt">-</td>
-        <td class="mc-pt">-</td>
-        <td class="mc-ann">${typeof totMark === "number" ? totMark : "-"}</td>
+        ${mc(pt1, "mc-pt")}
+        ${mc(pt2, "mc-pt")}
+        ${mc(hfy, "mc-hfy")}
+        ${mc(pt3, "mc-pt")}
+        ${mc(pt4, "mc-pt")}
+        ${mc(ann, "mc-ann")}
         <td class="wt-pct">${wt}</td>
         <td class="grade-cell" style="background:${gInfo.color}">${gInfo.grade}</td>
       </tr>`;
   }
 
-  // Co-scholastic
+  // ── Per-exam totals for Total Marks row ─────────────────────────────
+  const tPT1 = examTotal(exams, "PT-I");
+  const tPT2 = examTotal(exams, "PT-II");
+  const tHFY = examTotal(exams, "HFY");
+  const tPT3 = examTotal(exams, "PT-III");
+  const tPT4 = examTotal(exams, "PT-IV");
+
+  const fmtT = v => v !== null ? v : "-";
+  const fmtP = (v, max) => v !== null ? (v / max * 100).toFixed(2) + "%" : "-";
+
+  const overallGrade = getGrade(s.percent);
+
+  // ── Co-scholastic rows ──────────────────────────────────────────────
   const co = s.co_scholastic || {};
-  const coActivities = ["WORK EDUCATION", "ART EDUCATION", "HEALTH & PHYSICAL EDUCATION", "DISCIPLINE", "SPORTS"];
+  const coActivities = [
+    "WORK EDUCATION", "ART EDUCATION", "HEALTH & PHYSICAL EDUCATION",
+    "DISCIPLINE", "SPORTS"
+  ];
   const coRows = coActivities.map(act =>
     `<tr><td>${act}</td><td>${co[act] || "N/A"}</td></tr>`
   ).join("");
 
-  const overallGrade = getGrade(s.percent);
   const attendance = s.attendance != null ? s.attendance + " %" : "N/A";
-  const resultClass = passed ? "pass" : "fail";
 
   document.getElementById("report-wrapper").innerHTML = `
     <div class="report-card" id="report">
@@ -142,12 +185,12 @@ function loadReport(adm) {
           <div>
             <table class="info-table">
               <tr>
-                <td class="lbl">Roll No</td><td>: ${s.roll}</td>
+                <td class="lbl">Roll No</td><td>: ${s.roll ?? "N/A"}</td>
                 <td class="lbl">Reg No</td><td>: ${adm}</td>
               </tr>
               <tr>
                 <td class="lbl">Class</td><td>: ${cls}</td>
-                <td class="lbl">Sec</td><td>: ${s.section}</td>
+                <td class="lbl">Sec</td><td>: ${s.section ?? "N/A"}</td>
               </tr>
               <tr>
                 <td class="lbl">Name</td><td colspan="3">: ${s.name}</td>
@@ -160,7 +203,7 @@ function loadReport(adm) {
               </tr>
             </table>
             <div class="result-row">
-              Result : <span class="badge ${resultClass}">${passed ? "PASS" : "FAIL"}</span>
+              Result : <span class="badge ${passed ? "pass" : "fail"}">${passed ? "PASS" : "FAIL"}</span>
             </div>
           </div>
         </div>
@@ -171,58 +214,66 @@ function loadReport(adm) {
       </div>
 
       <!-- Scholastic Area -->
-      <div class="table-scroll"><table class="scholastic-table">
-        <tbody>
-          <tr><td class="area-banner" colspan="9">SCHOLASTIC AREA</td></tr>
-          <tr>
-            <td class="th-subject">Name of the exam</td>
-            <td class="th-pt">PT-I</td>
-            <td class="th-pt">PT-II</td>
-            <td class="th-hfy">HFY</td>
-            <td class="th-pt">PT-III</td>
-            <td class="th-pt">PT-IV</td>
-            <td class="th-ann">ANNUAL</td>
-            <td class="th-wt" rowspan="2">WEIGHTED<br>%</td>
-            <td class="th-grd" rowspan="2">GRADE</td>
-          </tr>
-          <tr>
-            <td class="th-subject">Full Marks</td>
-            <td class="fm-pt">40</td>
-            <td class="fm-pt">40</td>
-            <td class="fm-hfy">100</td>
-            <td class="fm-pt">40</td>
-            <td class="fm-pt">40</td>
-            <td class="fm-ann">100</td>
-          </tr>
-          <tr>
-            <td class="th-subject">Subject &amp; Marks</td>
-            <td class="sub-pt">Marks Obtained</td>
-            <td class="sub-pt">Marks Obtained</td>
-            <td class="sub-hfy">Marks Obtained</td>
-            <td class="sub-pt">Marks Obtained</td>
-            <td class="sub-pt">Marks Obtained</td>
-            <td class="sub-ann">Marks Obtained</td>
-            <td class="sub-blank"></td>
-            <td class="sub-blank"></td>
-          </tr>
-          ${subjectRows}
-          <tr class="total-row">
-            <td class="sub-name">Total Marks</td>
-            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-            <td>${s.total} / 800</td>
-            <td>${s.percent}</td>
-            <td class="grade-cell" style="background:${overallGrade.color}">${s.grade}</td>
-          </tr>
-          <tr class="pct-row">
-            <td class="sub-name">Percentage</td>
-            <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-            <td>${s.percent}%</td>
-            <td class="overall-grade-cell" colspan="2">OVERALL GRADE : ${s.grade} &nbsp; | &nbsp; Rank : ${s.rank}</td>
-          </tr>
-        </tbody>
-      </table>
-
-      </table></div>
+      <div class="table-scroll">
+        <table class="scholastic-table">
+          <tbody>
+            <tr><td class="area-banner" colspan="9">SCHOLASTIC AREA</td></tr>
+            <tr>
+              <td class="th-subject">Name of the exam</td>
+              <td class="th-pt">PT-I</td>
+              <td class="th-pt">PT-II</td>
+              <td class="th-hfy">HFY</td>
+              <td class="th-pt">PT-III</td>
+              <td class="th-pt">PT-IV</td>
+              <td class="th-ann">ANNUAL</td>
+              <td class="th-wt" rowspan="2">WEIGHTED<br>%</td>
+              <td class="th-grd" rowspan="2">GRADE</td>
+            </tr>
+            <tr>
+              <td class="th-subject">Full Marks</td>
+              <td class="fm-pt">40</td>
+              <td class="fm-pt">40</td>
+              <td class="fm-hfy">100</td>
+              <td class="fm-pt">40</td>
+              <td class="fm-pt">40</td>
+              <td class="fm-ann">100</td>
+            </tr>
+            <tr>
+              <td class="th-subject">Subject &amp; Marks</td>
+              <td class="sub-pt">Marks Obtained</td>
+              <td class="sub-pt">Marks Obtained</td>
+              <td class="sub-hfy">Marks Obtained</td>
+              <td class="sub-pt">Marks Obtained</td>
+              <td class="sub-pt">Marks Obtained</td>
+              <td class="sub-ann">Marks Obtained</td>
+              <td class="sub-blank"></td>
+              <td class="sub-blank"></td>
+            </tr>
+            ${subjectRows}
+            <tr class="total-row">
+              <td class="sub-name">Total Marks</td>
+              <td>${fmtT(tPT1)}</td>
+              <td>${fmtT(tPT2)}</td>
+              <td>${fmtT(tHFY)}</td>
+              <td>${fmtT(tPT3)}</td>
+              <td>${fmtT(tPT4)}</td>
+              <td>${s.total} / 800</td>
+              <td>${s.percent}</td>
+              <td class="grade-cell" style="background:${overallGrade.color}">${s.grade}</td>
+            </tr>
+            <tr class="pct-row">
+              <td class="sub-name">Percentage</td>
+              <td>${fmtP(tPT1, 320)}</td>
+              <td>${fmtP(tPT2, 320)}</td>
+              <td>${fmtP(tHFY, 800)}</td>
+              <td>${fmtP(tPT3, 320)}</td>
+              <td>${fmtP(tPT4, 320)}</td>
+              <td>${s.percent}%</td>
+              <td class="overall-grade-cell" colspan="2">OVERALL GRADE : ${s.grade} &nbsp;|&nbsp; Rank : ${s.rank}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <div class="grading-note">
         8 Point Grading Scale :
@@ -287,9 +338,18 @@ function renderChart(s) {
   if (!ctx) return;
   if (chartInstance) { chartInstance.destroy(); }
 
-  // Show per-exam-slot bars; only ANNUAL is populated from current data
+  const exams  = s.exams || {};
   const labels = ["PT-I", "PT-II", "HFY", "PT-III", "PT-IV", "ANNUAL"];
-  const values = [0, 0, 0, 0, 0, s.percent];
+  const maxes  = [320, 320, 800, 320, 320, 800];
+  const keys   = ["PT-I", "PT-II", "HFY", "PT-III", "PT-IV", null]; // null → use s.percent
+
+  const values = keys.map((key, i) => {
+    if (key === null) return s.percent;
+    const t = examTotal(exams, key);
+    return t !== null ? Math.round(t / maxes[i] * 100 * 100) / 100 : 0;
+  });
+
+  const colors = ["#90caf9","#90caf9","#64b5f6","#90caf9","#90caf9","#4472c4"];
 
   chartInstance = new Chart(ctx, {
     type: "bar",
@@ -297,9 +357,7 @@ function renderChart(s) {
       labels,
       datasets: [{
         data: values,
-        backgroundColor: [
-          "#90caf9","#90caf9","#90caf9","#90caf9","#90caf9","#4472c4"
-        ],
+        backgroundColor: colors,
         borderColor: "#1a237e",
         borderWidth: 1,
       }]
