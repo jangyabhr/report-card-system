@@ -58,7 +58,8 @@ function getClassName() {
 
 // Render a mark cell — shows ABS in red, number normally, "-" for null/undefined
 function mc(val, cssClass) {
-  const display = (val === null || val === undefined) ? "-" : val;
+  const display = (val === null || val === undefined) ? "-"
+                : (typeof val === "number" ? +val.toFixed(2) : val);
   const isAbs   = val === "ABS";
   const extra   = isAbs ? ' style="background:#ffcdd2;color:#b71c1c;font-weight:bold"' : '';
   return `<td class="${cssClass}"${extra}>${display}</td>`;
@@ -138,7 +139,8 @@ function loadReport(adm) {
     const hfy = exams["HFY"]?.[sub]    ?? null;
     const pt3 = exams["PT-III"]?.[sub] ?? null;
     const pt4 = exams["PT-IV"]?.[sub]  ?? null;
-    const ann = computeWeighted(exams, sub);  // true weighted % (PT×10% + HY×20% + Annual×40%)
+    const rawAnn = totals[sub] ?? null;           // ANNUAL + IA marks (for ANNUAL column display)
+    const ann    = computeWeighted(exams, sub);  // true weighted % (PT×10% + HY×20% + Annual×40%)
 
     let wt = "-", gInfo = { grade: "-", color: "#ddd" };
     if (typeof ann === "number") {
@@ -156,7 +158,7 @@ function loadReport(adm) {
         ${mc(hfy, "mc-hfy")}
         ${mc(pt3, "mc-pt")}
         ${mc(pt4, "mc-pt")}
-        ${mc(ann, "mc-ann")}
+        ${mc(rawAnn, "mc-ann")}
         <td class="wt-pct">${wt}</td>
         <td class="grade-cell" style="background:${gInfo.color}">${gInfo.grade}</td>
       </tr>`;
