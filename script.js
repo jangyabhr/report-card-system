@@ -317,8 +317,9 @@ function loadReport(adm) {
               <td>${fmtP(tHFY, mHFY)}</td>
               <td>${fmtP(tPT3, mPT)}</td>
               <td>${fmtP(tPT4, mPT)}</td>
+              <td>${(s.total / maxTotal * 100).toFixed(2)}%</td>
               <td>${overallWeightedPct.toFixed(2)}%</td>
-              <td class="overall-grade-cell" colspan="2">OVERALL GRADE : ${overallGrade.grade} &nbsp;|&nbsp; Rank : ${weightedRank}</td>
+              <td class="overall-grade-cell">OVERALL GRADE : ${overallGrade.grade} &nbsp;|&nbsp; Rank : ${weightedRank}</td>
             </tr>
           </tbody>
         </table>
