@@ -1,82 +1,93 @@
 {
-  "ADM/001": {
-    "name": "STUDENT NAME",
-    "father_name": "FATHER NAME",
-    "dob": "01-01-2012",
-    "roll": 1,
-    "section": "A",
-    "attendance": 95,
+  "012/678": {
+    "name": "PRARTHIKA PAYOSINI",
+    "father_name": "SAMIR KUMAR SHAU",
+    "dob": "31-07-2013",
+    "roll": 25,
+    "section": "B",
+    "attendance": 87.05,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
     "co_scholastic": {
       "WORK EDUCATION": "A",
       "ART EDUCATION": "A",
-      "HEALTH & PHYSICAL EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
       "DISCIPLINE": "A",
-      "SPORTS": "A"
+      "SPORTS": "B"
     },
     "exams": {
       "PT-I": {
-        "ENGLISH": 40,
+        "ENGLISH": 37,
         "ODIA": 40,
-        "HINDI": 40,
-        "SANSKRIT": 40,
+        "HINDI": 36,
+        "SANSKRIT": 38,
         "MATHEMATICS": 40,
         "SCIENCE": 40,
         "SOCIAL SCIENCE": 40,
         "ICT": 40
       },
       "PT-II": {
-        "ENGLISH": 40,
-        "ODIA": 40,
-        "HINDI": 40,
-        "SANSKRIT": 40,
-        "MATHEMATICS": 40,
-        "SCIENCE": 40,
+        "ENGLISH": 34,
+        "ODIA": 39,
+        "HINDI": 37,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 38,
+        "SCIENCE": 39,
         "SOCIAL SCIENCE": 40,
-        "ICT": 40
+        "ICT": 38
       },
       "HFY": {
-        "ENGLISH": 100,
-        "ODIA": 100,
-        "HINDI": 100,
-        "SANSKRIT": 100,
-        "MATHEMATICS": 100,
-        "SCIENCE": 100,
-        "SOCIAL SCIENCE": 100,
-        "ICT": 100
+        "ENGLISH": 94,
+        "ODIA": 99,
+        "HINDI": 93,
+        "SANSKRIT": 99,
+        "MATHEMATICS": 99,
+        "SCIENCE": 93,
+        "SOCIAL SCIENCE": 99,
+        "ICT": 99
       },
       "PT-III": {
-        "ENGLISH": 40,
-        "ODIA": 40,
+        "ENGLISH": 32,
+        "ODIA": 39,
         "HINDI": 40,
-        "SANSKRIT": 40,
-        "MATHEMATICS": 40,
-        "SCIENCE": 40,
-        "SOCIAL SCIENCE": 40,
-        "ICT": 40
+        "SANSKRIT": 39,
+        "MATHEMATICS": 39,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 30
       },
       "PT-IV": {
-        "ENGLISH": 40,
-        "ODIA": 40,
-        "HINDI": 40,
-        "SANSKRIT": 40,
-        "MATHEMATICS": 40,
-        "SCIENCE": 40,
+        "ENGLISH": 32,
+        "ODIA": 37,
+        "HINDI": 39,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 38,
+        "SCIENCE": 39,
         "SOCIAL SCIENCE": 40,
-        "ICT": 40
+        "ICT": 37
       },
       "ANNUAL": {
-        "ENGLISH": 80,
-        "ODIA": 80,
-        "HINDI": 80,
-        "SANSKRIT": 80,
+        "ENGLISH": 77,
+        "ODIA": 77,
+        "HINDI": 76,
+        "SANSKRIT": 78,
         "MATHEMATICS": 80,
-        "SCIENCE": 80,
-        "SOCIAL SCIENCE": 80,
-        "ICT": 80
+        "SCIENCE": 73,
+        "SOCIAL SCIENCE": 78,
+        "ICT": 78
       },
       "IA": {
         "ENGLISH": 20,
-        "ODIA": 20,
+        "ODIA": 19,
         "HINDI": 20,
         "SANSKRIT": 20,
         "MATHEMATICS": 20,
@@ -85,19 +96,8083 @@
         "ICT": 20
       },
       "TOTAL": {
-        "ENGLISH": 100,
-        "ODIA": 100,
-        "HINDI": 100,
-        "SANSKRIT": 100,
+        "ENGLISH": 97,
+        "ODIA": 96,
+        "HINDI": 96,
+        "SANSKRIT": 98,
         "MATHEMATICS": 100,
-        "SCIENCE": 100,
-        "SOCIAL SCIENCE": 100,
-        "ICT": 100
+        "SCIENCE": 93,
+        "SOCIAL SCIENCE": 98,
+        "ICT": 98
       }
     },
-    "total": 800,
-    "percent": 100.0,
+    "total": 776,
+    "percent": 97.0,
     "grade": "A1",
     "rank": 1
+  },
+  "060/726": {
+    "name": "SMARANIKA PANIGRAHI",
+    "father_name": "RAMA CHANDRA PANIGRAHI",
+    "dob": "08-07-2013",
+    "roll": 27,
+    "section": "A",
+    "attendance": 98,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 37,
+        "ODIA": 39,
+        "HINDI": 36,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 40,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 34,
+        "ODIA": 37,
+        "HINDI": 39,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 39,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 40
+      },
+      "HFY": {
+        "ENGLISH": 88,
+        "ODIA": 98,
+        "HINDI": 95,
+        "SANSKRIT": 94,
+        "MATHEMATICS": 98,
+        "SCIENCE": 97,
+        "SOCIAL SCIENCE": 98,
+        "ICT": 99
+      },
+      "PT-III": {
+        "ENGLISH": 30,
+        "ODIA": 40,
+        "HINDI": 39,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 37,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 32
+      },
+      "PT-IV": {
+        "ENGLISH": 29,
+        "ODIA": 39,
+        "HINDI": 39,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 34,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 39
+      },
+      "ANNUAL": {
+        "ENGLISH": 73,
+        "ODIA": 79,
+        "HINDI": 76,
+        "SANSKRIT": 76,
+        "MATHEMATICS": 75,
+        "SCIENCE": 72,
+        "SOCIAL SCIENCE": 73,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 93,
+        "ODIA": 98,
+        "HINDI": 96,
+        "SANSKRIT": 96,
+        "MATHEMATICS": 95,
+        "SCIENCE": 92,
+        "SOCIAL SCIENCE": 93,
+        "ICT": 98
+      }
+    },
+    "total": 761,
+    "percent": 95.12,
+    "grade": "A1",
+    "rank": 2
+  },
+  "013/679": {
+    "name": "DIBYANKA SAHU",
+    "father_name": "SANTOSH KUMAR SAHU",
+    "dob": "06-05-2013",
+    "roll": 13,
+    "section": "A",
+    "attendance": 79,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 34,
+        "ODIA": 34,
+        "HINDI": 34,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 39,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 35,
+        "ODIA": 25,
+        "HINDI": 37,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 32,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 38
+      },
+      "HFY": {
+        "ENGLISH": 87,
+        "ODIA": 83,
+        "HINDI": 86,
+        "SANSKRIT": 88,
+        "MATHEMATICS": 95,
+        "SCIENCE": 83,
+        "SOCIAL SCIENCE": 98,
+        "ICT": 91
+      },
+      "PT-III": {
+        "ENGLISH": 35,
+        "ODIA": 39,
+        "HINDI": 38,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 37,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 35
+      },
+      "PT-IV": {
+        "ENGLISH": 29,
+        "ODIA": 35,
+        "HINDI": 34,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 40,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 37
+      },
+      "ANNUAL": {
+        "ENGLISH": 75,
+        "ODIA": 75,
+        "HINDI": 75,
+        "SANSKRIT": 72,
+        "MATHEMATICS": 74,
+        "SCIENCE": 70,
+        "SOCIAL SCIENCE": 76,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 95,
+        "ODIA": 94,
+        "HINDI": 95,
+        "SANSKRIT": 92,
+        "MATHEMATICS": 94,
+        "SCIENCE": 90,
+        "SOCIAL SCIENCE": 96,
+        "ICT": 98
+      }
+    },
+    "total": 754,
+    "percent": 94.25,
+    "grade": "A1",
+    "rank": 3
+  },
+  "069/735": {
+    "name": "RAMESWAREE PANDA",
+    "father_name": "PURNA CHANDRA PANDA",
+    "dob": "22-05-2013",
+    "roll": 21,
+    "section": "A",
+    "attendance": 80,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 37,
+        "ODIA": 34,
+        "HINDI": 36,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 38,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 36,
+        "ODIA": 31,
+        "HINDI": 34,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 31,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 36
+      },
+      "HFY": {
+        "ENGLISH": 88,
+        "ODIA": 95,
+        "HINDI": 92,
+        "SANSKRIT": 89,
+        "MATHEMATICS": 98,
+        "SCIENCE": 97,
+        "SOCIAL SCIENCE": 99,
+        "ICT": 99
+      },
+      "PT-III": {
+        "ENGLISH": 25,
+        "ODIA": 37,
+        "HINDI": 39,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 34,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 31
+      },
+      "PT-IV": {
+        "ENGLISH": 29,
+        "ODIA": 35,
+        "HINDI": 38,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 39,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 39
+      },
+      "ANNUAL": {
+        "ENGLISH": 76,
+        "ODIA": 72,
+        "HINDI": 78,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 69,
+        "SCIENCE": 71,
+        "SOCIAL SCIENCE": 75,
+        "ICT": 76
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 96,
+        "ODIA": 91,
+        "HINDI": 98,
+        "SANSKRIT": 98,
+        "MATHEMATICS": 89,
+        "SCIENCE": 91,
+        "SOCIAL SCIENCE": 95,
+        "ICT": 96
+      }
+    },
+    "total": 754,
+    "percent": 94.25,
+    "grade": "A1",
+    "rank": 4
+  },
+  "066/732": {
+    "name": "AMLAN KUMAR PANDA",
+    "father_name": "RUTURAJ PANDA",
+    "dob": "28-05-2013",
+    "roll": 8,
+    "section": "A",
+    "attendance": 79,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 35,
+        "ODIA": 36,
+        "HINDI": 36,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 35,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 39
+      },
+      "PT-II": {
+        "ENGLISH": 36,
+        "ODIA": 39,
+        "HINDI": 38,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 35,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 39
+      },
+      "HFY": {
+        "ENGLISH": 95,
+        "ODIA": 99,
+        "HINDI": 94,
+        "SANSKRIT": 97,
+        "MATHEMATICS": 90,
+        "SCIENCE": 95,
+        "SOCIAL SCIENCE": 97,
+        "ICT": 98
+      },
+      "PT-III": {
+        "ENGLISH": 32,
+        "ODIA": 40,
+        "HINDI": 36,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 30,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 29
+      },
+      "PT-IV": {
+        "ENGLISH": 27,
+        "ODIA": 39,
+        "HINDI": 32,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 32,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 38
+      },
+      "ANNUAL": {
+        "ENGLISH": 74,
+        "ODIA": 79,
+        "HINDI": 70,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 70,
+        "SCIENCE": 70,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 94,
+        "ODIA": 98,
+        "HINDI": 89,
+        "SANSKRIT": 94,
+        "MATHEMATICS": 90,
+        "SCIENCE": 90,
+        "SOCIAL SCIENCE": 92,
+        "ICT": 98
+      }
+    },
+    "total": 745,
+    "percent": 93.12,
+    "grade": "A1",
+    "rank": 5
+  },
+  "002/668": {
+    "name": "PUJA RANI NAYAK",
+    "father_name": "LAXMAN NAYAK",
+    "dob": "11-07-2023",
+    "roll": 28,
+    "section": "B",
+    "attendance": 83.42,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 34,
+        "ODIA": 38,
+        "HINDI": 26,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 32,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 33,
+        "ODIA": 31,
+        "HINDI": 32,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 35,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 34
+      },
+      "HFY": {
+        "ENGLISH": 73,
+        "ODIA": 97,
+        "HINDI": 96,
+        "SANSKRIT": 94,
+        "MATHEMATICS": 93,
+        "SCIENCE": 88,
+        "SOCIAL SCIENCE": 98,
+        "ICT": 98
+      },
+      "PT-III": {
+        "ENGLISH": 25,
+        "ODIA": 36,
+        "HINDI": 39,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 37,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 24
+      },
+      "PT-IV": {
+        "ENGLISH": 26,
+        "ODIA": 33,
+        "HINDI": 39,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 37,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 37
+      },
+      "ANNUAL": {
+        "ENGLISH": 73,
+        "ODIA": 74,
+        "HINDI": 73,
+        "SANSKRIT": 76,
+        "MATHEMATICS": 72,
+        "SCIENCE": 68,
+        "SOCIAL SCIENCE": 75,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 17,
+        "HINDI": 20,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 93,
+        "ODIA": 91,
+        "HINDI": 93,
+        "SANSKRIT": 94,
+        "MATHEMATICS": 92,
+        "SCIENCE": 88,
+        "SOCIAL SCIENCE": 95,
+        "ICT": 98
+      }
+    },
+    "total": 744,
+    "percent": 93.0,
+    "grade": "A1",
+    "rank": 6
+  },
+  "063/729": {
+    "name": "KULDEEP MAHARANA",
+    "father_name": "SANUJ KUMAR MAHARANA",
+    "dob": "28-01-2013",
+    "roll": 19,
+    "section": "B",
+    "attendance": 81.35,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 37,
+        "ODIA": 39,
+        "HINDI": 36,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 29,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 35,
+        "ODIA": 37,
+        "HINDI": 36,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 28,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 39
+      },
+      "HFY": {
+        "ENGLISH": 96,
+        "ODIA": 95,
+        "HINDI": 93,
+        "SANSKRIT": 90,
+        "MATHEMATICS": 96,
+        "SCIENCE": 93,
+        "SOCIAL SCIENCE": 100,
+        "ICT": 98
+      },
+      "PT-III": {
+        "ENGLISH": 36,
+        "ODIA": 39,
+        "HINDI": 37,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 32,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 36
+      },
+      "PT-IV": {
+        "ENGLISH": 31,
+        "ODIA": 35,
+        "HINDI": 36,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 39,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 39
+      },
+      "ANNUAL": {
+        "ENGLISH": 76,
+        "ODIA": 73,
+        "HINDI": 73,
+        "SANSKRIT": 69,
+        "MATHEMATICS": 72,
+        "SCIENCE": 70,
+        "SOCIAL SCIENCE": 76,
+        "ICT": 73
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 96,
+        "ODIA": 92,
+        "HINDI": 93,
+        "SANSKRIT": 89,
+        "MATHEMATICS": 92,
+        "SCIENCE": 90,
+        "SOCIAL SCIENCE": 96,
+        "ICT": 93
+      }
+    },
+    "total": 741,
+    "percent": 92.62,
+    "grade": "A1",
+    "rank": 7
+  },
+  "024/690": {
+    "name": "DIBYAJYOTI PATRA",
+    "father_name": "SIBARAM PATRA",
+    "dob": "12-01-2013",
+    "roll": 16,
+    "section": "B",
+    "attendance": 83.42,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 33,
+        "ODIA": 40,
+        "HINDI": 30,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 37,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 28,
+        "ODIA": 36,
+        "HINDI": 39,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 35,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 39
+      },
+      "HFY": {
+        "ENGLISH": 84,
+        "ODIA": 93,
+        "HINDI": 84,
+        "SANSKRIT": 97,
+        "MATHEMATICS": 94,
+        "SCIENCE": 87,
+        "SOCIAL SCIENCE": 98,
+        "ICT": 98
+      },
+      "PT-III": {
+        "ENGLISH": 28,
+        "ODIA": 39,
+        "HINDI": 39,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 34,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 30
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 38,
+        "HINDI": 35,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 26,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 38
+      },
+      "ANNUAL": {
+        "ENGLISH": 74,
+        "ODIA": 76,
+        "HINDI": 64,
+        "SANSKRIT": 75,
+        "MATHEMATICS": 74,
+        "SCIENCE": 71,
+        "SOCIAL SCIENCE": 71,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 93,
+        "ODIA": 95,
+        "HINDI": 83,
+        "SANSKRIT": 94,
+        "MATHEMATICS": 94,
+        "SCIENCE": 91,
+        "SOCIAL SCIENCE": 91,
+        "ICT": 98
+      }
+    },
+    "total": 739,
+    "percent": 92.38,
+    "grade": "A1",
+    "rank": 8
+  },
+  "064/730": {
+    "name": "D SAISHREE DORA",
+    "father_name": "D SANTOSH KUMAR DORA",
+    "dob": "30-12-2013",
+    "roll": 11,
+    "section": "B",
+    "attendance": 89.64,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 34,
+        "ODIA": 40,
+        "HINDI": 34,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 39,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 33,
+        "ODIA": 36,
+        "HINDI": 35,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 34,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 31
+      },
+      "HFY": {
+        "ENGLISH": 89,
+        "ODIA": 100,
+        "HINDI": 86,
+        "SANSKRIT": 92,
+        "MATHEMATICS": 85,
+        "SCIENCE": 89,
+        "SOCIAL SCIENCE": 97,
+        "ICT": 98
+      },
+      "PT-III": {
+        "ENGLISH": 29,
+        "ODIA": 40,
+        "HINDI": 34,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 36,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 28
+      },
+      "PT-IV": {
+        "ENGLISH": 28,
+        "ODIA": 39,
+        "HINDI": 30,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 35,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 38
+      },
+      "ANNUAL": {
+        "ENGLISH": 74,
+        "ODIA": 77,
+        "HINDI": 71,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 68,
+        "SCIENCE": 61,
+        "SOCIAL SCIENCE": 74,
+        "ICT": 74
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 94,
+        "ODIA": 96,
+        "HINDI": 91,
+        "SANSKRIT": 98,
+        "MATHEMATICS": 88,
+        "SCIENCE": 81,
+        "SOCIAL SCIENCE": 94,
+        "ICT": 94
+      }
+    },
+    "total": 736,
+    "percent": 92.0,
+    "grade": "A1",
+    "rank": 9
+  },
+  "026/692": {
+    "name": "ASUTOSH PANI",
+    "father_name": "DASARATHI PANI",
+    "dob": "11-06-2013",
+    "roll": 12,
+    "section": "A",
+    "attendance": 83,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "C",
+      "HEALTH & PHYSICAL EDUCATION": "C",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 27,
+        "ODIA": 38,
+        "HINDI": 33,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 37,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 25,
+        "ODIA": 31,
+        "HINDI": 33,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 35,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 37
+      },
+      "HFY": {
+        "ENGLISH": 77,
+        "ODIA": 90,
+        "HINDI": 87,
+        "SANSKRIT": 97,
+        "MATHEMATICS": 86,
+        "SCIENCE": 73,
+        "SOCIAL SCIENCE": 91,
+        "ICT": 92
+      },
+      "PT-III": {
+        "ENGLISH": 21,
+        "ODIA": 39,
+        "HINDI": 35,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 32,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 25
+      },
+      "PT-IV": {
+        "ENGLISH": 18,
+        "ODIA": 36,
+        "HINDI": 32,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 35,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 39
+      },
+      "ANNUAL": {
+        "ENGLISH": 65,
+        "ODIA": 76,
+        "HINDI": 70,
+        "SANSKRIT": 71,
+        "MATHEMATICS": 75,
+        "SCIENCE": 66,
+        "SOCIAL SCIENCE": 73,
+        "ICT": 76
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 84,
+        "ODIA": 95,
+        "HINDI": 89,
+        "SANSKRIT": 91,
+        "MATHEMATICS": 95,
+        "SCIENCE": 86,
+        "SOCIAL SCIENCE": 93,
+        "ICT": 96
+      }
+    },
+    "total": 729,
+    "percent": 91.12,
+    "grade": "A1",
+    "rank": 10
+  },
+  "015/681": {
+    "name": "SUDHANSU SAHU",
+    "father_name": "PRAHALLAD SAHU",
+    "dob": "24-09-2012",
+    "roll": 36,
+    "section": "B",
+    "attendance": 79.79,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 28,
+        "ODIA": 35,
+        "HINDI": 32,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 36,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 35
+      },
+      "PT-II": {
+        "ENGLISH": 34,
+        "ODIA": 35,
+        "HINDI": 31,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 30,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 29,
+        "ICT": 28
+      },
+      "HFY": {
+        "ENGLISH": 70,
+        "ODIA": 83,
+        "HINDI": 80,
+        "SANSKRIT": 82,
+        "MATHEMATICS": 77,
+        "SCIENCE": 89,
+        "SOCIAL SCIENCE": 94,
+        "ICT": 92
+      },
+      "PT-III": {
+        "ENGLISH": 29,
+        "ODIA": 35,
+        "HINDI": 32,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 21,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 22
+      },
+      "PT-IV": {
+        "ENGLISH": 21,
+        "ODIA": 32,
+        "HINDI": 28,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 33,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 34
+      },
+      "ANNUAL": {
+        "ENGLISH": 70,
+        "ODIA": 71,
+        "HINDI": 62,
+        "SANSKRIT": 65,
+        "MATHEMATICS": 72,
+        "SCIENCE": 76,
+        "SOCIAL SCIENCE": 78,
+        "ICT": 76
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 16,
+        "HINDI": 17,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 89,
+        "ODIA": 87,
+        "HINDI": 79,
+        "SANSKRIT": 82,
+        "MATHEMATICS": 92,
+        "SCIENCE": 96,
+        "SOCIAL SCIENCE": 98,
+        "ICT": 96
+      }
+    },
+    "total": 719,
+    "percent": 89.88,
+    "grade": "A2",
+    "rank": 11
+  },
+  "010/676": {
+    "name": "ADYASA SAMAL",
+    "father_name": "MUNA SAMAL",
+    "dob": "15-11-2012",
+    "roll": 4,
+    "section": "A",
+    "attendance": 85,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 28,
+        "ODIA": 39,
+        "HINDI": 35,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 39,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 39
+      },
+      "PT-II": {
+        "ENGLISH": 30,
+        "ODIA": 38,
+        "HINDI": 35,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 23,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 28
+      },
+      "HFY": {
+        "ENGLISH": 77,
+        "ODIA": 93,
+        "HINDI": 88,
+        "SANSKRIT": 93,
+        "MATHEMATICS": 84,
+        "SCIENCE": 88,
+        "SOCIAL SCIENCE": 93,
+        "ICT": 96
+      },
+      "PT-III": {
+        "ENGLISH": 26,
+        "ODIA": 39,
+        "HINDI": 36,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 31,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 19
+      },
+      "PT-IV": {
+        "ENGLISH": 26,
+        "ODIA": 38,
+        "HINDI": 37,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 31,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 34
+      },
+      "ANNUAL": {
+        "ENGLISH": 58,
+        "ODIA": 76,
+        "HINDI": 75,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 60,
+        "SCIENCE": 67,
+        "SOCIAL SCIENCE": 70,
+        "ICT": 76
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 78,
+        "ODIA": 95,
+        "HINDI": 95,
+        "SANSKRIT": 94,
+        "MATHEMATICS": 80,
+        "SCIENCE": 87,
+        "SOCIAL SCIENCE": 90,
+        "ICT": 96
+      }
+    },
+    "total": 715,
+    "percent": 89.38,
+    "grade": "A2",
+    "rank": 12
+  },
+  "003/669": {
+    "name": "KIRTI MAHARANA",
+    "father_name": "SANTOSH KUMAR MAHARANA",
+    "dob": "09-06-2013",
+    "roll": 14,
+    "section": "A",
+    "attendance": 89,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 34,
+        "ODIA": 32,
+        "HINDI": 36,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 37,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 31,
+        "ODIA": 30,
+        "HINDI": 38,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 31,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 39
+      },
+      "HFY": {
+        "ENGLISH": 82,
+        "ODIA": 94,
+        "HINDI": 77,
+        "SANSKRIT": 98,
+        "MATHEMATICS": 85,
+        "SCIENCE": 89,
+        "SOCIAL SCIENCE": 96,
+        "ICT": 100
+      },
+      "PT-III": {
+        "ENGLISH": 25,
+        "ODIA": 39,
+        "HINDI": 38,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 32,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 27
+      },
+      "PT-IV": {
+        "ENGLISH": 27,
+        "ODIA": 38,
+        "HINDI": 28,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 35,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 38
+      },
+      "ANNUAL": {
+        "ENGLISH": 60,
+        "ODIA": 68,
+        "HINDI": 73,
+        "SANSKRIT": 71,
+        "MATHEMATICS": 61,
+        "SCIENCE": 63,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 75
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 20,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 79,
+        "ODIA": 87,
+        "HINDI": 93,
+        "SANSKRIT": 91,
+        "MATHEMATICS": 81,
+        "SCIENCE": 83,
+        "SOCIAL SCIENCE": 92,
+        "ICT": 95
+      }
+    },
+    "total": 701,
+    "percent": 87.62,
+    "grade": "A2",
+    "rank": 13
+  },
+  "018/684": {
+    "name": "AYUSHMAN SAHU",
+    "father_name": "PRAKASH CHANDRA SAHU",
+    "dob": "05-06-2013",
+    "roll": 4,
+    "section": "B",
+    "attendance": 81.87,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 30,
+        "ODIA": 38,
+        "HINDI": 25,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 38,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 31,
+        "ODIA": 35,
+        "HINDI": 23,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 36,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 27
+      },
+      "HFY": {
+        "ENGLISH": 81,
+        "ODIA": 90,
+        "HINDI": 71,
+        "SANSKRIT": 88,
+        "MATHEMATICS": 90,
+        "SCIENCE": 71,
+        "SOCIAL SCIENCE": 91,
+        "ICT": 87
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "ODIA": 39,
+        "HINDI": 24,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 38,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 22
+      },
+      "PT-IV": {
+        "ENGLISH": 14,
+        "ODIA": 36,
+        "HINDI": 26,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 33,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 30
+      },
+      "ANNUAL": {
+        "ENGLISH": 56,
+        "ODIA": 71,
+        "HINDI": 58,
+        "SANSKRIT": 72,
+        "MATHEMATICS": 76,
+        "SCIENCE": 63,
+        "SOCIAL SCIENCE": 74,
+        "ICT": 77
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 18,
+        "HINDI": 16,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 76,
+        "ODIA": 89,
+        "HINDI": 74,
+        "SANSKRIT": 90,
+        "MATHEMATICS": 96,
+        "SCIENCE": 83,
+        "SOCIAL SCIENCE": 94,
+        "ICT": 97
+      }
+    },
+    "total": 699,
+    "percent": 87.38,
+    "grade": "A2",
+    "rank": 14
+  },
+  "004/670": {
+    "name": "TANMAYA KUMAR MISHRA",
+    "father_name": "DURGA MADHAB MISHRA",
+    "dob": "01-12-2013",
+    "roll": 37,
+    "section": "A",
+    "attendance": 77,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 26,
+        "ODIA": 37,
+        "HINDI": 28,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 38,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 30,
+        "ODIA": 35,
+        "HINDI": 38,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 34,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 26
+      },
+      "HFY": {
+        "ENGLISH": 82,
+        "ODIA": 92,
+        "HINDI": 84,
+        "SANSKRIT": 92,
+        "MATHEMATICS": 94,
+        "SCIENCE": 86,
+        "SOCIAL SCIENCE": 99,
+        "ICT": 98
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "ODIA": 40,
+        "HINDI": 38,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 32,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 18,
+        "ODIA": 36,
+        "HINDI": 33,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 38,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 31
+      },
+      "ANNUAL": {
+        "ENGLISH": 59,
+        "ODIA": 75,
+        "HINDI": 74,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 61,
+        "SCIENCE": 58,
+        "SOCIAL SCIENCE": 74,
+        "ICT": 66
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 18,
+        "HINDI": 20,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 78,
+        "ODIA": 93,
+        "HINDI": 94,
+        "SANSKRIT": 93,
+        "MATHEMATICS": 81,
+        "SCIENCE": 77,
+        "SOCIAL SCIENCE": 94,
+        "ICT": 86
+      }
+    },
+    "total": 696,
+    "percent": 87.0,
+    "grade": "A2",
+    "rank": 15
+  },
+  "070/736": {
+    "name": "AMIT SWAIN",
+    "father_name": "MUNA KUMAR SWAIN",
+    "dob": "29-01-2014",
+    "roll": 7,
+    "section": "A",
+    "attendance": 69,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 28,
+        "ODIA": 33,
+        "HINDI": 36,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 31,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 31
+      },
+      "PT-II": {
+        "ENGLISH": 30,
+        "ODIA": 34,
+        "HINDI": 39,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 23,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 37
+      },
+      "HFY": {
+        "ENGLISH": 83,
+        "ODIA": 70,
+        "HINDI": 86,
+        "SANSKRIT": 84,
+        "MATHEMATICS": 64,
+        "SCIENCE": 85,
+        "SOCIAL SCIENCE": 99,
+        "ICT": 94
+      },
+      "PT-III": {
+        "ENGLISH": 28,
+        "ODIA": 37,
+        "HINDI": 37,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 33,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 25
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 38,
+        "HINDI": 27,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 36,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 31
+      },
+      "ANNUAL": {
+        "ENGLISH": 59,
+        "ODIA": 66,
+        "HINDI": 64,
+        "SANSKRIT": 69,
+        "MATHEMATICS": 65,
+        "SCIENCE": 69,
+        "SOCIAL SCIENCE": 69,
+        "ICT": 76
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 18,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 79,
+        "ODIA": 84,
+        "HINDI": 83,
+        "SANSKRIT": 89,
+        "MATHEMATICS": 85,
+        "SCIENCE": 89,
+        "SOCIAL SCIENCE": 88,
+        "ICT": 96
+      }
+    },
+    "total": 693,
+    "percent": 86.62,
+    "grade": "A2",
+    "rank": 16
+  },
+  "025/691": {
+    "name": "ANKITA PRADHAN",
+    "father_name": "GANESH PRADHAN",
+    "dob": "04-11-2013",
+    "roll": 9,
+    "section": "A",
+    "attendance": 90,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 25,
+        "ODIA": 31,
+        "HINDI": 35,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 37,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 36
+      },
+      "PT-II": {
+        "ENGLISH": 29,
+        "ODIA": 29,
+        "HINDI": 35,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 24,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 30
+      },
+      "HFY": {
+        "ENGLISH": 72,
+        "ODIA": 87,
+        "HINDI": 89,
+        "SANSKRIT": 83,
+        "MATHEMATICS": 78,
+        "SCIENCE": 90,
+        "SOCIAL SCIENCE": 94,
+        "ICT": 86
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 39,
+        "HINDI": 34,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 24,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 15
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 37,
+        "HINDI": 23,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 37,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 33
+      },
+      "ANNUAL": {
+        "ENGLISH": 55,
+        "ODIA": 69,
+        "HINDI": 67,
+        "SANSKRIT": 72,
+        "MATHEMATICS": 67,
+        "SCIENCE": 57,
+        "SOCIAL SCIENCE": 73,
+        "ICT": 74
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 73,
+        "ODIA": 88,
+        "HINDI": 86,
+        "SANSKRIT": 92,
+        "MATHEMATICS": 87,
+        "SCIENCE": 76,
+        "SOCIAL SCIENCE": 93,
+        "ICT": 94
+      }
+    },
+    "total": 689,
+    "percent": 86.12,
+    "grade": "A2",
+    "rank": 17
+  },
+  "040/706": {
+    "name": "SAISWARI MISHRA",
+    "father_name": "CHANDRA SEKHAR MISHRA",
+    "dob": "19-11-2013",
+    "roll": 23,
+    "section": "A",
+    "attendance": 81,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 30,
+        "ODIA": 35,
+        "HINDI": 32,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 36,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 33
+      },
+      "PT-II": {
+        "ENGLISH": 29,
+        "ODIA": 33,
+        "HINDI": 29,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 28,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 23
+      },
+      "HFY": {
+        "ENGLISH": 76,
+        "ODIA": 93,
+        "HINDI": 86,
+        "SANSKRIT": 98,
+        "MATHEMATICS": 78,
+        "SCIENCE": 71,
+        "SOCIAL SCIENCE": 88,
+        "ICT": 90
+      },
+      "PT-III": {
+        "ENGLISH": 19,
+        "ODIA": 35,
+        "HINDI": 32,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 33,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 23
+      },
+      "PT-IV": {
+        "ENGLISH": "ABS",
+        "ODIA": 36,
+        "HINDI": 35,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 26,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 24,
+        "ICT": "ABS"
+      },
+      "ANNUAL": {
+        "ENGLISH": 63,
+        "ODIA": 68,
+        "HINDI": 64,
+        "SANSKRIT": 75,
+        "MATHEMATICS": 76,
+        "SCIENCE": 49,
+        "SOCIAL SCIENCE": 54,
+        "ICT": 73
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 18,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 81,
+        "ODIA": 86,
+        "HINDI": 83,
+        "SANSKRIT": 95,
+        "MATHEMATICS": 96,
+        "SCIENCE": 68,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 93
+      }
+    },
+    "total": 674,
+    "percent": 84.25,
+    "grade": "A2",
+    "rank": 18
+  },
+  "016/682": {
+    "name": "CHINMAYEE MISHRA",
+    "father_name": "JITENDRA KISHORE MISHRA",
+    "dob": "25-08-2013",
+    "roll": 10,
+    "section": "B",
+    "attendance": 68.91,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 30,
+        "ODIA": 39,
+        "HINDI": 33,
+        "SANSKRIT": 33,
+        "MATHEMATICS": "ABS",
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 31,
+        "ODIA": 31,
+        "HINDI": 26,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 35,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 17
+      },
+      "HFY": {
+        "ENGLISH": 83,
+        "ODIA": 93,
+        "HINDI": 75,
+        "SANSKRIT": 88,
+        "MATHEMATICS": 78,
+        "SCIENCE": 69,
+        "SOCIAL SCIENCE": 94,
+        "ICT": 80
+      },
+      "PT-III": {
+        "ENGLISH": 22,
+        "ODIA": 39,
+        "HINDI": 32,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 34,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 27
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 35,
+        "HINDI": 28,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 28,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 35
+      },
+      "ANNUAL": {
+        "ENGLISH": 69,
+        "ODIA": 75,
+        "HINDI": 65,
+        "SANSKRIT": 66,
+        "MATHEMATICS": 56,
+        "SCIENCE": 44,
+        "SOCIAL SCIENCE": 70,
+        "ICT": 64
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 17,
+        "HINDI": 19,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 87,
+        "ODIA": 92,
+        "HINDI": 84,
+        "SANSKRIT": 85,
+        "MATHEMATICS": 75,
+        "SCIENCE": 63,
+        "SOCIAL SCIENCE": 90,
+        "ICT": 84
+      }
+    },
+    "total": 660,
+    "percent": 82.5,
+    "grade": "A2",
+    "rank": 19
+  },
+  "062/728": {
+    "name": "AKAPATI ANWESHA PATRA",
+    "father_name": "AKAPATI NETAJI PATRA",
+    "dob": "21-09-2013",
+    "roll": 5,
+    "section": "A",
+    "attendance": 67,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 27,
+        "ODIA": 36,
+        "HINDI": 35,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 37,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 28,
+        "ODIA": 35,
+        "HINDI": 36,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 23,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 28
+      },
+      "HFY": {
+        "ENGLISH": 69,
+        "ODIA": 80,
+        "HINDI": 86,
+        "SANSKRIT": 88,
+        "MATHEMATICS": 72,
+        "SCIENCE": 78,
+        "SOCIAL SCIENCE": 93,
+        "ICT": 86
+      },
+      "PT-III": {
+        "ENGLISH": 21,
+        "ODIA": 37,
+        "HINDI": 38,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 26,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 18
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 32,
+        "HINDI": 28,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 33,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 34
+      },
+      "ANNUAL": {
+        "ENGLISH": 58,
+        "ODIA": 65,
+        "HINDI": 67,
+        "SANSKRIT": 63,
+        "MATHEMATICS": 70,
+        "SCIENCE": 42,
+        "SOCIAL SCIENCE": 63,
+        "ICT": 71
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 77,
+        "ODIA": 84,
+        "HINDI": 86,
+        "SANSKRIT": 82,
+        "MATHEMATICS": 90,
+        "SCIENCE": 61,
+        "SOCIAL SCIENCE": 82,
+        "ICT": 91
+      }
+    },
+    "total": 653,
+    "percent": 81.62,
+    "grade": "A2",
+    "rank": 20
+  },
+  "001/667": {
+    "name": "ARPITA NAYAK",
+    "father_name": "BASANTA KUMAR NAYAK",
+    "dob": "23-12-2012",
+    "roll": 11,
+    "section": "A",
+    "attendance": 87,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "C",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 29,
+        "ODIA": 36,
+        "HINDI": 33,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 35,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 25,
+        "ODIA": 37,
+        "HINDI": 37,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 31,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 31
+      },
+      "HFY": {
+        "ENGLISH": 65,
+        "ODIA": 74,
+        "HINDI": 84,
+        "SANSKRIT": 82,
+        "MATHEMATICS": 81,
+        "SCIENCE": 82,
+        "SOCIAL SCIENCE": 79,
+        "ICT": 71
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 40,
+        "HINDI": 36,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 37,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 16
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 36,
+        "HINDI": 34,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 34,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 37
+      },
+      "ANNUAL": {
+        "ENGLISH": 41,
+        "ODIA": 68,
+        "HINDI": 69,
+        "SANSKRIT": 76,
+        "MATHEMATICS": 60,
+        "SCIENCE": 57,
+        "SOCIAL SCIENCE": 67,
+        "ICT": 56
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 59,
+        "ODIA": 87,
+        "HINDI": 88,
+        "SANSKRIT": 96,
+        "MATHEMATICS": 80,
+        "SCIENCE": 76,
+        "SOCIAL SCIENCE": 86,
+        "ICT": 75
+      }
+    },
+    "total": 647,
+    "percent": 80.88,
+    "grade": "B1",
+    "rank": 21
+  },
+  "039/705": {
+    "name": "SHALINI KUMARI SAHU",
+    "father_name": "BASANTA KUMAR SAHU",
+    "dob": "15-10-2013",
+    "roll": 31,
+    "section": "B",
+    "attendance": 73.58,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 26,
+        "ODIA": 32,
+        "HINDI": 30,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 36,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 21,
+        "ODIA": 29,
+        "HINDI": 33,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 28,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 27
+      },
+      "HFY": {
+        "ENGLISH": 56,
+        "ODIA": 73,
+        "HINDI": 66,
+        "SANSKRIT": 83,
+        "MATHEMATICS": 62,
+        "SCIENCE": 82,
+        "SOCIAL SCIENCE": 78,
+        "ICT": 90
+      },
+      "PT-III": {
+        "ENGLISH": 17,
+        "ODIA": 37,
+        "HINDI": 21,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 19,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 23
+      },
+      "PT-IV": {
+        "ENGLISH": 18,
+        "ODIA": 31,
+        "HINDI": 19,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 25,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 24
+      },
+      "ANNUAL": {
+        "ENGLISH": 57,
+        "ODIA": 68,
+        "HINDI": 60,
+        "SANSKRIT": 64,
+        "MATHEMATICS": 57,
+        "SCIENCE": 58,
+        "SOCIAL SCIENCE": 59,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 16,
+        "HINDI": 18,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 75,
+        "ODIA": 84,
+        "HINDI": 78,
+        "SANSKRIT": 81,
+        "MATHEMATICS": 77,
+        "SCIENCE": 77,
+        "SOCIAL SCIENCE": 77,
+        "ICT": 98
+      }
+    },
+    "total": 647,
+    "percent": 80.88,
+    "grade": "B1",
+    "rank": 22
+  },
+  "023/689": {
+    "name": "PREETIMAYEE PRADHAN",
+    "father_name": "LATE BIDYADHAR PRADHAN",
+    "dob": "30-01-2014",
+    "roll": 26,
+    "section": "B",
+    "attendance": 83.42,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 24,
+        "ODIA": 37,
+        "HINDI": 31,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 38,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 29,
+        "ODIA": 26,
+        "HINDI": 27,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 31,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 20
+      },
+      "HFY": {
+        "ENGLISH": 73,
+        "ODIA": 74,
+        "HINDI": 76,
+        "SANSKRIT": 85,
+        "MATHEMATICS": 72,
+        "SCIENCE": 75,
+        "SOCIAL SCIENCE": 80,
+        "ICT": 86
+      },
+      "PT-III": {
+        "ENGLISH": 16,
+        "ODIA": 35,
+        "HINDI": 36,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 27,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 15
+      },
+      "PT-IV": {
+        "ENGLISH": 22,
+        "ODIA": 33,
+        "HINDI": 28,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 33,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 57,
+        "ODIA": 66,
+        "HINDI": 54,
+        "SANSKRIT": 66,
+        "MATHEMATICS": 62,
+        "SCIENCE": 43,
+        "SOCIAL SCIENCE": 70,
+        "ICT": 71
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 16,
+        "HINDI": 18,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 77,
+        "ODIA": 82,
+        "HINDI": 72,
+        "SANSKRIT": 86,
+        "MATHEMATICS": 82,
+        "SCIENCE": 62,
+        "SOCIAL SCIENCE": 90,
+        "ICT": 91
+      }
+    },
+    "total": 642,
+    "percent": 80.25,
+    "grade": "B1",
+    "rank": 23
+  },
+  "014/680": {
+    "name": "SIBANANDA ROUT",
+    "father_name": "BABULA ROUT",
+    "dob": "19-08-2013",
+    "roll": 26,
+    "section": "A",
+    "attendance": 85,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 21,
+        "ODIA": 29,
+        "HINDI": 32,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 40,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 39
+      },
+      "PT-II": {
+        "ENGLISH": 26,
+        "ODIA": 33,
+        "HINDI": 30,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 28,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 33
+      },
+      "HFY": {
+        "ENGLISH": 69,
+        "ODIA": 73,
+        "HINDI": 76,
+        "SANSKRIT": 90,
+        "MATHEMATICS": 68,
+        "SCIENCE": 81,
+        "SOCIAL SCIENCE": 93,
+        "ICT": 83
+      },
+      "PT-III": {
+        "ENGLISH": 21,
+        "ODIA": 37,
+        "HINDI": 31,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 33,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 19
+      },
+      "PT-IV": {
+        "ENGLISH": 22,
+        "ODIA": 33,
+        "HINDI": 17,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 28,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 29,
+        "ICT": 36
+      },
+      "ANNUAL": {
+        "ENGLISH": 62,
+        "ODIA": 70,
+        "HINDI": 52,
+        "SANSKRIT": 70,
+        "MATHEMATICS": 60,
+        "SCIENCE": 54,
+        "SOCIAL SCIENCE": 54,
+        "ICT": 68
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 17,
+        "HINDI": 18,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 81,
+        "ODIA": 87,
+        "HINDI": 70,
+        "SANSKRIT": 89,
+        "MATHEMATICS": 79,
+        "SCIENCE": 73,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 88
+      }
+    },
+    "total": 639,
+    "percent": 79.88,
+    "grade": "B1",
+    "rank": 24
+  },
+  "031/697": {
+    "name": "K SNEHARANI PATRA",
+    "father_name": "K SATYABADI PATRA",
+    "dob": "07-01-2014",
+    "roll": 18,
+    "section": "B",
+    "attendance": 80.83,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 19,
+        "ODIA": 32,
+        "HINDI": 27,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 29,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 22,
+        "ICT": 28
+      },
+      "PT-II": {
+        "ENGLISH": 22,
+        "ODIA": 26,
+        "HINDI": 35,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 21,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 17
+      },
+      "HFY": {
+        "ENGLISH": 47,
+        "ODIA": 78,
+        "HINDI": 75,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 65,
+        "SCIENCE": 49,
+        "SOCIAL SCIENCE": 86,
+        "ICT": 74
+      },
+      "PT-III": {
+        "ENGLISH": 19,
+        "ODIA": 39,
+        "HINDI": 33,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 39,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 21,
+        "ODIA": 35,
+        "HINDI": 25,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 29,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 34
+      },
+      "ANNUAL": {
+        "ENGLISH": 45,
+        "ODIA": 68,
+        "HINDI": 61,
+        "SANSKRIT": 70,
+        "MATHEMATICS": 76,
+        "SCIENCE": 42,
+        "SOCIAL SCIENCE": 61,
+        "ICT": 58
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 63,
+        "ODIA": 87,
+        "HINDI": 80,
+        "SANSKRIT": 89,
+        "MATHEMATICS": 96,
+        "SCIENCE": 61,
+        "SOCIAL SCIENCE": 80,
+        "ICT": 77
+      }
+    },
+    "total": 633,
+    "percent": 79.12,
+    "grade": "B1",
+    "rank": 25
+  },
+  "021/687": {
+    "name": "BIKASH KUMAR PRADHAN",
+    "father_name": "PRABHAS PRADHAN",
+    "dob": "30-10-2013",
+    "roll": 7,
+    "section": "B",
+    "attendance": 75.65,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 21,
+        "ODIA": 30,
+        "HINDI": 26,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 39,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 21,
+        "ODIA": 29,
+        "HINDI": 26,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 31,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 23
+      },
+      "HFY": {
+        "ENGLISH": 61,
+        "ODIA": 85,
+        "HINDI": 71,
+        "SANSKRIT": 85,
+        "MATHEMATICS": 90,
+        "SCIENCE": 74,
+        "SOCIAL SCIENCE": 66,
+        "ICT": 74
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 39,
+        "HINDI": 28,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 38,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 6
+      },
+      "PT-IV": {
+        "ENGLISH": 18,
+        "ODIA": 33,
+        "HINDI": 17,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 39,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 23
+      },
+      "ANNUAL": {
+        "ENGLISH": 62,
+        "ODIA": 68,
+        "HINDI": 46,
+        "SANSKRIT": 64,
+        "MATHEMATICS": 78,
+        "SCIENCE": 62,
+        "SOCIAL SCIENCE": 60,
+        "ICT": 55
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 16,
+        "HINDI": 15,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 10,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 80,
+        "ODIA": 84,
+        "HINDI": 61,
+        "SANSKRIT": 81,
+        "MATHEMATICS": 88,
+        "SCIENCE": 82,
+        "SOCIAL SCIENCE": 79,
+        "ICT": 74
+      }
+    },
+    "total": 629,
+    "percent": 78.62,
+    "grade": "B1",
+    "rank": 26
+  },
+  "061/727": {
+    "name": "SONALI JENA",
+    "father_name": "BHAGABAN JENA",
+    "dob": "16-05-2013",
+    "roll": 33,
+    "section": "B",
+    "attendance": 83.94,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 24,
+        "ODIA": 35,
+        "HINDI": 25,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 31,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 23
+      },
+      "PT-II": {
+        "ENGLISH": 22,
+        "ODIA": 30,
+        "HINDI": 31,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 24,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 15
+      },
+      "HFY": {
+        "ENGLISH": 64,
+        "ODIA": 89,
+        "HINDI": 87,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 56,
+        "SCIENCE": 75,
+        "SOCIAL SCIENCE": 84,
+        "ICT": 62
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "ODIA": 39,
+        "HINDI": 33,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 20,
+        "SCIENCE": 13,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 7
+      },
+      "PT-IV": {
+        "ENGLISH": 17,
+        "ODIA": 34,
+        "HINDI": 36,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 24,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 47,
+        "ODIA": 75,
+        "HINDI": 66,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 43,
+        "SCIENCE": 50,
+        "SOCIAL SCIENCE": 64,
+        "ICT": 67
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 65,
+        "ODIA": 94,
+        "HINDI": 85,
+        "SANSKRIT": 81,
+        "MATHEMATICS": 63,
+        "SCIENCE": 69,
+        "SOCIAL SCIENCE": 83,
+        "ICT": 87
+      }
+    },
+    "total": 627,
+    "percent": 78.38,
+    "grade": "B1",
+    "rank": 27
+  },
+  "043/709": {
+    "name": "CHINMAY SATYAPRAGYN",
+    "father_name": "CHITTARANJAN PRADHAN",
+    "dob": "13-09-2012",
+    "roll": 9,
+    "section": "B",
+    "attendance": 55.96,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 29,
+        "ODIA": "ABS",
+        "HINDI": 34,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 36,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": "ABS",
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": "ABS",
+        "ODIA": "ABS",
+        "HINDI": "ABS",
+        "SANSKRIT": "ABS",
+        "MATHEMATICS": "ABS",
+        "SCIENCE": "ABS",
+        "SOCIAL SCIENCE": "ABS",
+        "ICT": "ABS"
+      },
+      "HFY": {
+        "ENGLISH": 81,
+        "ODIA": 87,
+        "HINDI": 72,
+        "SANSKRIT": 77,
+        "MATHEMATICS": 75,
+        "SCIENCE": 73,
+        "SOCIAL SCIENCE": 91,
+        "ICT": 77
+      },
+      "PT-III": {
+        "ENGLISH": 26,
+        "ODIA": 35,
+        "HINDI": 29,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 36,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 15
+      },
+      "PT-IV": {
+        "ENGLISH": 23,
+        "ODIA": 29,
+        "HINDI": 21,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 27,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 21
+      },
+      "ANNUAL": {
+        "ENGLISH": 68,
+        "ODIA": 58,
+        "HINDI": 50,
+        "SANSKRIT": 59,
+        "MATHEMATICS": 70,
+        "SCIENCE": 53,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 49
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 16,
+        "HINDI": 17,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 88,
+        "ODIA": 74,
+        "HINDI": 67,
+        "SANSKRIT": 76,
+        "MATHEMATICS": 90,
+        "SCIENCE": 72,
+        "SOCIAL SCIENCE": 92,
+        "ICT": 67
+      }
+    },
+    "total": 626,
+    "percent": 78.25,
+    "grade": "B1",
+    "rank": 28
+  },
+  "053/719": {
+    "name": "AKSHARA TRIPATHY",
+    "father_name": "TRIDIPTA KUMAR TRIPATHY",
+    "dob": "03-03-2014",
+    "roll": 6,
+    "section": "A",
+    "attendance": 72,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 30,
+        "ODIA": 31,
+        "HINDI": 34,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 31,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 39
+      },
+      "PT-II": {
+        "ENGLISH": 28,
+        "ODIA": 30,
+        "HINDI": 35,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 31
+      },
+      "HFY": {
+        "ENGLISH": 75,
+        "ODIA": 68,
+        "HINDI": 62,
+        "SANSKRIT": 75,
+        "MATHEMATICS": 68,
+        "SCIENCE": 69,
+        "SOCIAL SCIENCE": 84,
+        "ICT": 80
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "ODIA": 37,
+        "HINDI": 32,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 17,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "ODIA": 35,
+        "HINDI": 33,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 21,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 25
+      },
+      "ANNUAL": {
+        "ENGLISH": 58,
+        "ODIA": 58,
+        "HINDI": 65,
+        "SANSKRIT": 64,
+        "MATHEMATICS": 48,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 69,
+        "ICT": 78
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 77,
+        "ODIA": 77,
+        "HINDI": 84,
+        "SANSKRIT": 84,
+        "MATHEMATICS": 67,
+        "SCIENCE": 48,
+        "SOCIAL SCIENCE": 88,
+        "ICT": 98
+      }
+    },
+    "total": 623,
+    "percent": 77.88,
+    "grade": "B1",
+    "rank": 29
+  },
+  "050/716": {
+    "name": "A KRITIKA PATRA",
+    "father_name": "A SANTOSH KUMAR PATRA",
+    "dob": "12-11-2013",
+    "roll": 1,
+    "section": "A",
+    "attendance": 83,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "C"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 23,
+        "ODIA": 36,
+        "HINDI": 34,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 31,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 29
+      },
+      "PT-II": {
+        "ENGLISH": 25,
+        "ODIA": 24,
+        "HINDI": 31,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 31,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 23
+      },
+      "HFY": {
+        "ENGLISH": 70,
+        "ODIA": 64,
+        "HINDI": 74,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 73,
+        "SCIENCE": 72,
+        "SOCIAL SCIENCE": 82,
+        "ICT": 71
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "ODIA": 33,
+        "HINDI": 34,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 30,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 17,
+        "ODIA": 27,
+        "HINDI": 19,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 32,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 22
+      },
+      "ANNUAL": {
+        "ENGLISH": 64,
+        "ODIA": 63,
+        "HINDI": 74,
+        "SANSKRIT": 55,
+        "MATHEMATICS": 57,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 59,
+        "ICT": 59
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 18,
+        "HINDI": 20,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 83,
+        "ODIA": 81,
+        "HINDI": 94,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 76,
+        "SCIENCE": 53,
+        "SOCIAL SCIENCE": 77,
+        "ICT": 78
+      }
+    },
+    "total": 616,
+    "percent": 77.0,
+    "grade": "B1",
+    "rank": 30
+  },
+  "072/738": {
+    "name": "OMM KUMAR SETHY",
+    "father_name": "BASANTA SETHY",
+    "dob": "03-07-2013",
+    "roll": 17,
+    "section": "A",
+    "attendance": 88,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "C",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 17,
+        "ODIA": 29,
+        "HINDI": 21,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 33,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 36
+      },
+      "PT-II": {
+        "ENGLISH": 26,
+        "ODIA": 33,
+        "HINDI": 23,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 21,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 33
+      },
+      "HFY": {
+        "ENGLISH": 64,
+        "ODIA": 72,
+        "HINDI": 65,
+        "SANSKRIT": 72,
+        "MATHEMATICS": 74,
+        "SCIENCE": 71,
+        "SOCIAL SCIENCE": 66,
+        "ICT": 90
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 35,
+        "HINDI": 31,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 35,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 6
+      },
+      "PT-IV": {
+        "ENGLISH": 14,
+        "ODIA": 35,
+        "HINDI": 16,
+        "SANSKRIT": 40,
+        "MATHEMATICS": 36,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 38
+      },
+      "ANNUAL": {
+        "ENGLISH": 48,
+        "ODIA": 63,
+        "HINDI": 56,
+        "SANSKRIT": 56,
+        "MATHEMATICS": 74,
+        "SCIENCE": 60,
+        "SOCIAL SCIENCE": 43,
+        "ICT": 68
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 18,
+        "HINDI": 18,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 66,
+        "ODIA": 81,
+        "HINDI": 74,
+        "SANSKRIT": 73,
+        "MATHEMATICS": 94,
+        "SCIENCE": 80,
+        "SOCIAL SCIENCE": 60,
+        "ICT": 88
+      }
+    },
+    "total": 616,
+    "percent": 77.0,
+    "grade": "B1",
+    "rank": 31
+  },
+  "078/744": {
+    "name": "MAMUNI BHOI",
+    "father_name": "PRATAP BHOI",
+    "dob": "03-11-2012",
+    "roll": 15,
+    "section": "A",
+    "attendance": 86,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 18,
+        "ODIA": 34,
+        "HINDI": 32,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 34,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 23,
+        "ODIA": 32,
+        "HINDI": 22,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 22,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 17
+      },
+      "HFY": {
+        "ENGLISH": 55,
+        "ODIA": 89,
+        "HINDI": 82,
+        "SANSKRIT": 85,
+        "MATHEMATICS": 58,
+        "SCIENCE": 48,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 75
+      },
+      "PT-III": {
+        "ENGLISH": 22,
+        "ODIA": 39,
+        "HINDI": 28,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 30,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 12
+      },
+      "PT-IV": {
+        "ENGLISH": 15,
+        "ODIA": 37,
+        "HINDI": 28,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 33,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 24
+      },
+      "ANNUAL": {
+        "ENGLISH": 38,
+        "ODIA": 64,
+        "HINDI": 63,
+        "SANSKRIT": 63,
+        "MATHEMATICS": 66,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 66
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 19,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 57,
+        "ODIA": 83,
+        "HINDI": 82,
+        "SANSKRIT": 83,
+        "MATHEMATICS": 86,
+        "SCIENCE": 51,
+        "SOCIAL SCIENCE": 74,
+        "ICT": 86
+      }
+    },
+    "total": 602,
+    "percent": 75.25,
+    "grade": "B1",
+    "rank": 32
+  },
+  "074/740": {
+    "name": "DEEPTIRANI BEHERA",
+    "father_name": "KALU CHARAN BEHERA",
+    "dob": "03-09-2013",
+    "roll": 15,
+    "section": "B",
+    "attendance": 87.56,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 18,
+        "ODIA": 30,
+        "HINDI": 26,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 24,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 23
+      },
+      "PT-II": {
+        "ENGLISH": 22,
+        "ODIA": 28,
+        "HINDI": 26,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 11,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 10
+      },
+      "HFY": {
+        "ENGLISH": 52,
+        "ODIA": 79,
+        "HINDI": 59,
+        "SANSKRIT": 73,
+        "MATHEMATICS": 53,
+        "SCIENCE": 47,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 58
+      },
+      "PT-III": {
+        "ENGLISH": 22,
+        "ODIA": 36,
+        "HINDI": 14,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 16,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 17
+      },
+      "PT-IV": {
+        "ENGLISH": 13,
+        "ODIA": 32,
+        "HINDI": 23,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 24,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 30
+      },
+      "ANNUAL": {
+        "ENGLISH": 56,
+        "ODIA": 74,
+        "HINDI": 63,
+        "SANSKRIT": 55,
+        "MATHEMATICS": 42,
+        "SCIENCE": 44,
+        "SOCIAL SCIENCE": 57,
+        "ICT": 61
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 16,
+        "HINDI": 19,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 20,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 76,
+        "ODIA": 90,
+        "HINDI": 82,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 62,
+        "SCIENCE": 62,
+        "SOCIAL SCIENCE": 75,
+        "ICT": 81
+      }
+    },
+    "total": 602,
+    "percent": 75.25,
+    "grade": "B1",
+    "rank": 33
+  },
+  "007/673": {
+    "name": "SUBHAM PRADHAN",
+    "father_name": "RABINDRA PRADHAN",
+    "dob": "08-04-2013",
+    "roll": 35,
+    "section": "B",
+    "attendance": 75.13,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 23,
+        "ODIA": 34,
+        "HINDI": 30,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 34,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 35,
+        "ICT": "ABS"
+      },
+      "PT-II": {
+        "ENGLISH": 26,
+        "ODIA": 26,
+        "HINDI": 28,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 32,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 24
+      },
+      "HFY": {
+        "ENGLISH": 63,
+        "ODIA": 94,
+        "HINDI": 75,
+        "SANSKRIT": 89,
+        "MATHEMATICS": 68,
+        "SCIENCE": 59,
+        "SOCIAL SCIENCE": 79,
+        "ICT": 77
+      },
+      "PT-III": {
+        "ENGLISH": 19,
+        "ODIA": 36,
+        "HINDI": 21,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 28,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 14
+      },
+      "PT-IV": {
+        "ENGLISH": 14,
+        "ODIA": 31,
+        "HINDI": 23,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 26,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 32
+      },
+      "ANNUAL": {
+        "ENGLISH": 48,
+        "ODIA": 64,
+        "HINDI": 58,
+        "SANSKRIT": 67,
+        "MATHEMATICS": 60,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 69,
+        "ICT": 57
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 14,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 10,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 66,
+        "ODIA": 79,
+        "HINDI": 72,
+        "SANSKRIT": 82,
+        "MATHEMATICS": 70,
+        "SCIENCE": 59,
+        "SOCIAL SCIENCE": 88,
+        "ICT": 76
+      }
+    },
+    "total": 592,
+    "percent": 74.0,
+    "grade": "B1",
+    "rank": 34
+  },
+  "045/711": {
+    "name": "SARTHAK SRIMAN NAYAK",
+    "father_name": "BABULA NAYAK",
+    "dob": "09-01-2014",
+    "roll": 30,
+    "section": "B",
+    "attendance": 79.27,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 28,
+        "ODIA": 33,
+        "HINDI": 29,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 34,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 33
+      },
+      "PT-II": {
+        "ENGLISH": 23,
+        "ODIA": 28,
+        "HINDI": 30,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 18,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 13
+      },
+      "HFY": {
+        "ENGLISH": 67,
+        "ODIA": 70,
+        "HINDI": 66,
+        "SANSKRIT": 80,
+        "MATHEMATICS": 64,
+        "SCIENCE": 49,
+        "SOCIAL SCIENCE": 70,
+        "ICT": 78
+      },
+      "PT-III": {
+        "ENGLISH": 20,
+        "ODIA": 32,
+        "HINDI": 25,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 22,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 13
+      },
+      "PT-IV": {
+        "ENGLISH": 17,
+        "ODIA": 29,
+        "HINDI": 26,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 21,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 20
+      },
+      "ANNUAL": {
+        "ENGLISH": 45,
+        "ODIA": 58,
+        "HINDI": 43,
+        "SANSKRIT": 46,
+        "MATHEMATICS": 62,
+        "SCIENCE": 47,
+        "SOCIAL SCIENCE": 49,
+        "ICT": 73
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 17,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 20,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 63,
+        "ODIA": 73,
+        "HINDI": 60,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 82,
+        "SCIENCE": 66,
+        "SOCIAL SCIENCE": 66,
+        "ICT": 93
+      }
+    },
+    "total": 564,
+    "percent": 70.5,
+    "grade": "B2",
+    "rank": 35
+  },
+  "001/677": {
+    "name": "DEBADATTA NAYAK",
+    "father_name": "MAHENDRA NATH NAYAK",
+    "dob": "27-07-2013",
+    "roll": 12,
+    "section": "B",
+    "attendance": 72.54,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "C",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 25,
+        "ODIA": 37,
+        "HINDI": 30,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 38,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 35
+      },
+      "PT-II": {
+        "ENGLISH": 30,
+        "ODIA": 25,
+        "HINDI": 29,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 25,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 24
+      },
+      "HFY": {
+        "ENGLISH": 74,
+        "ODIA": 79,
+        "HINDI": 70,
+        "SANSKRIT": 84,
+        "MATHEMATICS": 72,
+        "SCIENCE": 81,
+        "SOCIAL SCIENCE": 73,
+        "ICT": 82
+      },
+      "PT-III": {
+        "ENGLISH": 21,
+        "ODIA": 34,
+        "HINDI": 27,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 24,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 5
+      },
+      "PT-IV": {
+        "ENGLISH": 17,
+        "ODIA": 31,
+        "HINDI": 14,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 14,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 10
+      },
+      "ANNUAL": {
+        "ENGLISH": 60,
+        "ODIA": 61,
+        "HINDI": 49,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 51,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 60,
+        "ICT": 45
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 15,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 78,
+        "ODIA": 76,
+        "HINDI": 64,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 70,
+        "SCIENCE": 51,
+        "SOCIAL SCIENCE": 79,
+        "ICT": 63
+      }
+    },
+    "total": 559,
+    "percent": 69.88,
+    "grade": "B2",
+    "rank": 36
+  },
+  "008/674": {
+    "name": "K LAXMIBAYI PATRA",
+    "father_name": "K GANDHIJI PATRA",
+    "dob": "08-01-2014",
+    "roll": 17,
+    "section": "B",
+    "attendance": 61.14,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 18,
+        "ODIA": 38,
+        "HINDI": 28,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 25,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 34
+      },
+      "PT-II": {
+        "ENGLISH": 28,
+        "ODIA": 29,
+        "HINDI": 29,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 21,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 23
+      },
+      "HFY": {
+        "ENGLISH": 53,
+        "ODIA": 77,
+        "HINDI": 64,
+        "SANSKRIT": 75,
+        "MATHEMATICS": 47,
+        "SCIENCE": 52,
+        "SOCIAL SCIENCE": 80,
+        "ICT": 82
+      },
+      "PT-III": {
+        "ENGLISH": 20,
+        "ODIA": 38,
+        "HINDI": 32,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 26,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 13,
+        "ODIA": 29,
+        "HINDI": 21,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 23,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 33
+      },
+      "ANNUAL": {
+        "ENGLISH": 45,
+        "ODIA": 68,
+        "HINDI": 60,
+        "SANSKRIT": 54,
+        "MATHEMATICS": 45,
+        "SCIENCE": 41,
+        "SOCIAL SCIENCE": 57,
+        "ICT": 42
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 18,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 63,
+        "ODIA": 87,
+        "HINDI": 78,
+        "SANSKRIT": 72,
+        "MATHEMATICS": 64,
+        "SCIENCE": 60,
+        "SOCIAL SCIENCE": 75,
+        "ICT": 60
+      }
+    },
+    "total": 559,
+    "percent": 69.88,
+    "grade": "B2",
+    "rank": 37
+  },
+  "051/717": {
+    "name": "BISHNU PRIYA PRADHAN",
+    "father_name": "GALA MADHAB PRADHAN",
+    "dob": "04-10-2012",
+    "roll": 8,
+    "section": "B",
+    "attendance": 90.16,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 31,
+        "ODIA": 34,
+        "HINDI": 24,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 19,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 25
+      },
+      "PT-II": {
+        "ENGLISH": 25,
+        "ODIA": 22,
+        "HINDI": 22,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 25,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 16
+      },
+      "HFY": {
+        "ENGLISH": 80,
+        "ODIA": 78,
+        "HINDI": 82,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 53,
+        "SCIENCE": 78,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 66
+      },
+      "PT-III": {
+        "ENGLISH": 27,
+        "ODIA": 32,
+        "HINDI": 35,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 17,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 12
+      },
+      "PT-IV": {
+        "ENGLISH": 22,
+        "ODIA": 14,
+        "HINDI": 23,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 22,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 20
+      },
+      "ANNUAL": {
+        "ENGLISH": 62,
+        "ODIA": 47,
+        "HINDI": 54,
+        "SANSKRIT": 49,
+        "MATHEMATICS": 41,
+        "SCIENCE": 51,
+        "SOCIAL SCIENCE": 52,
+        "ICT": 52
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 17,
+        "HINDI": 18,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 80,
+        "ODIA": 64,
+        "HINDI": 72,
+        "SANSKRIT": 68,
+        "MATHEMATICS": 60,
+        "SCIENCE": 70,
+        "SOCIAL SCIENCE": 70,
+        "ICT": 71
+      }
+    },
+    "total": 555,
+    "percent": 69.38,
+    "grade": "B2",
+    "rank": 38
+  },
+  "038/704": {
+    "name": "ABINASH NAYAK",
+    "father_name": "SUDHIR KANTA NAYAK",
+    "dob": "14-12-2013",
+    "roll": 2,
+    "section": "A",
+    "attendance": 77,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 26,
+        "ODIA": 21,
+        "HINDI": 20,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 31,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 31
+      },
+      "PT-II": {
+        "ENGLISH": 26,
+        "ODIA": 23,
+        "HINDI": 29,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 20,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 32
+      },
+      "HFY": {
+        "ENGLISH": 63,
+        "ODIA": 66,
+        "HINDI": 71,
+        "SANSKRIT": 80,
+        "MATHEMATICS": 63,
+        "SCIENCE": 67,
+        "SOCIAL SCIENCE": 82,
+        "ICT": 82
+      },
+      "PT-III": {
+        "ENGLISH": 24,
+        "ODIA": 34,
+        "HINDI": 26,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 34,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 14
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "ODIA": 22,
+        "HINDI": 19,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 23,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 22
+      },
+      "ANNUAL": {
+        "ENGLISH": 42,
+        "ODIA": 45,
+        "HINDI": 59,
+        "SANSKRIT": 60,
+        "MATHEMATICS": 58,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 58
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 17,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 60,
+        "ODIA": 60,
+        "HINDI": 76,
+        "SANSKRIT": 79,
+        "MATHEMATICS": 77,
+        "SCIENCE": 50,
+        "SOCIAL SCIENCE": 74,
+        "ICT": 77
+      }
+    },
+    "total": 553,
+    "percent": 69.12,
+    "grade": "B2",
+    "rank": 39
+  },
+  "037/703": {
+    "name": "AYUSH KUMAR SAHU",
+    "father_name": "SAPNESWAR SAHU",
+    "dob": "29-04-2013",
+    "roll": 3,
+    "section": "B",
+    "attendance": 70.98,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 25,
+        "ODIA": 30,
+        "HINDI": 24,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 33,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 30
+      },
+      "PT-II": {
+        "ENGLISH": 24,
+        "ODIA": 22,
+        "HINDI": 30,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 24,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 31
+      },
+      "HFY": {
+        "ENGLISH": 65,
+        "ODIA": 71,
+        "HINDI": 47,
+        "SANSKRIT": 85,
+        "MATHEMATICS": 68,
+        "SCIENCE": 71,
+        "SOCIAL SCIENCE": 81,
+        "ICT": 73
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 32,
+        "HINDI": 23,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 29,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 37,
+        "ICT": "ABS"
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "ODIA": 23,
+        "HINDI": 22,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 23,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 29,
+        "ICT": 20
+      },
+      "ANNUAL": {
+        "ENGLISH": 48,
+        "ODIA": 61,
+        "HINDI": 38,
+        "SANSKRIT": 59,
+        "MATHEMATICS": 44,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 67,
+        "ICT": 60
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 16,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 10,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 66,
+        "ODIA": 76,
+        "HINDI": 54,
+        "SANSKRIT": 76,
+        "MATHEMATICS": 54,
+        "SCIENCE": 57,
+        "SOCIAL SCIENCE": 86,
+        "ICT": 80
+      }
+    },
+    "total": 549,
+    "percent": 68.62,
+    "grade": "B2",
+    "rank": 40
+  },
+  "006/672": {
+    "name": "MONALISHA PANDA",
+    "father_name": "SANKAR KUMAR PANDA",
+    "dob": "24-11-2013",
+    "roll": 16,
+    "section": "A",
+    "attendance": 72,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 16,
+        "ODIA": 32,
+        "HINDI": 28,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 24,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 38,
+        "ICT": 19
+      },
+      "PT-II": {
+        "ENGLISH": 20,
+        "ODIA": 23,
+        "HINDI": 11,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 20,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 15
+      },
+      "HFY": {
+        "ENGLISH": 50,
+        "ODIA": 68,
+        "HINDI": 51,
+        "SANSKRIT": 69,
+        "MATHEMATICS": 75,
+        "SCIENCE": 50,
+        "SOCIAL SCIENCE": 78,
+        "ICT": 84
+      },
+      "PT-III": {
+        "ENGLISH": 19,
+        "ODIA": 37,
+        "HINDI": 21,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 37,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 13
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "ODIA": 31,
+        "HINDI": 16,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 35,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 34
+      },
+      "ANNUAL": {
+        "ENGLISH": 35,
+        "ODIA": 60,
+        "HINDI": 27,
+        "SANSKRIT": 58,
+        "MATHEMATICS": 56,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 62,
+        "ICT": 58
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 15,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 20,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 53,
+        "ODIA": 79,
+        "HINDI": 42,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 76,
+        "SCIENCE": 55,
+        "SOCIAL SCIENCE": 81,
+        "ICT": 77
+      }
+    },
+    "total": 541,
+    "percent": 67.62,
+    "grade": "B2",
+    "rank": 41
+  },
+  "020/686": {
+    "name": "ANUSKA PRADHAN",
+    "father_name": "SANJAYA PRADHAN",
+    "dob": "19-03-2014",
+    "roll": 10,
+    "section": "A",
+    "attendance": 90,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 20,
+        "ODIA": 36,
+        "HINDI": 30,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 27,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 28
+      },
+      "PT-II": {
+        "ENGLISH": 24,
+        "ODIA": 25,
+        "HINDI": 28,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 16,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 11
+      },
+      "HFY": {
+        "ENGLISH": 55,
+        "ODIA": 66,
+        "HINDI": 71,
+        "SANSKRIT": 87,
+        "MATHEMATICS": 61,
+        "SCIENCE": 61,
+        "SOCIAL SCIENCE": 62,
+        "ICT": 73
+      },
+      "PT-III": {
+        "ENGLISH": 24,
+        "ODIA": 35,
+        "HINDI": 31,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 36,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 12
+      },
+      "PT-IV": {
+        "ENGLISH": 15,
+        "ODIA": 28,
+        "HINDI": 26,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 28,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 44,
+        "ODIA": 59,
+        "HINDI": 55,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 30,
+        "SCIENCE": 46,
+        "SOCIAL SCIENCE": 54,
+        "ICT": 33
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 19,
+        "HINDI": 18,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 64,
+        "ODIA": 78,
+        "HINDI": 73,
+        "SANSKRIT": 81,
+        "MATHEMATICS": 49,
+        "SCIENCE": 65,
+        "SOCIAL SCIENCE": 72,
+        "ICT": 51
+      }
+    },
+    "total": 533,
+    "percent": 66.62,
+    "grade": "B2",
+    "rank": 42
+  },
+  "017/683": {
+    "name": "SATYAM CHOUDHURY",
+    "father_name": "SUSANTA KUMAR CHOUDHURY",
+    "dob": "08-02-2013",
+    "roll": 25,
+    "section": "A",
+    "attendance": 69,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 25,
+        "ODIA": 18,
+        "HINDI": 31,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 28,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 29
+      },
+      "PT-II": {
+        "ENGLISH": 26,
+        "ODIA": 17,
+        "HINDI": 21,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 14,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 26
+      },
+      "HFY": {
+        "ENGLISH": 86,
+        "ODIA": 54,
+        "HINDI": 77,
+        "SANSKRIT": 83,
+        "MATHEMATICS": 67,
+        "SCIENCE": 60,
+        "SOCIAL SCIENCE": 90,
+        "ICT": 86
+      },
+      "PT-III": {
+        "ENGLISH": 21,
+        "ODIA": 28,
+        "HINDI": 27,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 9,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 21,
+        "ODIA": 22,
+        "HINDI": 20,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 4,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 29
+      },
+      "ANNUAL": {
+        "ENGLISH": 63,
+        "ODIA": 42,
+        "HINDI": 58,
+        "SANSKRIT": 52,
+        "MATHEMATICS": 40,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 53,
+        "ICT": 53
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "ODIA": 13,
+        "HINDI": 16,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 83,
+        "ODIA": 55,
+        "HINDI": 74,
+        "SANSKRIT": 67,
+        "MATHEMATICS": 59,
+        "SCIENCE": 49,
+        "SOCIAL SCIENCE": 71,
+        "ICT": 72
+      }
+    },
+    "total": 530,
+    "percent": 66.25,
+    "grade": "B2",
+    "rank": 43
+  },
+  "052/718": {
+    "name": "ASISH PRADHAN",
+    "father_name": "SRINIBASHA PRADHAN",
+    "dob": "11-07-2013",
+    "roll": 2,
+    "section": "B",
+    "attendance": 64.77,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 19,
+        "ODIA": 20,
+        "HINDI": 26,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 32,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 21
+      },
+      "PT-II": {
+        "ENGLISH": 22,
+        "ODIA": 6,
+        "HINDI": 10,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 24,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 8
+      },
+      "HFY": {
+        "ENGLISH": 63,
+        "ODIA": 60,
+        "HINDI": 52,
+        "SANSKRIT": 83,
+        "MATHEMATICS": 88,
+        "SCIENCE": 88,
+        "SOCIAL SCIENCE": 95,
+        "ICT": 60
+      },
+      "PT-III": {
+        "ENGLISH": 25,
+        "ODIA": 22,
+        "HINDI": 20,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 33,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 8
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "ODIA": 29,
+        "HINDI": 13,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 36,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 10
+      },
+      "ANNUAL": {
+        "ENGLISH": 33,
+        "ODIA": 48,
+        "HINDI": 32,
+        "SANSKRIT": 60,
+        "MATHEMATICS": 57,
+        "SCIENCE": 67,
+        "SOCIAL SCIENCE": 67,
+        "ICT": 35
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 14,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 10,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 51,
+        "ODIA": 63,
+        "HINDI": 46,
+        "SANSKRIT": 77,
+        "MATHEMATICS": 67,
+        "SCIENCE": 87,
+        "SOCIAL SCIENCE": 86,
+        "ICT": 53
+      }
+    },
+    "total": 530,
+    "percent": 66.25,
+    "grade": "B2",
+    "rank": 44
+  },
+  "032/698": {
+    "name": "NITESH KUMAR ROUT",
+    "father_name": "SATRUGHNA ROUT",
+    "dob": "04-01-2013",
+    "roll": 22,
+    "section": "B",
+    "attendance": 76.17,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 31,
+        "ODIA": 27,
+        "HINDI": 28,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 29,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 20
+      },
+      "PT-II": {
+        "ENGLISH": 21,
+        "ODIA": 20,
+        "HINDI": 32,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 22,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 24
+      },
+      "HFY": {
+        "ENGLISH": 63,
+        "ODIA": 68,
+        "HINDI": 80,
+        "SANSKRIT": 67,
+        "MATHEMATICS": 65,
+        "SCIENCE": 55,
+        "SOCIAL SCIENCE": 73,
+        "ICT": 77
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "ODIA": 36,
+        "HINDI": 29,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 15,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 15,
+        "ODIA": 30,
+        "HINDI": 19,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 18,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 37
+      },
+      "ANNUAL": {
+        "ENGLISH": 51,
+        "ODIA": 53,
+        "HINDI": 49,
+        "SANSKRIT": 50,
+        "MATHEMATICS": 31,
+        "SCIENCE": 47,
+        "SOCIAL SCIENCE": 57,
+        "ICT": 52
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 14,
+        "HINDI": 15,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 19
+      },
+      "TOTAL": {
+        "ENGLISH": 70,
+        "ODIA": 67,
+        "HINDI": 64,
+        "SANSKRIT": 65,
+        "MATHEMATICS": 50,
+        "SCIENCE": 66,
+        "SOCIAL SCIENCE": 75,
+        "ICT": 71
+      }
+    },
+    "total": 528,
+    "percent": 66.0,
+    "grade": "B2",
+    "rank": 45
+  },
+  "036/702": {
+    "name": "RAKESH PRADHAN",
+    "father_name": "BHAGIRATHI PRADHAN",
+    "dob": "09-06-2013",
+    "roll": 20,
+    "section": "A",
+    "attendance": 85,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "C",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 24,
+        "ODIA": 34,
+        "HINDI": 26,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 26,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 29,
+        "ICT": 22
+      },
+      "PT-II": {
+        "ENGLISH": 15,
+        "ODIA": 29,
+        "HINDI": 27,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 12,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 21
+      },
+      "HFY": {
+        "ENGLISH": 48,
+        "ODIA": 69,
+        "HINDI": 67,
+        "SANSKRIT": 87,
+        "MATHEMATICS": 54,
+        "SCIENCE": 55,
+        "SOCIAL SCIENCE": 67,
+        "ICT": 71
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 38,
+        "HINDI": 22,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 25,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 15
+      },
+      "PT-IV": {
+        "ENGLISH": 17,
+        "ODIA": 35,
+        "HINDI": 27,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 18,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 45,
+        "ODIA": 64,
+        "HINDI": 39,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 27,
+        "SCIENCE": 50,
+        "SOCIAL SCIENCE": 47,
+        "ICT": 49
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 18,
+        "HINDI": 16,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 63,
+        "ODIA": 82,
+        "HINDI": 55,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 46,
+        "SCIENCE": 69,
+        "SOCIAL SCIENCE": 64,
+        "ICT": 67
+      }
+    },
+    "total": 524,
+    "percent": 65.5,
+    "grade": "B2",
+    "rank": 46
+  },
+  "005/671": {
+    "name": "SUSHRI SHREYANSI NAYAK",
+    "father_name": "BULU NAYAK",
+    "dob": "04-05-2013",
+    "roll": 37,
+    "section": "B",
+    "attendance": 94.3,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 18,
+        "ODIA": 32,
+        "HINDI": 26,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 38,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 17
+      },
+      "PT-II": {
+        "ENGLISH": 19,
+        "ODIA": 19,
+        "HINDI": 15,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 21,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 11
+      },
+      "HFY": {
+        "ENGLISH": 63,
+        "ODIA": 65,
+        "HINDI": 49,
+        "SANSKRIT": 68,
+        "MATHEMATICS": 72,
+        "SCIENCE": 39,
+        "SOCIAL SCIENCE": 62,
+        "ICT": 55
+      },
+      "PT-III": {
+        "ENGLISH": 16,
+        "ODIA": 35,
+        "HINDI": 12,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 29,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 16,
+        "ODIA": 30,
+        "HINDI": 11,
+        "SANSKRIT": 38,
+        "MATHEMATICS": 36,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 22,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 50,
+        "ODIA": 58,
+        "HINDI": 36,
+        "SANSKRIT": 64,
+        "MATHEMATICS": 54,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 47,
+        "ICT": 41
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 16,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 68,
+        "ODIA": 73,
+        "HINDI": 52,
+        "SANSKRIT": 81,
+        "MATHEMATICS": 73,
+        "SCIENCE": 52,
+        "SOCIAL SCIENCE": 64,
+        "ICT": 59
+      }
+    },
+    "total": 522,
+    "percent": 65.25,
+    "grade": "B2",
+    "rank": 47
+  },
+  "054/720": {
+    "name": "PRATYUSH KUMAR PARIDA",
+    "father_name": "BHANJA KISHORE PARIDA",
+    "dob": "23-07-2013",
+    "roll": 19,
+    "section": "A",
+    "attendance": 79,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 15,
+        "ODIA": 25,
+        "HINDI": 28,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 29,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 22
+      },
+      "PT-II": {
+        "ENGLISH": 20,
+        "ODIA": 23,
+        "HINDI": 24,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 19,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 46,
+        "ODIA": 67,
+        "HINDI": 69,
+        "SANSKRIT": 73,
+        "MATHEMATICS": 61,
+        "SCIENCE": 62,
+        "SOCIAL SCIENCE": 58,
+        "ICT": 60
+      },
+      "PT-III": {
+        "ENGLISH": 17,
+        "ODIA": 35,
+        "HINDI": 27,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 31,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 12
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "ODIA": 27,
+        "HINDI": 19,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 28,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 18
+      },
+      "ANNUAL": {
+        "ENGLISH": 44,
+        "ODIA": 64,
+        "HINDI": 44,
+        "SANSKRIT": 44,
+        "MATHEMATICS": 54,
+        "SCIENCE": 41,
+        "SOCIAL SCIENCE": 45,
+        "ICT": 38
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 17,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 10,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 62,
+        "ODIA": 79,
+        "HINDI": 61,
+        "SANSKRIT": 60,
+        "MATHEMATICS": 64,
+        "SCIENCE": 60,
+        "SOCIAL SCIENCE": 62,
+        "ICT": 56
+      }
+    },
+    "total": 504,
+    "percent": 63.0,
+    "grade": "B2",
+    "rank": 48
+  },
+  "030/696": {
+    "name": "SUBHALAXMI BEHERA",
+    "father_name": "CHITARANJAN BEHERA",
+    "dob": "19-08-2013",
+    "roll": 31,
+    "section": "A",
+    "attendance": 85,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 24,
+        "ODIA": 35,
+        "HINDI": 21,
+        "SANSKRIT": 23,
+        "MATHEMATICS": 34,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 26
+      },
+      "PT-II": {
+        "ENGLISH": 19,
+        "ODIA": 29,
+        "HINDI": 15,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 19,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 18
+      },
+      "HFY": {
+        "ENGLISH": 54,
+        "ODIA": 79,
+        "HINDI": 83,
+        "SANSKRIT": 65,
+        "MATHEMATICS": 55,
+        "SCIENCE": 41,
+        "SOCIAL SCIENCE": 63,
+        "ICT": 52
+      },
+      "PT-III": {
+        "ENGLISH": 20,
+        "ODIA": 35,
+        "HINDI": 32,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 7,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 30,
+        "ICT": "ABS"
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "ODIA": 31,
+        "HINDI": 28,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 17,
+        "SCIENCE": 13,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 16
+      },
+      "ANNUAL": {
+        "ENGLISH": 42,
+        "ODIA": 56,
+        "HINDI": 58,
+        "SANSKRIT": 55,
+        "MATHEMATICS": 34,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 51,
+        "ICT": 25
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 17,
+        "HINDI": 18,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 60,
+        "ODIA": 73,
+        "HINDI": 76,
+        "SANSKRIT": 71,
+        "MATHEMATICS": 53,
+        "SCIENCE": 46,
+        "SOCIAL SCIENCE": 69,
+        "ICT": 43
+      }
+    },
+    "total": 491,
+    "percent": 61.38,
+    "grade": "B2",
+    "rank": 49
+  },
+  "035/701": {
+    "name": "KUMAR AYUSH SETHI",
+    "father_name": "PRADIPA KUMAR SETHI",
+    "dob": "07-08-2013",
+    "roll": 20,
+    "section": "B",
+    "attendance": 86.53,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "C",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 21,
+        "ODIA": 37,
+        "HINDI": 24,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 24,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 29,
+        "ICT": 28
+      },
+      "PT-II": {
+        "ENGLISH": 22,
+        "ODIA": 26,
+        "HINDI": 30,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 13,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 14
+      },
+      "HFY": {
+        "ENGLISH": 55,
+        "ODIA": 61,
+        "HINDI": 64,
+        "SANSKRIT": 62,
+        "MATHEMATICS": 47,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 65,
+        "ICT": 43
+      },
+      "PT-III": {
+        "ENGLISH": 17,
+        "ODIA": 35,
+        "HINDI": 34,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 10,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 14
+      },
+      "PT-IV": {
+        "ENGLISH": 15,
+        "ODIA": 30,
+        "HINDI": 16,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 14,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 47,
+        "ODIA": 52,
+        "HINDI": 50,
+        "SANSKRIT": 47,
+        "MATHEMATICS": 28,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 61,
+        "ICT": 45
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 15,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 65,
+        "ODIA": 67,
+        "HINDI": 65,
+        "SANSKRIT": 63,
+        "MATHEMATICS": 47,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 80,
+        "ICT": 63
+      }
+    },
+    "total": 477,
+    "percent": 59.62,
+    "grade": "C1",
+    "rank": 50
+  },
+  "047/713": {
+    "name": "MADHUSMITA NAYAK",
+    "father_name": "AMIYA KUMAR NAYAK",
+    "dob": "21-12-2013",
+    "roll": 21,
+    "section": "B",
+    "attendance": 79.27,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ABS",
+        "ODIA": "ABS",
+        "HINDI": "ABS",
+        "SANSKRIT": "ABS",
+        "MATHEMATICS": "ABS",
+        "SCIENCE": "ABS",
+        "SOCIAL SCIENCE": "ABS",
+        "ICT": "ABS"
+      },
+      "PT-II": {
+        "ENGLISH": 17,
+        "ODIA": 20,
+        "HINDI": 17,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 11,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 16,
+        "ICT": 10
+      },
+      "HFY": {
+        "ENGLISH": 49,
+        "ODIA": 74,
+        "HINDI": 63,
+        "SANSKRIT": 67,
+        "MATHEMATICS": 42,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 61,
+        "ICT": 52
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 34,
+        "HINDI": 22,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 15,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 12
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 32,
+        "HINDI": 21,
+        "SANSKRIT": 31,
+        "MATHEMATICS": 10,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 36
+      },
+      "ANNUAL": {
+        "ENGLISH": 39,
+        "ODIA": 57,
+        "HINDI": 48,
+        "SANSKRIT": 41,
+        "MATHEMATICS": 35,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 46
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 17,
+        "HINDI": 17,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 20,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 57,
+        "ODIA": 74,
+        "HINDI": 65,
+        "SANSKRIT": 59,
+        "MATHEMATICS": 55,
+        "SCIENCE": 46,
+        "SOCIAL SCIENCE": 57,
+        "ICT": 64
+      }
+    },
+    "total": 477,
+    "percent": 59.62,
+    "grade": "C1",
+    "rank": 51
+  },
+  "034/700": {
+    "name": "SAIRAM PRADHAN",
+    "father_name": "SUSANTA KUMAR PRADHAN",
+    "dob": "15-06-2013",
+    "roll": 22,
+    "section": "A",
+    "attendance": 84,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 8,
+        "ODIA": 16,
+        "HINDI": 27,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 26,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 20,
+        "ICT": 30
+      },
+      "PT-II": {
+        "ENGLISH": 15,
+        "ODIA": 20,
+        "HINDI": 28,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 24,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 14,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 43,
+        "ODIA": 66,
+        "HINDI": 63,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 57,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 62
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 34,
+        "HINDI": 16,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 31,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 5
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 32,
+        "HINDI": 18,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 27,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 35
+      },
+      "ANNUAL": {
+        "ENGLISH": 34,
+        "ODIA": 60,
+        "HINDI": 38,
+        "SANSKRIT": 52,
+        "MATHEMATICS": 52,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 34
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 14,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 52,
+        "ODIA": 75,
+        "HINDI": 52,
+        "SANSKRIT": 69,
+        "MATHEMATICS": 71,
+        "SCIENCE": 53,
+        "SOCIAL SCIENCE": 50,
+        "ICT": 52
+      }
+    },
+    "total": 474,
+    "percent": 59.25,
+    "grade": "C1",
+    "rank": 52
+  },
+  "068/734": {
+    "name": "DEBASMITA PRADHAN",
+    "father_name": "SUSHANTA KUMAR PRADHAN",
+    "dob": "17-05-2012",
+    "roll": 13,
+    "section": "B",
+    "attendance": 83.42,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 16,
+        "ODIA": 24,
+        "HINDI": 32,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 23,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 23
+      },
+      "PT-II": {
+        "ENGLISH": 19,
+        "ODIA": 12,
+        "HINDI": 30,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 18,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 13
+      },
+      "HFY": {
+        "ENGLISH": 40,
+        "ODIA": 60,
+        "HINDI": 52,
+        "SANSKRIT": 57,
+        "MATHEMATICS": 39,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 63,
+        "ICT": 55
+      },
+      "PT-III": {
+        "ENGLISH": 17,
+        "ODIA": 29,
+        "HINDI": 19,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 5,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 11
+      },
+      "PT-IV": {
+        "ENGLISH": 16,
+        "ODIA": 15,
+        "HINDI": 20,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 12,
+        "SCIENCE": 7,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 21
+      },
+      "ANNUAL": {
+        "ENGLISH": 38,
+        "ODIA": 44,
+        "HINDI": 58,
+        "SANSKRIT": 43,
+        "MATHEMATICS": 32,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 35
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "ODIA": 16,
+        "HINDI": 18,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 57,
+        "ODIA": 60,
+        "HINDI": 76,
+        "SANSKRIT": 60,
+        "MATHEMATICS": 51,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 74,
+        "ICT": 53
+      }
+    },
+    "total": 471,
+    "percent": 58.88,
+    "grade": "C1",
+    "rank": 53
+  },
+  "058/724": {
+    "name": "SRIYA NAYAK",
+    "father_name": "RAJESWARI NAYAK",
+    "dob": "15-09-2013",
+    "roll": 29,
+    "section": "A",
+    "attendance": 90,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 16,
+        "ODIA": 27,
+        "HINDI": 24,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 24,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 12
+      },
+      "PT-II": {
+        "ENGLISH": 27,
+        "ODIA": 30,
+        "HINDI": 23,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 16,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 17
+      },
+      "HFY": {
+        "ENGLISH": 34,
+        "ODIA": 67,
+        "HINDI": 50,
+        "SANSKRIT": 62,
+        "MATHEMATICS": 35,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 61,
+        "ICT": 40
+      },
+      "PT-III": {
+        "ENGLISH": 14,
+        "ODIA": 34,
+        "HINDI": 21,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 26,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 13,
+        "ODIA": 30,
+        "HINDI": 9,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 14,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 19
+      },
+      "ANNUAL": {
+        "ENGLISH": 29,
+        "ODIA": 56,
+        "HINDI": 32,
+        "SANSKRIT": 43,
+        "MATHEMATICS": 39,
+        "SCIENCE": 38,
+        "SOCIAL SCIENCE": 53,
+        "ICT": 33
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 17,
+        "HINDI": 16,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 47,
+        "ODIA": 73,
+        "HINDI": 48,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 58,
+        "SCIENCE": 56,
+        "SOCIAL SCIENCE": 71,
+        "ICT": 51
+      }
+    },
+    "total": 465,
+    "percent": 58.13,
+    "grade": "C1",
+    "rank": 54
+  },
+  "067/733": {
+    "name": "PAPUN SETHI",
+    "father_name": "SANKAR SETHI",
+    "dob": "11-08-2013",
+    "roll": 24,
+    "section": "B",
+    "attendance": 76.68,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 24,
+        "ODIA": 33,
+        "HINDI": 25,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 26,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 23,
+        "ODIA": 30,
+        "HINDI": 33,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 17,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 22
+      },
+      "HFY": {
+        "ENGLISH": 55,
+        "ODIA": 80,
+        "HINDI": 72,
+        "SANSKRIT": 63,
+        "MATHEMATICS": 59,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 66,
+        "ICT": 65
+      },
+      "PT-III": {
+        "ENGLISH": 16,
+        "ODIA": 32,
+        "HINDI": 23,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 12,
+        "SCIENCE": 6,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 17,
+        "ODIA": 31,
+        "HINDI": 19,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 15,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 23
+      },
+      "ANNUAL": {
+        "ENGLISH": 38,
+        "ODIA": 54,
+        "HINDI": 50,
+        "SANSKRIT": 45,
+        "MATHEMATICS": 30,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 40,
+        "ICT": 38
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 16,
+        "HINDI": 17,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 56,
+        "ODIA": 70,
+        "HINDI": 67,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 49,
+        "SCIENCE": 40,
+        "SOCIAL SCIENCE": 57,
+        "ICT": 56
+      }
+    },
+    "total": 456,
+    "percent": 57.0,
+    "grade": "C1",
+    "rank": 55
+  },
+  "033/699": {
+    "name": "SRUTI SETHI",
+    "father_name": "INDRAMANI SETHI",
+    "dob": "04-01-2014",
+    "roll": 30,
+    "section": "A",
+    "attendance": 87,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 15,
+        "ODIA": 27,
+        "HINDI": 22,
+        "SANSKRIT": "ABS",
+        "MATHEMATICS": 25,
+        "SCIENCE": "ABS",
+        "SOCIAL SCIENCE": 23,
+        "ICT": 13
+      },
+      "PT-II": {
+        "ENGLISH": 13,
+        "ODIA": 32,
+        "HINDI": 23,
+        "SANSKRIT": 23,
+        "MATHEMATICS": 20,
+        "SCIENCE": 6,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 14
+      },
+      "HFY": {
+        "ENGLISH": 33,
+        "ODIA": 78,
+        "HINDI": 77,
+        "SANSKRIT": 71,
+        "MATHEMATICS": 43,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 64,
+        "ICT": 33
+      },
+      "PT-III": {
+        "ENGLISH": 12,
+        "ODIA": 34,
+        "HINDI": 29,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 22,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 34,
+        "HINDI": 25,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 17,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 13
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 66,
+        "HINDI": 44,
+        "SANSKRIT": 51,
+        "MATHEMATICS": 44,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 41,
+        "ICT": 18
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 16,
+        "HINDI": 17,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 17
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 82,
+        "HINDI": 61,
+        "SANSKRIT": 68,
+        "MATHEMATICS": 63,
+        "SCIENCE": 42,
+        "SOCIAL SCIENCE": 58,
+        "ICT": 35
+      }
+    },
+    "total": 454,
+    "percent": 56.75,
+    "grade": "C1",
+    "rank": 56
+  },
+  "019/685": {
+    "name": "SWAGATA NAIK",
+    "father_name": "BHAGABAN NAIK",
+    "dob": "11-08-2013",
+    "roll": 35,
+    "section": "A",
+    "attendance": 73,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 18,
+        "ODIA": 23,
+        "HINDI": 26,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 28,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 22
+      },
+      "PT-II": {
+        "ENGLISH": 18,
+        "ODIA": 19,
+        "HINDI": 14,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 11,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 19
+      },
+      "HFY": {
+        "ENGLISH": 49,
+        "ODIA": 70,
+        "HINDI": 61,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 53,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 44,
+        "ICT": 44
+      },
+      "PT-III": {
+        "ENGLISH": 15,
+        "ODIA": 31,
+        "HINDI": 19,
+        "SANSKRIT": 23,
+        "MATHEMATICS": 12,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 8
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 36,
+        "HINDI": 13,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 7,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 14
+      },
+      "ANNUAL": {
+        "ENGLISH": 36,
+        "ODIA": 56,
+        "HINDI": 49,
+        "SANSKRIT": 52,
+        "MATHEMATICS": 27,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 40
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 17,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 54,
+        "ODIA": 71,
+        "HINDI": 66,
+        "SANSKRIT": 69,
+        "MATHEMATICS": 46,
+        "SCIENCE": 46,
+        "SOCIAL SCIENCE": 44,
+        "ICT": 58
+      }
+    },
+    "total": 454,
+    "percent": 56.75,
+    "grade": "C1",
+    "rank": 57
+  },
+  "065/731": {
+    "name": "SWAGATIKA SETHI",
+    "father_name": "CHITRASENA SETHI",
+    "dob": "31-01-2014",
+    "roll": 36,
+    "section": "A",
+    "attendance": 82,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 10,
+        "ODIA": 20,
+        "HINDI": 24,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 24,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 18
+      },
+      "PT-II": {
+        "ENGLISH": 13,
+        "ODIA": 27,
+        "HINDI": 14,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 8,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 16
+      },
+      "HFY": {
+        "ENGLISH": 36,
+        "ODIA": 73,
+        "HINDI": 41,
+        "SANSKRIT": 78,
+        "MATHEMATICS": 46,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 54,
+        "ICT": 43
+      },
+      "PT-III": {
+        "ENGLISH": 12,
+        "ODIA": 30,
+        "HINDI": 16,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 18,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 7
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 32,
+        "HINDI": 15,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 18,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 18
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 48,
+        "HINDI": 37,
+        "SANSKRIT": 63,
+        "MATHEMATICS": 37,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 35
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 16,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 63,
+        "HINDI": 53,
+        "SANSKRIT": 81,
+        "MATHEMATICS": 56,
+        "SCIENCE": 48,
+        "SOCIAL SCIENCE": 50,
+        "ICT": 53
+      }
+    },
+    "total": 449,
+    "percent": 56.12,
+    "grade": "C1",
+    "rank": 58
+  },
+  "048/714": {
+    "name": "SNEHA BEHERA",
+    "father_name": "DANDAPNI BEHERA",
+    "dob": "17-12-2013",
+    "roll": 28,
+    "section": "A",
+    "attendance": 74,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 12,
+        "ODIA": 21,
+        "HINDI": 35,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 23,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 24
+      },
+      "PT-II": {
+        "ENGLISH": 16,
+        "ODIA": 20,
+        "HINDI": 17,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 16,
+        "SCIENCE": 5,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 17
+      },
+      "HFY": {
+        "ENGLISH": 38,
+        "ODIA": 55,
+        "HINDI": 38,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 30,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 67,
+        "ICT": 58
+      },
+      "PT-III": {
+        "ENGLISH": 14,
+        "ODIA": 30,
+        "HINDI": 18,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 21,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 21,
+        "HINDI": 12,
+        "SANSKRIT": 37,
+        "MATHEMATICS": 15,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 35,
+        "ODIA": 43,
+        "HINDI": 34,
+        "SANSKRIT": 47,
+        "MATHEMATICS": 35,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 45
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 13,
+        "HINDI": 16,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 53,
+        "ODIA": 56,
+        "HINDI": 50,
+        "SANSKRIT": 64,
+        "MATHEMATICS": 54,
+        "SCIENCE": 51,
+        "SOCIAL SCIENCE": 51,
+        "ICT": 63
+      }
+    },
+    "total": 442,
+    "percent": 55.25,
+    "grade": "C1",
+    "rank": 59
+  },
+  "071/737": {
+    "name": "ADARSHA KUMAR NAYAK",
+    "father_name": "PABITRA NAYAK",
+    "dob": "03-08-2013",
+    "roll": 1,
+    "section": "B",
+    "attendance": 74.09,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 23,
+        "ODIA": 28,
+        "HINDI": 28,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 36,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 21
+      },
+      "PT-II": {
+        "ENGLISH": 28,
+        "ODIA": 22,
+        "HINDI": 22,
+        "SANSKRIT": 27,
+        "MATHEMATICS": 20,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 10
+      },
+      "HFY": {
+        "ENGLISH": 65,
+        "ODIA": 75,
+        "HINDI": 82,
+        "SANSKRIT": 74,
+        "MATHEMATICS": 69,
+        "SCIENCE": 81,
+        "SOCIAL SCIENCE": 86,
+        "ICT": 73
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "ODIA": 32,
+        "HINDI": 33,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 23,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 16
+      },
+      "PT-IV": {
+        "ENGLISH": 18,
+        "ODIA": 27,
+        "HINDI": 18,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 8,
+        "SCIENCE": 27,
+        "SOCIAL SCIENCE": 35,
+        "ICT": 28
+      },
+      "ANNUAL": {
+        "ENGLISH": 39,
+        "ODIA": 33,
+        "HINDI": 36,
+        "SANSKRIT": 49,
+        "MATHEMATICS": 46,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 42,
+        "ICT": 40
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 14,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 10,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 57,
+        "ODIA": 48,
+        "HINDI": 50,
+        "SANSKRIT": 66,
+        "MATHEMATICS": 56,
+        "SCIENCE": 44,
+        "SOCIAL SCIENCE": 59,
+        "ICT": 58
+      }
+    },
+    "total": 438,
+    "percent": 54.75,
+    "grade": "C1",
+    "rank": 60
+  },
+  "041/707": {
+    "name": "SOHAN KUMAR PRADHAN",
+    "father_name": "SUNIL KUMAR PRADHAN",
+    "dob": "26-06-2013",
+    "roll": 32,
+    "section": "B",
+    "attendance": 80.83,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "C",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 14,
+        "ODIA": 21,
+        "HINDI": 27,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 20,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 8
+      },
+      "PT-II": {
+        "ENGLISH": 16,
+        "ODIA": 18,
+        "HINDI": 20,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 14,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 22,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 50,
+        "ODIA": 62,
+        "HINDI": 64,
+        "SANSKRIT": 80,
+        "MATHEMATICS": 48,
+        "SCIENCE": 42,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 56
+      },
+      "PT-III": {
+        "ENGLISH": 16,
+        "ODIA": 26,
+        "HINDI": 14,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 23,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 4
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 19,
+        "HINDI": 21,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 6,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 23
+      },
+      "ANNUAL": {
+        "ENGLISH": 35,
+        "ODIA": 44,
+        "HINDI": 35,
+        "SANSKRIT": 44,
+        "MATHEMATICS": 34,
+        "SCIENCE": 31,
+        "SOCIAL SCIENCE": 47,
+        "ICT": 26
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 16,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 53,
+        "ODIA": 59,
+        "HINDI": 51,
+        "SANSKRIT": 59,
+        "MATHEMATICS": 53,
+        "SCIENCE": 49,
+        "SOCIAL SCIENCE": 64,
+        "ICT": 44
+      }
+    },
+    "total": 432,
+    "percent": 54.0,
+    "grade": "C1",
+    "rank": 61
+  },
+  "073/739": {
+    "name": "PRANAYA PRADHAN",
+    "father_name": "RAJENDRA KUMAR PRADHAN",
+    "dob": "05-03-2014",
+    "roll": 18,
+    "section": "A",
+    "attendance": 81,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 23,
+        "ODIA": 29,
+        "HINDI": 22,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 35,
+        "SCIENCE": 21,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 22
+      },
+      "PT-II": {
+        "ENGLISH": 18,
+        "ODIA": 22,
+        "HINDI": 12,
+        "SANSKRIT": 13,
+        "MATHEMATICS": 24,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 15
+      },
+      "HFY": {
+        "ENGLISH": 44,
+        "ODIA": 66,
+        "HINDI": 52,
+        "SANSKRIT": 71,
+        "MATHEMATICS": 68,
+        "SCIENCE": 34,
+        "SOCIAL SCIENCE": 54,
+        "ICT": 61
+      },
+      "PT-III": {
+        "ENGLISH": 15,
+        "ODIA": 31,
+        "HINDI": 14,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 30,
+        "SCIENCE": 16,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 5
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 24,
+        "HINDI": 13,
+        "SANSKRIT": 36,
+        "MATHEMATICS": 35,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 17
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 59,
+        "HINDI": 20,
+        "SANSKRIT": 43,
+        "MATHEMATICS": 46,
+        "SCIENCE": 30,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 30
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 16,
+        "HINDI": 13,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 75,
+        "HINDI": 33,
+        "SANSKRIT": 59,
+        "MATHEMATICS": 65,
+        "SCIENCE": 48,
+        "SOCIAL SCIENCE": 49,
+        "ICT": 48
+      }
+    },
+    "total": 422,
+    "percent": 52.75,
+    "grade": "C1",
+    "rank": 62
+  },
+  "046/712": {
+    "name": "SAMBHUNATH SETHI",
+    "father_name": "NARAYAN SETHI",
+    "dob": "10-08-2013",
+    "roll": 24,
+    "section": "A",
+    "attendance": 77,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "C",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 12,
+        "ODIA": 18,
+        "HINDI": 24,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 13,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 29,
+        "ICT": 15
+      },
+      "PT-II": {
+        "ENGLISH": 15,
+        "ODIA": 25,
+        "HINDI": 18,
+        "SANSKRIT": 9,
+        "MATHEMATICS": 11,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 33,
+        "ODIA": 67,
+        "HINDI": 42,
+        "SANSKRIT": 57,
+        "MATHEMATICS": 44,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 44,
+        "ICT": 41
+      },
+      "PT-III": {
+        "ENGLISH": 9,
+        "ODIA": 35,
+        "HINDI": 12,
+        "SANSKRIT": 7,
+        "MATHEMATICS": 10,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 26,
+        "HINDI": 11,
+        "SANSKRIT": 14,
+        "MATHEMATICS": 9,
+        "SCIENCE": 8,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 18
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 52,
+        "HINDI": 31,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 35,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 45,
+        "ICT": 33
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 16,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 67,
+        "HINDI": 47,
+        "SANSKRIT": 50,
+        "MATHEMATICS": 54,
+        "SCIENCE": 32,
+        "SOCIAL SCIENCE": 62,
+        "ICT": 51
+      }
+    },
+    "total": 408,
+    "percent": 51.0,
+    "grade": "C1",
+    "rank": 63
+  },
+  "059/725": {
+    "name": "SUBHALAXMI SETHI",
+    "father_name": "LATE KHAGENDRA KUMAR SETHI",
+    "dob": "01-07-2013",
+    "roll": 34,
+    "section": "B",
+    "attendance": 75.65,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 9,
+        "ODIA": 24,
+        "HINDI": 29,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 20,
+        "SCIENCE": 13,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 26
+      },
+      "PT-II": {
+        "ENGLISH": 12,
+        "ODIA": 18,
+        "HINDI": 11,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 10,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 23,
+        "ICT": 13
+      },
+      "HFY": {
+        "ENGLISH": 41,
+        "ODIA": 54,
+        "HINDI": 66,
+        "SANSKRIT": 68,
+        "MATHEMATICS": 43,
+        "SCIENCE": 26,
+        "SOCIAL SCIENCE": 52,
+        "ICT": 55
+      },
+      "PT-III": {
+        "ENGLISH": 12,
+        "ODIA": 27,
+        "HINDI": 20,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 15,
+        "SCIENCE": 5,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 4
+      },
+      "PT-IV": {
+        "ENGLISH": 10,
+        "ODIA": 15,
+        "HINDI": 11,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 27,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 7
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 40,
+        "HINDI": 33,
+        "SANSKRIT": 39,
+        "MATHEMATICS": 22,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 41
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 16,
+        "HINDI": 16,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 15,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 56,
+        "HINDI": 49,
+        "SANSKRIT": 56,
+        "MATHEMATICS": 37,
+        "SCIENCE": 37,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 59
+      }
+    },
+    "total": 395,
+    "percent": 49.38,
+    "grade": "C2",
+    "rank": 64
+  },
+  "029/695": {
+    "name": "SUBHAM GOUDA",
+    "father_name": "SANJIB KUMAR GOUDA",
+    "dob": "24-08-2012",
+    "roll": 32,
+    "section": "A",
+    "attendance": 82,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 16,
+        "ODIA": 20,
+        "HINDI": 25,
+        "SANSKRIT": 24,
+        "MATHEMATICS": 20,
+        "SCIENCE": 14,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 25
+      },
+      "PT-II": {
+        "ENGLISH": 13,
+        "ODIA": 24,
+        "HINDI": 19,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 8,
+        "SCIENCE": 4,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 33,
+        "ODIA": 67,
+        "HINDI": 54,
+        "SANSKRIT": 56,
+        "MATHEMATICS": 31,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 56,
+        "ICT": 41
+      },
+      "PT-III": {
+        "ENGLISH": 13,
+        "ODIA": 29,
+        "HINDI": 17,
+        "SANSKRIT": 14,
+        "MATHEMATICS": 12,
+        "SCIENCE": 7,
+        "SOCIAL SCIENCE": 22,
+        "ICT": 2
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 24,
+        "HINDI": 11,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 8,
+        "SCIENCE": 4,
+        "SOCIAL SCIENCE": 21,
+        "ICT": 6
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 51,
+        "HINDI": 33,
+        "SANSKRIT": 35,
+        "MATHEMATICS": 27,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 27
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 14,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 66,
+        "HINDI": 47,
+        "SANSKRIT": 52,
+        "MATHEMATICS": 46,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 53,
+        "ICT": 45
+      }
+    },
+    "total": 390,
+    "percent": 48.75,
+    "grade": "C2",
+    "rank": 65
+  },
+  "055/721": {
+    "name": "PREM PRAKASH PRADHAN",
+    "father_name": "PURNA CHANDRA PRADHAN",
+    "dob": "28-08-2013",
+    "roll": 27,
+    "section": "B",
+    "attendance": 65.8,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ABS",
+        "ODIA": "ABS",
+        "HINDI": "ABS",
+        "SANSKRIT": "ABS",
+        "MATHEMATICS": "ABS",
+        "SCIENCE": "ABS",
+        "SOCIAL SCIENCE": "ABS",
+        "ICT": "ABS"
+      },
+      "PT-II": {
+        "ENGLISH": 9,
+        "ODIA": 17,
+        "HINDI": 18,
+        "SANSKRIT": 7,
+        "MATHEMATICS": 14,
+        "SCIENCE": 19,
+        "SOCIAL SCIENCE": 12,
+        "ICT": 7
+      },
+      "HFY": {
+        "ENGLISH": 43,
+        "ODIA": 61,
+        "HINDI": 71,
+        "SANSKRIT": 61,
+        "MATHEMATICS": 62,
+        "SCIENCE": 52,
+        "SOCIAL SCIENCE": 69,
+        "ICT": 51
+      },
+      "PT-III": {
+        "ENGLISH": 16,
+        "ODIA": 31,
+        "HINDI": 13,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 15,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 15,
+        "ICT": 5
+      },
+      "PT-IV": {
+        "ENGLISH": "ABS",
+        "ODIA": 21,
+        "HINDI": 16,
+        "SANSKRIT": 25,
+        "MATHEMATICS": 12,
+        "SCIENCE": 13,
+        "SOCIAL SCIENCE": 21,
+        "ICT": "ABS"
+      },
+      "ANNUAL": {
+        "ENGLISH": 30,
+        "ODIA": 47,
+        "HINDI": 31,
+        "SANSKRIT": 32,
+        "MATHEMATICS": 28,
+        "SCIENCE": 15,
+        "SOCIAL SCIENCE": 30,
+        "ICT": 41
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 15,
+        "HINDI": 14,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 48,
+        "ODIA": 62,
+        "HINDI": 45,
+        "SANSKRIT": 48,
+        "MATHEMATICS": 47,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 47,
+        "ICT": 59
+      }
+    },
+    "total": 389,
+    "percent": 48.62,
+    "grade": "C2",
+    "rank": 66
+  },
+  "079/744": {
+    "name": "PABITRA KUMAR SETHI",
+    "father_name": "RAJENDRA SETHI",
+    "dob": "28-06-2013",
+    "roll": 23,
+    "section": "B",
+    "attendance": 89.12,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 14,
+        "ODIA": 24,
+        "HINDI": 29,
+        "SANSKRIT": 28,
+        "MATHEMATICS": 18,
+        "SCIENCE": 5,
+        "SOCIAL SCIENCE": 12,
+        "ICT": 25
+      },
+      "PT-II": {
+        "ENGLISH": 13,
+        "ODIA": 17,
+        "HINDI": 29,
+        "SANSKRIT": 11,
+        "MATHEMATICS": 8,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 16,
+        "ICT": 12
+      },
+      "HFY": {
+        "ENGLISH": 37,
+        "ODIA": 52,
+        "HINDI": 60,
+        "SANSKRIT": 67,
+        "MATHEMATICS": 31,
+        "SCIENCE": 24,
+        "SOCIAL SCIENCE": 47,
+        "ICT": 36
+      },
+      "PT-III": {
+        "ENGLISH": 12,
+        "ODIA": 24,
+        "HINDI": 13,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 5,
+        "SCIENCE": 6,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 5
+      },
+      "PT-IV": {
+        "ENGLISH": 10,
+        "ODIA": 27,
+        "HINDI": 18,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 12,
+        "SCIENCE": 8,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 21
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 36,
+        "HINDI": 40,
+        "SANSKRIT": 34,
+        "MATHEMATICS": 23,
+        "SCIENCE": 7,
+        "SOCIAL SCIENCE": 31,
+        "ICT": 39
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 13,
+        "HINDI": 15,
+        "SANSKRIT": 14,
+        "MATHEMATICS": 10,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 49,
+        "HINDI": 55,
+        "SANSKRIT": 48,
+        "MATHEMATICS": 33,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 48,
+        "ICT": 57
+      }
+    },
+    "total": 360,
+    "percent": 45.0,
+    "grade": "C2",
+    "rank": 67
+  },
+  "028/694": {
+    "name": "RADHAKANTA PRADHAN",
+    "father_name": "BISWANATH PRADHAN",
+    "dob": "09-07-2013",
+    "roll": 29,
+    "section": "B",
+    "attendance": 87.56,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 8,
+        "ODIA": 21,
+        "HINDI": 27,
+        "SANSKRIT": 29,
+        "MATHEMATICS": 15,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 7,
+        "ICT": 21
+      },
+      "PT-II": {
+        "ENGLISH": 10,
+        "ODIA": 17,
+        "HINDI": 15,
+        "SANSKRIT": 14,
+        "MATHEMATICS": 13,
+        "SCIENCE": 8,
+        "SOCIAL SCIENCE": 7,
+        "ICT": 6
+      },
+      "HFY": {
+        "ENGLISH": 32,
+        "ODIA": 60,
+        "HINDI": 63,
+        "SANSKRIT": 52,
+        "MATHEMATICS": 32,
+        "SCIENCE": 33,
+        "SOCIAL SCIENCE": 52,
+        "ICT": 40
+      },
+      "PT-III": {
+        "ENGLISH": 7,
+        "ODIA": 24,
+        "HINDI": 10,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 14,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 9,
+        "ICT": 6
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 22,
+        "HINDI": 11,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 14,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 10,
+        "ICT": 12
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 37,
+        "HINDI": 26,
+        "SANSKRIT": 44,
+        "MATHEMATICS": 28,
+        "SCIENCE": 7,
+        "SOCIAL SCIENCE": 22,
+        "ICT": 30
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 13,
+        "HINDI": 13,
+        "SANSKRIT": 14,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 50,
+        "HINDI": 39,
+        "SANSKRIT": 58,
+        "MATHEMATICS": 47,
+        "SCIENCE": 25,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 48
+      }
+    },
+    "total": 351,
+    "percent": 43.88,
+    "grade": "C2",
+    "rank": 68
+  },
+  "009/675": {
+    "name": "ADITYA SETHI",
+    "father_name": "SUSANTA SETHI",
+    "dob": "17-05-2013",
+    "roll": 3,
+    "section": "A",
+    "attendance": 74,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "C",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "C",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ABS",
+        "ODIA": "ABS",
+        "HINDI": "ABS",
+        "SANSKRIT": 26,
+        "MATHEMATICS": "ABS",
+        "SCIENCE": "ABS",
+        "SOCIAL SCIENCE": "ABS",
+        "ICT": "ABS"
+      },
+      "PT-II": {
+        "ENGLISH": 13,
+        "ODIA": 12,
+        "HINDI": 10,
+        "SANSKRIT": 13,
+        "MATHEMATICS": 10,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 5,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 33,
+        "ODIA": 41,
+        "HINDI": 31,
+        "SANSKRIT": 58,
+        "MATHEMATICS": 39,
+        "SCIENCE": 23,
+        "SOCIAL SCIENCE": 39,
+        "ICT": 39
+      },
+      "PT-III": {
+        "ENGLISH": 8,
+        "ODIA": 21,
+        "HINDI": 9,
+        "SANSKRIT": 12,
+        "MATHEMATICS": 13,
+        "SCIENCE": 9,
+        "SOCIAL SCIENCE": 9,
+        "ICT": 4
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 13,
+        "HINDI": 9,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 17,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 14,
+        "ICT": 10
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 33,
+        "HINDI": 29,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 32,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 27
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 14,
+        "HINDI": 13,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 18
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 47,
+        "HINDI": 42,
+        "SANSKRIT": 45,
+        "MATHEMATICS": 51,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 36,
+        "ICT": 45
+      }
+    },
+    "total": 339,
+    "percent": 42.38,
+    "grade": "C2",
+    "rank": 69
+  },
+  "080/746": {
+    "name": "DEEPAK KUMAR NAIK",
+    "father_name": "PRAFULLA NAIK",
+    "dob": "01-04-2012",
+    "roll": 14,
+    "section": "B",
+    "attendance": 54.92,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 17,
+        "ODIA": 30,
+        "HINDI": 28,
+        "SANSKRIT": 10,
+        "MATHEMATICS": 18,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 28,
+        "ICT": 14
+      },
+      "PT-II": {
+        "ENGLISH": 20,
+        "ODIA": 16,
+        "HINDI": 21,
+        "SANSKRIT": 22,
+        "MATHEMATICS": 11,
+        "SCIENCE": 7,
+        "SOCIAL SCIENCE": 25,
+        "ICT": 14
+      },
+      "HFY": {
+        "ENGLISH": 43,
+        "ODIA": 52,
+        "HINDI": 67,
+        "SANSKRIT": 52,
+        "MATHEMATICS": 38,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 70,
+        "ICT": 45
+      },
+      "PT-III": {
+        "ENGLISH": 13,
+        "ODIA": 27,
+        "HINDI": 10,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 15,
+        "SCIENCE": 5,
+        "SOCIAL SCIENCE": 27,
+        "ICT": 16
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 12,
+        "HINDI": 17,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 13,
+        "SCIENCE": 5,
+        "SOCIAL SCIENCE": 26,
+        "ICT": 18
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 28,
+        "HINDI": 18,
+        "SANSKRIT": 30,
+        "MATHEMATICS": 27,
+        "SCIENCE": 4,
+        "SOCIAL SCIENCE": 58,
+        "ICT": 17
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 14,
+        "HINDI": 13,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 10,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 18,
+        "ICT": 17
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 42,
+        "HINDI": 31,
+        "SANSKRIT": 45,
+        "MATHEMATICS": 37,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 76,
+        "ICT": 34
+      }
+    },
+    "total": 332,
+    "percent": 41.5,
+    "grade": "C2",
+    "rank": 70
+  },
+  "056/722": {
+    "name": "SUMAN SETHI",
+    "father_name": "BHIKARI SETHI",
+    "dob": "22-07-2013",
+    "roll": 34,
+    "section": "A",
+    "attendance": 76,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "C",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 10,
+        "ODIA": 18,
+        "HINDI": 25,
+        "SANSKRIT": 20,
+        "MATHEMATICS": 10,
+        "SCIENCE": 7,
+        "SOCIAL SCIENCE": 22,
+        "ICT": 12
+      },
+      "PT-II": {
+        "ENGLISH": 10,
+        "ODIA": 10,
+        "HINDI": 13,
+        "SANSKRIT": 6,
+        "MATHEMATICS": 10,
+        "SCIENCE": 13,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 15
+      },
+      "HFY": {
+        "ENGLISH": 36,
+        "ODIA": 51,
+        "HINDI": 36,
+        "SANSKRIT": 53,
+        "MATHEMATICS": 33,
+        "SCIENCE": 20,
+        "SOCIAL SCIENCE": 48,
+        "ICT": 28
+      },
+      "PT-III": {
+        "ENGLISH": 12,
+        "ODIA": 21,
+        "HINDI": 15,
+        "SANSKRIT": 6,
+        "MATHEMATICS": 10,
+        "SCIENCE": 6,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 3
+      },
+      "PT-IV": {
+        "ENGLISH": 12,
+        "ODIA": 21,
+        "HINDI": 8,
+        "SANSKRIT": 21,
+        "MATHEMATICS": 7,
+        "SCIENCE": 3,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 10
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 43,
+        "HINDI": 21,
+        "SANSKRIT": 16,
+        "MATHEMATICS": 25,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 33,
+        "ICT": 10
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 13,
+        "HINDI": 14,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 19,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 17
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 56,
+        "HINDI": 35,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 44,
+        "SCIENCE": 36,
+        "SOCIAL SCIENCE": 50,
+        "ICT": 27
+      }
+    },
+    "total": 326,
+    "percent": 40.75,
+    "grade": "D",
+    "rank": 71
+  },
+  "044/710": {
+    "name": "SUBHAM KUMAR NAIK",
+    "father_name": "KAILASH KUMAR NAIK",
+    "dob": "24-06-2013",
+    "roll": 33,
+    "section": "A",
+    "attendance": 55,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 14,
+        "ODIA": 10,
+        "HINDI": 23,
+        "SANSKRIT": 19,
+        "MATHEMATICS": 8,
+        "SCIENCE": 4,
+        "SOCIAL SCIENCE": 9,
+        "ICT": 6
+      },
+      "PT-II": {
+        "ENGLISH": "ABS",
+        "ODIA": 14,
+        "HINDI": 8,
+        "SANSKRIT": 14,
+        "MATHEMATICS": 9,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 10
+      },
+      "HFY": {
+        "ENGLISH": 36,
+        "ODIA": 44,
+        "HINDI": 26,
+        "SANSKRIT": 46,
+        "MATHEMATICS": 30,
+        "SCIENCE": 29,
+        "SOCIAL SCIENCE": 42,
+        "ICT": 37
+      },
+      "PT-III": {
+        "ENGLISH": 10,
+        "ODIA": 18,
+        "HINDI": 12,
+        "SANSKRIT": 5,
+        "MATHEMATICS": 7,
+        "SCIENCE": 4,
+        "SOCIAL SCIENCE": 24,
+        "ICT": 8
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 14,
+        "HINDI": 9,
+        "SANSKRIT": 17,
+        "MATHEMATICS": 14,
+        "SCIENCE": 12,
+        "SOCIAL SCIENCE": 23,
+        "ICT": 14
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 27,
+        "HINDI": 27,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 25,
+        "SCIENCE": 17,
+        "SOCIAL SCIENCE": 37,
+        "ICT": 20
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 13,
+        "HINDI": 13,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 10,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 17,
+        "ICT": 17
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 40,
+        "HINDI": 40,
+        "SANSKRIT": 33,
+        "MATHEMATICS": 35,
+        "SCIENCE": 35,
+        "SOCIAL SCIENCE": 54,
+        "ICT": 37
+      }
+    },
+    "total": 319,
+    "percent": 39.88,
+    "grade": "D",
+    "rank": 72
+  },
+  "076/742": {
+    "name": "B KESABA RANJAN BEHERA",
+    "father_name": "BASANTA KUMAR BEHERA",
+    "dob": "24-07-2013",
+    "roll": 5,
+    "section": "B",
+    "attendance": 81.87,
+    "subjects": [
+      "ENGLISH",
+      "ODIA",
+      "HINDI",
+      "SANSKRIT",
+      "MATHEMATICS",
+      "SCIENCE",
+      "SOCIAL SCIENCE",
+      "ICT"
+    ],
+    "max_total": 800,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "B",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 11,
+        "ODIA": 18,
+        "HINDI": 18,
+        "SANSKRIT": 18,
+        "MATHEMATICS": 4,
+        "SCIENCE": 3,
+        "SOCIAL SCIENCE": 9,
+        "ICT": 3
+      },
+      "PT-II": {
+        "ENGLISH": 7,
+        "ODIA": 10,
+        "HINDI": 8,
+        "SANSKRIT": 2,
+        "MATHEMATICS": 7,
+        "SCIENCE": 11,
+        "SOCIAL SCIENCE": 7,
+        "ICT": 5
+      },
+      "HFY": {
+        "ENGLISH": 33,
+        "ODIA": 42,
+        "HINDI": 20,
+        "SANSKRIT": 26,
+        "MATHEMATICS": 27,
+        "SCIENCE": 22,
+        "SOCIAL SCIENCE": 32,
+        "ICT": 31
+      },
+      "PT-III": {
+        "ENGLISH": 8,
+        "ODIA": 21,
+        "HINDI": 2,
+        "SANSKRIT": 3,
+        "MATHEMATICS": 6,
+        "SCIENCE": 6,
+        "SOCIAL SCIENCE": 15,
+        "ICT": 3
+      },
+      "PT-IV": {
+        "ENGLISH": 11,
+        "ODIA": 17,
+        "HINDI": 9,
+        "SANSKRIT": 8,
+        "MATHEMATICS": 13,
+        "SCIENCE": 5,
+        "SOCIAL SCIENCE": 12,
+        "ICT": 14
+      },
+      "ANNUAL": {
+        "ENGLISH": 27,
+        "ODIA": 36,
+        "HINDI": 8,
+        "SANSKRIT": 8,
+        "MATHEMATICS": 15,
+        "SCIENCE": 10,
+        "SOCIAL SCIENCE": 15,
+        "ICT": 17
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "ODIA": 13,
+        "HINDI": 13,
+        "SANSKRIT": 15,
+        "MATHEMATICS": 10,
+        "SCIENCE": 18,
+        "SOCIAL SCIENCE": 19,
+        "ICT": 16
+      },
+      "TOTAL": {
+        "ENGLISH": 45,
+        "ODIA": 49,
+        "HINDI": 21,
+        "SANSKRIT": 23,
+        "MATHEMATICS": 25,
+        "SCIENCE": 28,
+        "SOCIAL SCIENCE": 34,
+        "ICT": 33
+      }
+    },
+    "total": 258,
+    "percent": 32.25,
+    "grade": "E",
+    "rank": 73
   }
 }

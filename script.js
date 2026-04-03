@@ -41,15 +41,16 @@ function mc(val, cssClass) {
 }
 
 // Sum numeric marks for an exam across all subjects (skip ABS/null)
-function examTotal(exams, key) {
+function examTotal(exams, key, subjects) {
   const e = exams[key];
   if (!e) return null;
+  const subs = subjects || SUBJECTS;
   let sum = 0, count = 0;
-  for (const sub of SUBJECTS) {
+  for (const sub of subs) {
     const v = e[sub];
     if (typeof v === "number") { sum += v; count++; }
   }
-  return count === SUBJECTS.length ? sum : (count > 0 ? sum : null);
+  return count === subs.length ? sum : (count > 0 ? sum : null);
 }
 
 async function loadClassData() {
@@ -92,19 +93,22 @@ document.getElementById("search").addEventListener("input", function () {
 function loadReport(adm) {
   const s      = data[adm];
   const cls    = getClassName();
-  const exams  = s.exams || {};
-  const annual = exams.ANNUAL || {};
-  const totals = exams.TOTAL  || {};
+  const exams    = s.exams || {};
+  const annual   = exams.ANNUAL || {};
+  const totals   = exams.TOTAL  || {};
+  const subjects = s.subjects || SUBJECTS;
+  const n        = subjects.length;
+  const maxTotal = s.max_total || 800;
 
-  // PASS: all annual exam marks >= 33 out of 80
-  const passed = SUBJECTS.every(sub => {
-    const m = annual[sub];
+  // PASS: all annual exam marks >= 33 out of 100 (ANNUAL+IA combined)
+  const passed = subjects.every(sub => {
+    const m = totals[sub];
     return typeof m === "number" && m >= 33;
   });
 
   // ── Subject rows ────────────────────────────────────────────────────
   let subjectRows = "";
-  for (const sub of SUBJECTS) {
+  for (const sub of subjects) {
     const pt1 = exams["PT-I"]?.[sub]   ?? null;
     const pt2 = exams["PT-II"]?.[sub]  ?? null;
     const hfy = exams["HFY"]?.[sub]    ?? null;
@@ -135,11 +139,13 @@ function loadReport(adm) {
   }
 
   // ── Per-exam totals for Total Marks row ─────────────────────────────
-  const tPT1 = examTotal(exams, "PT-I");
-  const tPT2 = examTotal(exams, "PT-II");
-  const tHFY = examTotal(exams, "HFY");
-  const tPT3 = examTotal(exams, "PT-III");
-  const tPT4 = examTotal(exams, "PT-IV");
+  const tPT1 = examTotal(exams, "PT-I",   subjects);
+  const tPT2 = examTotal(exams, "PT-II",  subjects);
+  const tHFY = examTotal(exams, "HFY",    subjects);
+  const tPT3 = examTotal(exams, "PT-III", subjects);
+  const tPT4 = examTotal(exams, "PT-IV",  subjects);
+  const mPT = n * 40;
+  const mHFY = n * 100;
 
   const fmtT = v => v !== null ? v : "-";
   const fmtP = (v, max) => v !== null ? (v / max * 100).toFixed(2) + "%" : "-";
@@ -257,17 +263,17 @@ function loadReport(adm) {
               <td>${fmtT(tHFY)}</td>
               <td>${fmtT(tPT3)}</td>
               <td>${fmtT(tPT4)}</td>
-              <td>${s.total} / 800</td>
+              <td>${s.total} / ${maxTotal}</td>
               <td>${s.percent}</td>
               <td class="grade-cell" style="background:${overallGrade.color}">${s.grade}</td>
             </tr>
             <tr class="pct-row">
               <td class="sub-name">Percentage</td>
-              <td>${fmtP(tPT1, 320)}</td>
-              <td>${fmtP(tPT2, 320)}</td>
-              <td>${fmtP(tHFY, 800)}</td>
-              <td>${fmtP(tPT3, 320)}</td>
-              <td>${fmtP(tPT4, 320)}</td>
+              <td>${fmtP(tPT1, mPT)}</td>
+              <td>${fmtP(tPT2, mPT)}</td>
+              <td>${fmtP(tHFY, mHFY)}</td>
+              <td>${fmtP(tPT3, mPT)}</td>
+              <td>${fmtP(tPT4, mPT)}</td>
               <td>${s.percent}%</td>
               <td class="overall-grade-cell" colspan="2">OVERALL GRADE : ${s.grade} &nbsp;|&nbsp; Rank : ${s.rank}</td>
             </tr>
@@ -339,13 +345,17 @@ function renderChart(s) {
   if (chartInstance) { chartInstance.destroy(); }
 
   const exams  = s.exams || {};
+  const n      = (s.subjects || SUBJECTS).length;
+  const mPT    = n * 40;
+  const mHFY   = n * 100;
+  const subs   = s.subjects || SUBJECTS;
   const labels = ["PT-I", "PT-II", "HFY", "PT-III", "PT-IV", "ANNUAL"];
-  const maxes  = [320, 320, 800, 320, 320, 800];
+  const maxes  = [mPT, mPT, mHFY, mPT, mPT, mHFY];
   const keys   = ["PT-I", "PT-II", "HFY", "PT-III", "PT-IV", null]; // null → use s.percent
 
   const values = keys.map((key, i) => {
     if (key === null) return s.percent;
-    const t = examTotal(exams, key);
+    const t = examTotal(exams, key, subs);
     return t !== null ? Math.round(t / maxes[i] * 100 * 100) / 100 : 0;
   });
 
