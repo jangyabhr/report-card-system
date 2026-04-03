@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Performance Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="dash-nav">
+  <a href="index.html">&#8592; Report Cards</a>
+  <select id="classSelect">
+    <option value="class6">Class 6</option>
+    <option value="class7">Class 7</option>
+    <option value="class8">Class 8</option>
+    <option value="class9">Class 9</option>
+    <option value="class10">Class 10</option>
+    <option value="class11">Class 11</option>
+    <option value="class12">Class 12</option>
+  </select>
+  <div class="dash-title">ODISHA ADARSHA VIDYALAYA, JAMAGORADA &mdash; SCHOOL PERFORMANCE DASHBOARD &mdash; ANNUAL EXAMINATION 2025-26</div>
+</div>
+
+<div id="loading-msg" style="text-align:center;padding:30px;color:#555;font-size:14px;">Loading data&hellip;</div>
+<div id="error-msg" style="display:none;text-align:center;padding:30px;color:#b71c1c;font-size:14px;"></div>
+
+<div id="dashboard-wrapper" style="display:none;">
+
+  <!-- SECTION 1 -->
+  <div class="dash-section">
+    <div class="dash-section-title">SECTION 1: CLASS PERFORMANCE OVERVIEW</div>
+    <div class="dash-inner">
+      <div id="kpi-row" class="kpi-row"></div>
+
+      <div class="overview-grid">
+        <!-- Grade Distribution -->
+        <div>
+          <div class="dash-sub-title">GRADE DISTRIBUTION</div>
+          <table class="dash-table">
+            <thead><tr><th>Grade Band</th><th>Count</th><th>% of Class</th></tr></thead>
+            <tbody id="grade-dist-tbody"></tbody>
+          </table>
+        </div>
+
+        <!-- Top 5 -->
+        <div>
+          <div class="dash-sub-title">TOP 5 RANK HOLDERS</div>
+          <table class="dash-table">
+            <thead><tr><th>Rank</th><th>Name</th><th>Section</th><th>Percentage</th></tr></thead>
+            <tbody id="top5-tbody"></tbody>
+          </table>
+        </div>
+
+        <!-- Bottom 5 -->
+        <div>
+          <div class="dash-sub-title">BOTTOM 5 STUDENTS (AT RISK)</div>
+          <table class="dash-table">
+            <thead><tr><th>Rank</th><th>Name</th><th>Section</th><th>Percentage</th></tr></thead>
+            <tbody id="bottom5-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="chart-container" style="height:320px;">
+        <canvas id="gradeChart"></canvas>
+      </div>
+
+      <div style="margin-top:22px;">
+        <div class="dash-sub-title">FAILED STUDENTS &mdash; SUBJECT-WISE DETAIL</div>
+        <div id="failed-students-wrap"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="dash-section">
+    <div class="dash-section-title">SECTION 2: SUBJECT-WISE ANALYSIS</div>
+    <div class="dash-inner">
+      <div class="two-col-grid">
+        <!-- Subject Performance -->
+        <div>
+          <div class="dash-sub-title">SUBJECT PERFORMANCE</div>
+          <table class="dash-table">
+            <thead><tr><th>Subject</th><th>Average</th><th>Highest</th><th>Lowest</th><th>Pass</th><th>Fail (&lt;33)</th><th>Pass %</th></tr></thead>
+            <tbody id="subject-tbody"></tbody>
+          </table>
+        </div>
+
+        <!-- Section-wise Comparison -->
+        <div>
+          <div class="dash-sub-title">SECTION-WISE AVERAGE COMPARISON</div>
+          <table class="dash-table">
+            <thead><tr><th>Subject</th><th>Section A Avg</th><th>Section B Avg</th><th>Difference</th></tr></thead>
+            <tbody id="section-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="chart-container" style="height:320px;margin-top:20px;">
+        <canvas id="subjectChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="dash-section">
+    <div class="dash-section-title">SECTION 3: CROSS-CLASS SUBJECT PERFORMANCE TREND</div>
+    <div class="dash-inner">
+      <div style="margin-bottom:12px;">
+        <label for="subjectSelect" style="font-size:12px;font-weight:bold;color:#1a237e;margin-right:8px;">SELECT SUBJECT:</label>
+        <select id="subjectSelect" style="padding:5px 10px;font-size:13px;border:1px solid #bbb;border-radius:4px;"><option>Loading&hellip;</option></select>
+      </div>
+      <div id="cross-class-loading" style="text-align:center;color:#888;font-size:13px;padding:10px 0;">Loading all class data&hellip;</div>
+      <div class="chart-container" style="height:340px;">
+        <canvas id="crossClassChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

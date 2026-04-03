@@ -1,0 +1,1976 @@
+{
+  "ADM/001": {
+    "name": "STUDENT NAME",
+    "father_name": "FATHER NAME",
+    "dob": "01-01-2012",
+    "roll": 1,
+    "section": "A",
+    "attendance": 95,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 40,
+        "MATHS": 40,
+        "PHYSICS": 40,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 40,
+        "ICT": 40
+      },
+      "PT-II": {
+        "ENGLISH": 40,
+        "MATHS": 40,
+        "PHYSICS": 40,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 40,
+        "ICT": 40
+      },
+      "HFY": {
+        "ENGLISH": 100,
+        "MATHS": 100,
+        "PHYSICS": 100,
+        "CHEMISTRY": 100,
+        "BIOLOGY": 100,
+        "ICT": 100
+      },
+      "PT-III": {
+        "ENGLISH": 40,
+        "MATHS": 40,
+        "PHYSICS": 40,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 40,
+        "ICT": 40
+      },
+      "PT-IV": {
+        "ENGLISH": 40,
+        "MATHS": 40,
+        "PHYSICS": 40,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 40,
+        "ICT": 40
+      },
+      "ANNUAL": {
+        "ENGLISH": 80,
+        "MATHS": 80,
+        "PHYSICS": 80,
+        "CHEMISTRY": 80,
+        "BIOLOGY": 80,
+        "ICT": 80
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 20,
+        "PHYSICS": 20,
+        "CHEMISTRY": 20,
+        "BIOLOGY": 20,
+        "ICT": 20
+      },
+      "TOTAL": {
+        "ENGLISH": 100,
+        "MATHS": 100,
+        "PHYSICS": 100,
+        "CHEMISTRY": 100,
+        "BIOLOGY": 100,
+        "ICT": 100
+      }
+    },
+    "total": 600,
+    "percent": 100.0,
+    "grade": "A1",
+    "rank": 1
+  },
+  "237/73": {
+    "name": "SULAGNA JENA",
+    "father_name": "BANABAS JENA",
+    "dob": "18-03-2008",
+    "roll": 17,
+    "section": "A",
+    "attendance": 63.52,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 36,
+        "MATHS": 34,
+        "PHYSICS": 40,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 21,
+        "ICT": 39
+      },
+      "PT-II": {
+        "ENGLISH": 32,
+        "MATHS": 28,
+        "PHYSICS": 26,
+        "CHEMISTRY": 26,
+        "BIOLOGY": 25,
+        "ICT": 39
+      },
+      "HFY": {
+        "ENGLISH": 90,
+        "MATHS": 83,
+        "PHYSICS": 93,
+        "CHEMISTRY": 97,
+        "BIOLOGY": 57,
+        "ICT": 99
+      },
+      "PT-III": {
+        "ENGLISH": 32,
+        "MATHS": 28,
+        "PHYSICS": 26,
+        "CHEMISTRY": 26,
+        "BIOLOGY": 25,
+        "ICT": 39
+      },
+      "PT-IV": {
+        "ENGLISH": 35,
+        "MATHS": 32,
+        "PHYSICS": 33,
+        "CHEMISTRY": 23,
+        "BIOLOGY": 23,
+        "ICT": 39
+      },
+      "ANNUAL": {
+        "ENGLISH": 64,
+        "MATHS": 58,
+        "PHYSICS": 47,
+        "CHEMISTRY": 50,
+        "BIOLOGY": 42,
+        "ICT": 57
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 20,
+        "PHYSICS": 29,
+        "CHEMISTRY": 30,
+        "BIOLOGY": 26,
+        "ICT": 40
+      },
+      "TOTAL": {
+        "ENGLISH": 84,
+        "MATHS": 78,
+        "PHYSICS": 76,
+        "CHEMISTRY": 80,
+        "BIOLOGY": 68,
+        "ICT": 97
+      }
+    },
+    "total": 483,
+    "percent": 80.5,
+    "grade": "B1",
+    "rank": 2
+  },
+  "228/64": {
+    "name": "SIBASISH BEHERA",
+    "father_name": "PRASAN KUMAR BEHERA",
+    "dob": "09-01-2009",
+    "roll": 10,
+    "section": "A",
+    "attendance": 71.69,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 35,
+        "MATHS": 38,
+        "PHYSICS": 40,
+        "CHEMISTRY": 36,
+        "BIOLOGY": 33,
+        "ICT": 37
+      },
+      "PT-II": {
+        "ENGLISH": 31,
+        "MATHS": 33,
+        "PHYSICS": 22,
+        "CHEMISTRY": 23,
+        "BIOLOGY": 31,
+        "ICT": 34
+      },
+      "HFY": {
+        "ENGLISH": 83,
+        "MATHS": 84,
+        "PHYSICS": 88,
+        "CHEMISTRY": 84,
+        "BIOLOGY": 84,
+        "ICT": 85
+      },
+      "PT-III": {
+        "ENGLISH": 31,
+        "MATHS": 33,
+        "PHYSICS": 22,
+        "CHEMISTRY": 23,
+        "BIOLOGY": 31,
+        "ICT": 34
+      },
+      "PT-IV": {
+        "ENGLISH": 35,
+        "MATHS": 31,
+        "PHYSICS": 30,
+        "CHEMISTRY": 27,
+        "BIOLOGY": 27,
+        "ICT": 37
+      },
+      "ANNUAL": {
+        "ENGLISH": 53,
+        "MATHS": 44,
+        "PHYSICS": 51,
+        "CHEMISTRY": 53,
+        "BIOLOGY": 54,
+        "ICT": 41
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 19,
+        "PHYSICS": 30,
+        "CHEMISTRY": 30,
+        "BIOLOGY": 29,
+        "ICT": 38
+      },
+      "TOTAL": {
+        "ENGLISH": 73,
+        "MATHS": 63,
+        "PHYSICS": 81,
+        "CHEMISTRY": 83,
+        "BIOLOGY": 83,
+        "ICT": 79
+      }
+    },
+    "total": 462,
+    "percent": 77.0,
+    "grade": "B1",
+    "rank": 3
+  },
+  "229/65": {
+    "name": "LAXMIPRIYA SAHU",
+    "father_name": "PRADIP SAHU",
+    "dob": "01-01-2008",
+    "roll": 5,
+    "section": "A",
+    "attendance": 71.69,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 33,
+        "MATHS": 37,
+        "PHYSICS": 40,
+        "CHEMISTRY": 36,
+        "BIOLOGY": 7,
+        "ICT": 35
+      },
+      "PT-II": {
+        "ENGLISH": 28,
+        "MATHS": 22,
+        "PHYSICS": 22,
+        "CHEMISTRY": 20,
+        "BIOLOGY": 16,
+        "ICT": 34
+      },
+      "HFY": {
+        "ENGLISH": 79,
+        "MATHS": 77,
+        "PHYSICS": 76,
+        "CHEMISTRY": 87,
+        "BIOLOGY": 60,
+        "ICT": 79
+      },
+      "PT-III": {
+        "ENGLISH": 28,
+        "MATHS": 22,
+        "PHYSICS": 22,
+        "CHEMISTRY": 20,
+        "BIOLOGY": 16,
+        "ICT": 34
+      },
+      "PT-IV": {
+        "ENGLISH": 33,
+        "MATHS": 36,
+        "PHYSICS": 30,
+        "CHEMISTRY": 15,
+        "BIOLOGY": 22,
+        "ICT": 24
+      },
+      "ANNUAL": {
+        "ENGLISH": 56,
+        "MATHS": 45,
+        "PHYSICS": 52,
+        "CHEMISTRY": 51,
+        "BIOLOGY": 42,
+        "ICT": 39
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 19,
+        "PHYSICS": 29,
+        "CHEMISTRY": 30,
+        "BIOLOGY": 26,
+        "ICT": 37
+      },
+      "TOTAL": {
+        "ENGLISH": 76,
+        "MATHS": 64,
+        "PHYSICS": 81,
+        "CHEMISTRY": 81,
+        "BIOLOGY": 68,
+        "ICT": 76
+      }
+    },
+    "total": 446,
+    "percent": 74.33,
+    "grade": "B1",
+    "rank": 4
+  },
+  "087/750": {
+    "name": "S SONALI REDDY",
+    "father_name": "S RAGHUNATH REDDY",
+    "dob": "27-06-2008",
+    "roll": 15,
+    "section": "A",
+    "attendance": 69.18,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 28,
+        "MATHS": 38,
+        "PHYSICS": 31,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 10,
+        "ICT": 32
+      },
+      "PT-II": {
+        "ENGLISH": 21,
+        "MATHS": 21,
+        "PHYSICS": 17,
+        "CHEMISTRY": 18,
+        "BIOLOGY": 19,
+        "ICT": 30
+      },
+      "HFY": {
+        "ENGLISH": 73,
+        "MATHS": 61,
+        "PHYSICS": 67,
+        "CHEMISTRY": 82,
+        "BIOLOGY": 47,
+        "ICT": 93
+      },
+      "PT-III": {
+        "ENGLISH": 21,
+        "MATHS": 21,
+        "PHYSICS": 17,
+        "CHEMISTRY": 18,
+        "BIOLOGY": 19,
+        "ICT": 30
+      },
+      "PT-IV": {
+        "ENGLISH": 28,
+        "MATHS": 36,
+        "PHYSICS": 33,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 17,
+        "ICT": 25
+      },
+      "ANNUAL": {
+        "ENGLISH": 56,
+        "MATHS": 49,
+        "PHYSICS": 49,
+        "CHEMISTRY": 48,
+        "BIOLOGY": 34,
+        "ICT": 40
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "MATHS": 19,
+        "PHYSICS": 26,
+        "CHEMISTRY": 29,
+        "BIOLOGY": 24,
+        "ICT": 38
+      },
+      "TOTAL": {
+        "ENGLISH": 75,
+        "MATHS": 68,
+        "PHYSICS": 75,
+        "CHEMISTRY": 77,
+        "BIOLOGY": 58,
+        "ICT": 78
+      }
+    },
+    "total": 431,
+    "percent": 71.83,
+    "grade": "B1",
+    "rank": 5
+  },
+  "223/59": {
+    "name": "BISWANATH KHADANGA",
+    "father_name": "BULU KHADANGA",
+    "dob": "01-11-2007",
+    "roll": 2,
+    "section": "A",
+    "attendance": 0,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ABS",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "PT-II": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "HFY": {
+        "ENGLISH": 77,
+        "MATHS": 93,
+        "PHYSICS": 88,
+        "CHEMISTRY": 86,
+        "BIOLOGY": 97,
+        "ICT": 0
+      },
+      "PT-III": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "PT-IV": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": 39,
+        "ICT": "ICONIC"
+      },
+      "ANNUAL": {
+        "ENGLISH": 70,
+        "MATHS": 69,
+        "PHYSICS": 49,
+        "CHEMISTRY": 49,
+        "BIOLOGY": 66,
+        "ICT": "NA"
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 20,
+        "PHYSICS": 26,
+        "CHEMISTRY": 30,
+        "BIOLOGY": 30,
+        "ICT": "NA"
+      },
+      "TOTAL": {
+        "ENGLISH": 90,
+        "MATHS": 89,
+        "PHYSICS": 75,
+        "CHEMISTRY": 79,
+        "BIOLOGY": 96,
+        "ICT": null
+      }
+    },
+    "total": 429,
+    "percent": 71.5,
+    "grade": "B1",
+    "rank": 6
+  },
+  "034/475": {
+    "name": "SWETASUDHA SAHU",
+    "father_name": "SUDARSHAN SAHU",
+    "dob": "22-01-2009",
+    "roll": 18,
+    "section": "A",
+    "attendance": 0,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ABS",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "PT-II": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "HFY": {
+        "ENGLISH": 65,
+        "MATHS": 93,
+        "PHYSICS": 84,
+        "CHEMISTRY": 86,
+        "BIOLOGY": 94,
+        "ICT": 0
+      },
+      "PT-III": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "PT-IV": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": 38,
+        "ICT": "ICONIC"
+      },
+      "ANNUAL": {
+        "ENGLISH": 68,
+        "MATHS": 62,
+        "PHYSICS": 46,
+        "CHEMISTRY": 54,
+        "BIOLOGY": 62,
+        "ICT": "NA"
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "MATHS": 20,
+        "PHYSICS": 26,
+        "CHEMISTRY": 30,
+        "BIOLOGY": 30,
+        "ICT": "NA"
+      },
+      "TOTAL": {
+        "ENGLISH": 87,
+        "MATHS": 82,
+        "PHYSICS": 72,
+        "CHEMISTRY": 84,
+        "BIOLOGY": 92,
+        "ICT": null
+      }
+    },
+    "total": 417,
+    "percent": 69.5,
+    "grade": "B2",
+    "rank": 7
+  },
+  "254/90": {
+    "name": "KEDAR GOUDA",
+    "father_name": "BABULA GOUDA",
+    "dob": "25-11-2008",
+    "roll": 4,
+    "section": "A",
+    "attendance": 69.18,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 33,
+        "MATHS": 36,
+        "PHYSICS": 35,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 27,
+        "ICT": 36
+      },
+      "PT-II": {
+        "ENGLISH": 22,
+        "MATHS": 18,
+        "PHYSICS": 18,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 17,
+        "ICT": 25
+      },
+      "HFY": {
+        "ENGLISH": 79,
+        "MATHS": 52,
+        "PHYSICS": 50,
+        "CHEMISTRY": 87,
+        "BIOLOGY": 88,
+        "ICT": 92
+      },
+      "PT-III": {
+        "ENGLISH": 22,
+        "MATHS": 18,
+        "PHYSICS": 18,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 17,
+        "ICT": 25
+      },
+      "PT-IV": {
+        "ENGLISH": 34,
+        "MATHS": 17,
+        "PHYSICS": 19,
+        "CHEMISTRY": 12,
+        "BIOLOGY": 26,
+        "ICT": 30
+      },
+      "ANNUAL": {
+        "ENGLISH": 47,
+        "MATHS": 37,
+        "PHYSICS": 47,
+        "CHEMISTRY": 37,
+        "BIOLOGY": 45,
+        "ICT": 35
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 17,
+        "PHYSICS": 26,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 27,
+        "ICT": 37
+      },
+      "TOTAL": {
+        "ENGLISH": 67,
+        "MATHS": 54,
+        "PHYSICS": 73,
+        "CHEMISTRY": 65,
+        "BIOLOGY": 72,
+        "ICT": 72
+      }
+    },
+    "total": 403,
+    "percent": 67.17,
+    "grade": "B2",
+    "rank": 8
+  },
+  "182/18": {
+    "name": "SMRUTIRANI GOUDA",
+    "father_name": "BASANTA GOUDA",
+    "dob": "16-08-2008",
+    "roll": 11,
+    "section": "A",
+    "attendance": 0,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ABS",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ABS",
+        "CHEMISTRY": "ABS",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "PT-II": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "HFY": {
+        "ENGLISH": 52,
+        "MATHS": 0,
+        "PHYSICS": 68,
+        "CHEMISTRY": 59,
+        "BIOLOGY": 95,
+        "ICT": 91
+      },
+      "PT-III": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": "ICONIC",
+        "ICT": "ICONIC"
+      },
+      "PT-IV": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ICONIC",
+        "PHYSICS": "ICONIC",
+        "CHEMISTRY": "ICONIC",
+        "BIOLOGY": 18,
+        "ICT": "ICONIC"
+      },
+      "ANNUAL": {
+        "ENGLISH": 55,
+        "MATHS": "NA",
+        "PHYSICS": 45,
+        "CHEMISTRY": 46,
+        "BIOLOGY": 50,
+        "ICT": 41
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": "NA",
+        "PHYSICS": 26,
+        "CHEMISTRY": 30,
+        "BIOLOGY": 28,
+        "ICT": 38
+      },
+      "TOTAL": {
+        "ENGLISH": 73,
+        "MATHS": null,
+        "PHYSICS": 71,
+        "CHEMISTRY": 76,
+        "BIOLOGY": 78,
+        "ICT": 79
+      }
+    },
+    "total": 377,
+    "percent": 62.83,
+    "grade": "B2",
+    "rank": 9
+  },
+  "218/54": {
+    "name": "SIMREN SETHI",
+    "father_name": "KUNA SETHI",
+    "dob": "10-02-2009",
+    "roll": 19,
+    "section": "A",
+    "attendance": 54.71,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 27,
+        "MATHS": 34,
+        "PHYSICS": 39,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 23,
+        "ICT": 35
+      },
+      "PT-II": {
+        "ENGLISH": 24,
+        "MATHS": 15,
+        "PHYSICS": 15,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 17,
+        "ICT": 33
+      },
+      "HFY": {
+        "ENGLISH": 67,
+        "MATHS": 47,
+        "PHYSICS": 46,
+        "CHEMISTRY": 57,
+        "BIOLOGY": 44,
+        "ICT": 85
+      },
+      "PT-III": {
+        "ENGLISH": 24,
+        "MATHS": 15,
+        "PHYSICS": 15,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 17,
+        "ICT": 33
+      },
+      "PT-IV": {
+        "ENGLISH": 35,
+        "MATHS": 20,
+        "PHYSICS": 24,
+        "CHEMISTRY": 12,
+        "BIOLOGY": 15,
+        "ICT": 32
+      },
+      "ANNUAL": {
+        "ENGLISH": 70,
+        "MATHS": 27,
+        "PHYSICS": 27,
+        "CHEMISTRY": 31,
+        "BIOLOGY": 33,
+        "ICT": 33
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 17,
+        "PHYSICS": 27,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 24,
+        "ICT": 36
+      },
+      "TOTAL": {
+        "ENGLISH": 90,
+        "MATHS": 44,
+        "PHYSICS": 54,
+        "CHEMISTRY": 59,
+        "BIOLOGY": 57,
+        "ICT": 69
+      }
+    },
+    "total": 373,
+    "percent": 62.17,
+    "grade": "B2",
+    "rank": 10
+  },
+  "086/752": {
+    "name": "PRITI RANI PATI",
+    "father_name": "DEVIPRASAD PATI",
+    "dob": "26-10-2008",
+    "roll": 7,
+    "section": "A",
+    "attendance": 66.03,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 31,
+        "MATHS": 25,
+        "PHYSICS": 25,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 17,
+        "ICT": 32
+      },
+      "PT-II": {
+        "ENGLISH": 18,
+        "MATHS": 13,
+        "PHYSICS": 12,
+        "CHEMISTRY": 14,
+        "BIOLOGY": 18,
+        "ICT": 22
+      },
+      "HFY": {
+        "ENGLISH": 73,
+        "MATHS": 42,
+        "PHYSICS": 48,
+        "CHEMISTRY": 52,
+        "BIOLOGY": 50,
+        "ICT": 77
+      },
+      "PT-III": {
+        "ENGLISH": 18,
+        "MATHS": 13,
+        "PHYSICS": 12,
+        "CHEMISTRY": 14,
+        "BIOLOGY": 18,
+        "ICT": 22
+      },
+      "PT-IV": {
+        "ENGLISH": 20,
+        "MATHS": 13,
+        "PHYSICS": 13,
+        "CHEMISTRY": 19,
+        "BIOLOGY": 20,
+        "ICT": 23
+      },
+      "ANNUAL": {
+        "ENGLISH": 59,
+        "MATHS": 25,
+        "PHYSICS": 39,
+        "CHEMISTRY": 31,
+        "BIOLOGY": 39,
+        "ICT": 27
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": 15,
+        "PHYSICS": 29,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 25,
+        "ICT": 35
+      },
+      "TOTAL": {
+        "ENGLISH": 77,
+        "MATHS": 40,
+        "PHYSICS": 68,
+        "CHEMISTRY": 59,
+        "BIOLOGY": 64,
+        "ICT": 62
+      }
+    },
+    "total": 370,
+    "percent": 61.67,
+    "grade": "B2",
+    "rank": 11
+  },
+  "083/749": {
+    "name": "RAHUL SAHU",
+    "father_name": "BHAGABAN SAHU",
+    "dob": "01-09-2009",
+    "roll": 8,
+    "section": "A",
+    "attendance": 64.77,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 29,
+        "MATHS": 29,
+        "PHYSICS": 36,
+        "CHEMISTRY": 40,
+        "BIOLOGY": 18,
+        "ICT": 38
+      },
+      "PT-II": {
+        "ENGLISH": 17,
+        "MATHS": 11,
+        "PHYSICS": 11,
+        "CHEMISTRY": 14,
+        "BIOLOGY": 17,
+        "ICT": 21
+      },
+      "HFY": {
+        "ENGLISH": 81,
+        "MATHS": 48,
+        "PHYSICS": 36,
+        "CHEMISTRY": 76,
+        "BIOLOGY": 57,
+        "ICT": 65
+      },
+      "PT-III": {
+        "ENGLISH": 17,
+        "MATHS": 11,
+        "PHYSICS": 11,
+        "CHEMISTRY": 14,
+        "BIOLOGY": 17,
+        "ICT": 21
+      },
+      "PT-IV": {
+        "ENGLISH": 28,
+        "MATHS": 12,
+        "PHYSICS": 10,
+        "CHEMISTRY": 12,
+        "BIOLOGY": 35,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 47,
+        "MATHS": 23,
+        "PHYSICS": 36,
+        "CHEMISTRY": 43,
+        "BIOLOGY": 33,
+        "ICT": 24
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "MATHS": 15,
+        "PHYSICS": 26,
+        "CHEMISTRY": 29,
+        "BIOLOGY": 24,
+        "ICT": 34
+      },
+      "TOTAL": {
+        "ENGLISH": 66,
+        "MATHS": 38,
+        "PHYSICS": 62,
+        "CHEMISTRY": 72,
+        "BIOLOGY": 57,
+        "ICT": 58
+      }
+    },
+    "total": 353,
+    "percent": 58.83,
+    "grade": "C1",
+    "rank": 12
+  },
+  "082/748": {
+    "name": "SUBHRANSU NAYAK",
+    "father_name": "BALARAM NAYAK",
+    "dob": "15-01-2009",
+    "roll": 16,
+    "section": "A",
+    "attendance": 81.13,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 32,
+        "MATHS": 28,
+        "PHYSICS": 26,
+        "CHEMISTRY": 24,
+        "BIOLOGY": 11,
+        "ICT": 27
+      },
+      "PT-II": {
+        "ENGLISH": 23,
+        "MATHS": 6,
+        "PHYSICS": 21,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 15,
+        "ICT": 28
+      },
+      "HFY": {
+        "ENGLISH": 76,
+        "MATHS": 34,
+        "PHYSICS": 47,
+        "CHEMISTRY": 69,
+        "BIOLOGY": 49,
+        "ICT": 77
+      },
+      "PT-III": {
+        "ENGLISH": 23,
+        "MATHS": 6,
+        "PHYSICS": 21,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 15,
+        "ICT": 28
+      },
+      "PT-IV": {
+        "ENGLISH": 31,
+        "MATHS": 27,
+        "PHYSICS": 24,
+        "CHEMISTRY": "ABS",
+        "BIOLOGY": 9,
+        "ICT": 30
+      },
+      "ANNUAL": {
+        "ENGLISH": 44,
+        "MATHS": 17,
+        "PHYSICS": 45,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 25,
+        "ICT": 35
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": 15,
+        "PHYSICS": 29,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 23,
+        "ICT": 37
+      },
+      "TOTAL": {
+        "ENGLISH": 62,
+        "MATHS": 32,
+        "PHYSICS": 74,
+        "CHEMISTRY": 56,
+        "BIOLOGY": 48,
+        "ICT": 72
+      }
+    },
+    "total": 344,
+    "percent": 57.33,
+    "grade": "C1",
+    "rank": 13
+  },
+  "181/17": {
+    "name": "SONALI PRADHAN",
+    "father_name": "MANARANJAN PRADHAN",
+    "dob": "27-02-2009",
+    "roll": 13,
+    "section": "A",
+    "attendance": 80.5,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 29,
+        "MATHS": 18,
+        "PHYSICS": 32,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 11,
+        "ICT": 23
+      },
+      "PT-II": {
+        "ENGLISH": 20,
+        "MATHS": 5,
+        "PHYSICS": 14,
+        "CHEMISTRY": 14,
+        "BIOLOGY": 15,
+        "ICT": 26
+      },
+      "HFY": {
+        "ENGLISH": 63,
+        "MATHS": 38,
+        "PHYSICS": 48,
+        "CHEMISTRY": 66,
+        "BIOLOGY": 64,
+        "ICT": 66
+      },
+      "PT-III": {
+        "ENGLISH": 20,
+        "MATHS": 5,
+        "PHYSICS": 14,
+        "CHEMISTRY": 14,
+        "BIOLOGY": 15,
+        "ICT": 26
+      },
+      "PT-IV": {
+        "ENGLISH": 25,
+        "MATHS": 12,
+        "PHYSICS": 29,
+        "CHEMISTRY": 18,
+        "BIOLOGY": 12,
+        "ICT": 26
+      },
+      "ANNUAL": {
+        "ENGLISH": 38,
+        "MATHS": 17,
+        "PHYSICS": 45,
+        "CHEMISTRY": 26,
+        "BIOLOGY": 38,
+        "ICT": 27
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "MATHS": 15,
+        "PHYSICS": 29,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 25,
+        "ICT": 35
+      },
+      "TOTAL": {
+        "ENGLISH": 57,
+        "MATHS": 32,
+        "PHYSICS": 74,
+        "CHEMISTRY": 54,
+        "BIOLOGY": 63,
+        "ICT": 62
+      }
+    },
+    "total": 342,
+    "percent": 57.0,
+    "grade": "C1",
+    "rank": 14
+  },
+  "018/459": {
+    "name": "DEEPA BISWAL",
+    "father_name": "SANTOSH BISWAL",
+    "dob": "28-10-2008",
+    "roll": 3,
+    "section": "A",
+    "attendance": 61,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 28,
+        "MATHS": 22,
+        "PHYSICS": 32,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 9,
+        "ICT": 26
+      },
+      "PT-II": {
+        "ENGLISH": 26,
+        "MATHS": 14,
+        "PHYSICS": 18,
+        "CHEMISTRY": 13,
+        "BIOLOGY": 16,
+        "ICT": 10
+      },
+      "HFY": {
+        "ENGLISH": 75,
+        "MATHS": 36,
+        "PHYSICS": 61,
+        "CHEMISTRY": 60,
+        "BIOLOGY": 47,
+        "ICT": 63
+      },
+      "PT-III": {
+        "ENGLISH": 26,
+        "MATHS": 14,
+        "PHYSICS": 18,
+        "CHEMISTRY": 13,
+        "BIOLOGY": 16,
+        "ICT": 10
+      },
+      "PT-IV": {
+        "ENGLISH": 33,
+        "MATHS": 24,
+        "PHYSICS": 19,
+        "CHEMISTRY": 12,
+        "BIOLOGY": 24,
+        "ICT": 18
+      },
+      "ANNUAL": {
+        "ENGLISH": 53,
+        "MATHS": 26,
+        "PHYSICS": 32,
+        "CHEMISTRY": 27,
+        "BIOLOGY": 33,
+        "ICT": 21
+      },
+      "IA": {
+        "ENGLISH": 20,
+        "MATHS": 10,
+        "PHYSICS": 26,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 24,
+        "ICT": 35
+      },
+      "TOTAL": {
+        "ENGLISH": 73,
+        "MATHS": 36,
+        "PHYSICS": 58,
+        "CHEMISTRY": 55,
+        "BIOLOGY": 57,
+        "ICT": 56
+      }
+    },
+    "total": 335,
+    "percent": 55.83,
+    "grade": "C1",
+    "rank": 15
+  },
+  "210/46": {
+    "name": "SONALI SWAIN",
+    "father_name": "SANJAYA KUMAR SWAIN",
+    "dob": "12-04-2019",
+    "roll": 14,
+    "section": "A",
+    "attendance": 32.7,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": "ICONIC",
+        "MATHS": "ABS",
+        "PHYSICS": "ABS",
+        "CHEMISTRY": 16,
+        "BIOLOGY": "ABS",
+        "ICT": "ABS"
+      },
+      "PT-II": {
+        "ENGLISH": 12,
+        "MATHS": 12,
+        "PHYSICS": 11,
+        "CHEMISTRY": 9,
+        "BIOLOGY": 16,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 0,
+        "MATHS": 42,
+        "PHYSICS": 50,
+        "CHEMISTRY": 0,
+        "BIOLOGY": 0,
+        "ICT": 49
+      },
+      "PT-III": {
+        "ENGLISH": 12,
+        "MATHS": 12,
+        "PHYSICS": 11,
+        "CHEMISTRY": 9,
+        "BIOLOGY": 16,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 24,
+        "MATHS": 7,
+        "PHYSICS": 10,
+        "CHEMISTRY": 11,
+        "BIOLOGY": 6,
+        "ICT": 9
+      },
+      "ANNUAL": {
+        "ENGLISH": 42,
+        "MATHS": 30,
+        "PHYSICS": 50,
+        "CHEMISTRY": 45,
+        "BIOLOGY": 28,
+        "ICT": 22
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": 10,
+        "PHYSICS": 0,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 23,
+        "ICT": 34
+      },
+      "TOTAL": {
+        "ENGLISH": 60,
+        "MATHS": 40,
+        "PHYSICS": 50,
+        "CHEMISTRY": 73,
+        "BIOLOGY": 51,
+        "ICT": 56
+      }
+    },
+    "total": 330,
+    "percent": 55.0,
+    "grade": "C1",
+    "rank": 16
+  },
+  "180/16": {
+    "name": "SOUMYARANJAN SAHU",
+    "father_name": "BHANJA KISHOR SAHU",
+    "dob": "21-08-2008",
+    "roll": 20,
+    "section": "A",
+    "attendance": 68.55,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 29,
+        "MATHS": 28,
+        "PHYSICS": 32,
+        "CHEMISTRY": 32,
+        "BIOLOGY": 15,
+        "ICT": 33
+      },
+      "PT-II": {
+        "ENGLISH": 15,
+        "MATHS": 14,
+        "PHYSICS": 9,
+        "CHEMISTRY": 25,
+        "BIOLOGY": 18,
+        "ICT": 20
+      },
+      "HFY": {
+        "ENGLISH": 62,
+        "MATHS": 57,
+        "PHYSICS": 53,
+        "CHEMISTRY": 54,
+        "BIOLOGY": 40,
+        "ICT": 84
+      },
+      "PT-III": {
+        "ENGLISH": 15,
+        "MATHS": 14,
+        "PHYSICS": 9,
+        "CHEMISTRY": 25,
+        "BIOLOGY": 18,
+        "ICT": 20
+      },
+      "PT-IV": {
+        "ENGLISH": 20,
+        "MATHS": 11,
+        "PHYSICS": 10,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 10,
+        "ICT": 25
+      },
+      "ANNUAL": {
+        "ENGLISH": 49,
+        "MATHS": 19,
+        "PHYSICS": 24,
+        "CHEMISTRY": 23,
+        "BIOLOGY": 23,
+        "ICT": 29
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": 15,
+        "PHYSICS": 27,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 23,
+        "ICT": 35
+      },
+      "TOTAL": {
+        "ENGLISH": 67,
+        "MATHS": 34,
+        "PHYSICS": 51,
+        "CHEMISTRY": 51,
+        "BIOLOGY": 46,
+        "ICT": 64
+      }
+    },
+    "total": 313,
+    "percent": 52.17,
+    "grade": "C1",
+    "rank": 17
+  },
+  "081/747": {
+    "name": "AISHWARYA RUPAM SETHI",
+    "father_name": "CHINTAMANI SETHI",
+    "dob": "19-02-2008",
+    "roll": 1,
+    "section": "A",
+    "attendance": 72.32,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "B",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 21,
+        "MATHS": 13,
+        "PHYSICS": 30,
+        "CHEMISTRY": 32,
+        "BIOLOGY": 6,
+        "ICT": 35
+      },
+      "PT-II": {
+        "ENGLISH": 13,
+        "MATHS": 14,
+        "PHYSICS": 13,
+        "CHEMISTRY": 11,
+        "BIOLOGY": 13,
+        "ICT": 15
+      },
+      "HFY": {
+        "ENGLISH": 58,
+        "MATHS": 42,
+        "PHYSICS": 49,
+        "CHEMISTRY": 50,
+        "BIOLOGY": 42,
+        "ICT": 75
+      },
+      "PT-III": {
+        "ENGLISH": 13,
+        "MATHS": 14,
+        "PHYSICS": 13,
+        "CHEMISTRY": 11,
+        "BIOLOGY": 13,
+        "ICT": 15
+      },
+      "PT-IV": {
+        "ENGLISH": 19,
+        "MATHS": 13,
+        "PHYSICS": 14,
+        "CHEMISTRY": 11,
+        "BIOLOGY": 14,
+        "ICT": 10
+      },
+      "ANNUAL": {
+        "ENGLISH": 34,
+        "MATHS": 20,
+        "PHYSICS": 31,
+        "CHEMISTRY": 26,
+        "BIOLOGY": 29,
+        "ICT": 21
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": 15,
+        "PHYSICS": 27,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 23,
+        "ICT": 35
+      },
+      "TOTAL": {
+        "ENGLISH": 52,
+        "MATHS": 35,
+        "PHYSICS": 58,
+        "CHEMISTRY": 54,
+        "BIOLOGY": 52,
+        "ICT": 56
+      }
+    },
+    "total": 307,
+    "percent": 51.17,
+    "grade": "C1",
+    "rank": 18
+  },
+  "087/753": {
+    "name": "SNEHASHREE GURU",
+    "father_name": "HARISHCHANDRA GURU",
+    "dob": "21-12-2007",
+    "roll": 12,
+    "section": "A",
+    "attendance": 72.32,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 22,
+        "MATHS": 27,
+        "PHYSICS": 20,
+        "CHEMISTRY": 16,
+        "BIOLOGY": 7,
+        "ICT": 19
+      },
+      "PT-II": {
+        "ENGLISH": 16,
+        "MATHS": 13,
+        "PHYSICS": 9,
+        "CHEMISTRY": 12,
+        "BIOLOGY": 9,
+        "ICT": 17
+      },
+      "HFY": {
+        "ENGLISH": 56,
+        "MATHS": 42,
+        "PHYSICS": 35,
+        "CHEMISTRY": 57,
+        "BIOLOGY": 42,
+        "ICT": 54
+      },
+      "PT-III": {
+        "ENGLISH": 16,
+        "MATHS": 13,
+        "PHYSICS": 9,
+        "CHEMISTRY": 12,
+        "BIOLOGY": 9,
+        "ICT": 17
+      },
+      "PT-IV": {
+        "ENGLISH": 27,
+        "MATHS": 26,
+        "PHYSICS": 14,
+        "CHEMISTRY": 6,
+        "BIOLOGY": 12,
+        "ICT": 20
+      },
+      "ANNUAL": {
+        "ENGLISH": 30,
+        "MATHS": 23,
+        "PHYSICS": 27,
+        "CHEMISTRY": 24,
+        "BIOLOGY": 24,
+        "ICT": 20
+      },
+      "IA": {
+        "ENGLISH": 19,
+        "MATHS": 15,
+        "PHYSICS": 29,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 23,
+        "ICT": 34
+      },
+      "TOTAL": {
+        "ENGLISH": 49,
+        "MATHS": 38,
+        "PHYSICS": 56,
+        "CHEMISTRY": 52,
+        "BIOLOGY": 47,
+        "ICT": 54
+      }
+    },
+    "total": 296,
+    "percent": 49.33,
+    "grade": "C2",
+    "rank": 19
+  },
+  "168/04": {
+    "name": "RAJENDRA PRUSTY",
+    "father_name": "BHIKARI PRUSTY",
+    "dob": "13-06-2008",
+    "roll": 9,
+    "section": "A",
+    "attendance": 86.79,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "A",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "A",
+      "DISCIPLINE": "A",
+      "SPORTS": "A"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 18,
+        "MATHS": 21,
+        "PHYSICS": 25,
+        "CHEMISTRY": 32,
+        "BIOLOGY": 11,
+        "ICT": 30
+      },
+      "PT-II": {
+        "ENGLISH": 14,
+        "MATHS": 18,
+        "PHYSICS": 13,
+        "CHEMISTRY": 17,
+        "BIOLOGY": 11,
+        "ICT": 13
+      },
+      "HFY": {
+        "ENGLISH": 48,
+        "MATHS": 47,
+        "PHYSICS": 27,
+        "CHEMISTRY": 57,
+        "BIOLOGY": 44,
+        "ICT": 55
+      },
+      "PT-III": {
+        "ENGLISH": 14,
+        "MATHS": 18,
+        "PHYSICS": 13,
+        "CHEMISTRY": 17,
+        "BIOLOGY": 11,
+        "ICT": 13
+      },
+      "PT-IV": {
+        "ENGLISH": 18,
+        "MATHS": 19,
+        "PHYSICS": 13,
+        "CHEMISTRY": 11,
+        "BIOLOGY": 13,
+        "ICT": 17
+      },
+      "ANNUAL": {
+        "ENGLISH": 26,
+        "MATHS": 23,
+        "PHYSICS": 31,
+        "CHEMISTRY": 32,
+        "BIOLOGY": 12,
+        "ICT": 20
+      },
+      "IA": {
+        "ENGLISH": 18,
+        "MATHS": 15,
+        "PHYSICS": 28,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 22,
+        "ICT": 34
+      },
+      "TOTAL": {
+        "ENGLISH": 44,
+        "MATHS": 38,
+        "PHYSICS": 59,
+        "CHEMISTRY": 60,
+        "BIOLOGY": 34,
+        "ICT": 54
+      }
+    },
+    "total": 289,
+    "percent": 48.17,
+    "grade": "C2",
+    "rank": 20
+  },
+  "220/56": {
+    "name": "LIPSA SAHU",
+    "father_name": "RABINDRA KUMAR SAHU",
+    "dob": "07-01-2009",
+    "roll": 6,
+    "section": "A",
+    "attendance": 71.06,
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY",
+      "ICT"
+    ],
+    "max_total": 600,
+    "co_scholastic": {
+      "WORK EDUCATION": "B",
+      "ART EDUCATION": "A",
+      "HEALTH & PHYSICAL EDUCATION": "B",
+      "DISCIPLINE": "A",
+      "SPORTS": "B"
+    },
+    "exams": {
+      "PT-I": {
+        "ENGLISH": 11,
+        "MATHS": 24,
+        "PHYSICS": 25,
+        "CHEMISTRY": 8,
+        "BIOLOGY": 11,
+        "ICT": 20
+      },
+      "PT-II": {
+        "ENGLISH": 8,
+        "MATHS": 7,
+        "PHYSICS": 9,
+        "CHEMISTRY": 13,
+        "BIOLOGY": 11,
+        "ICT": 9
+      },
+      "HFY": {
+        "ENGLISH": 45,
+        "MATHS": 32,
+        "PHYSICS": 43,
+        "CHEMISTRY": 41,
+        "BIOLOGY": 38,
+        "ICT": 57
+      },
+      "PT-III": {
+        "ENGLISH": 8,
+        "MATHS": 7,
+        "PHYSICS": 9,
+        "CHEMISTRY": 13,
+        "BIOLOGY": 11,
+        "ICT": 9
+      },
+      "PT-IV": {
+        "ENGLISH": 13,
+        "MATHS": 16,
+        "PHYSICS": 13,
+        "CHEMISTRY": 9,
+        "BIOLOGY": 4,
+        "ICT": 13
+      },
+      "ANNUAL": {
+        "ENGLISH": 29,
+        "MATHS": 9,
+        "PHYSICS": 25,
+        "CHEMISTRY": 29,
+        "BIOLOGY": 15,
+        "ICT": 16
+      },
+      "IA": {
+        "ENGLISH": 17,
+        "MATHS": 15,
+        "PHYSICS": 28,
+        "CHEMISTRY": 28,
+        "BIOLOGY": 22,
+        "ICT": 30
+      },
+      "TOTAL": {
+        "ENGLISH": 46,
+        "MATHS": 24,
+        "PHYSICS": 53,
+        "CHEMISTRY": 57,
+        "BIOLOGY": 37,
+        "ICT": 46
+      }
+    },
+    "total": 263,
+    "percent": 43.83,
+    "grade": "C2",
+    "rank": 21
+  }
+}
