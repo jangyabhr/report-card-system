@@ -169,14 +169,14 @@ function loadReport(adm) {
 
       <!-- School Header -->
       <div class="school-header">
-        <div class="logo-circle">OAV<br>LOGO</div>
+        <img src="assets/oav-logo.png" class="school-logo" alt="OAV Logo">
         <div class="school-info">
           <div class="school-name">Odisha Adarsha Vidyalaya Jamagorada, Jagannathprasad, Ganjam</div>
           <p>Department of School &amp; Mass Education, Govt. of Odisha</p>
           <p>(Affiliated to CBSE, New Delhi)</p>
           <p class="details-line">Affiliation No: 1520188 &nbsp;&nbsp; School Code: 17274 &nbsp;&nbsp; UDISE CODE: 21191203852 &nbsp;&nbsp; Email: jagannathprasad@oav.edu.in</p>
         </div>
-        <div class="logo-circle">CBSE<br>LOGO</div>
+        <img src="assets/cbse-logo.png" class="school-logo" alt="CBSE Logo">
       </div>
 
       <!-- Title Bar -->
