@@ -389,11 +389,32 @@ function renderChart(s) {
 
 function downloadPDF() {
   const el = document.getElementById("report");
+  if (!el) return;
+
+  // Temporarily remove overflow so html2canvas captures the full table
+  const scrollDivs = el.querySelectorAll('.table-scroll');
+  scrollDivs.forEach(d => { d.style.overflow = 'visible'; d.style.maxWidth = 'none'; });
+
+  // Get student name for filename
+  const nameEl = el.querySelector('.info-table tr:nth-child(3) td:nth-child(4)');
+  const studentName = nameEl ? nameEl.textContent.replace(/^:\s*/, '').trim().replace(/\s+/g, '_') : 'student';
+
   html2pdf().set({
-    margin: 0.3,
-    filename: "report-card.pdf",
+    margin: [4, 3, 4, 3],
+    filename: `report-card_${studentName}.pdf`,
     image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true },
-    jsPDF: { unit: "in", format: "a4", orientation: "portrait" }
-  }).from(el).save();
+    html2canvas: {
+      scale: 2,
+      useCORS: true,
+      scrollX: 0,
+      scrollY: -window.scrollY,
+      windowWidth: el.scrollWidth + 6
+    },
+    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+    pagebreak: { mode: 'avoid-all' }
+  }).from(el).save().then(() => {
+    scrollDivs.forEach(d => { d.style.overflow = ''; d.style.maxWidth = ''; });
+  }).catch(() => {
+    scrollDivs.forEach(d => { d.style.overflow = ''; d.style.maxWidth = ''; });
+  });
 }
