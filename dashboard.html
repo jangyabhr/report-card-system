@@ -65,6 +65,11 @@
       <div class="chart-container" style="height:320px;">
         <canvas id="gradeChart"></canvas>
       </div>
+
+      <div style="margin-top:22px;">
+        <div class="dash-sub-title">FAILED STUDENTS &mdash; SUBJECT-WISE DETAIL</div>
+        <div id="failed-students-wrap"></div>
+      </div>
     </div>
   </div>
 
@@ -102,8 +107,12 @@
   <div class="dash-section">
     <div class="dash-section-title">SECTION 3: CROSS-CLASS SUBJECT PERFORMANCE TREND</div>
     <div class="dash-inner">
+      <div style="margin-bottom:12px;">
+        <label for="subjectSelect" style="font-size:12px;font-weight:bold;color:#1a237e;margin-right:8px;">SELECT SUBJECT:</label>
+        <select id="subjectSelect" style="padding:5px 10px;font-size:13px;border:1px solid #bbb;border-radius:4px;"><option>Loading&hellip;</option></select>
+      </div>
       <div id="cross-class-loading" style="text-align:center;color:#888;font-size:13px;padding:10px 0;">Loading all class data&hellip;</div>
-      <div class="chart-container" style="height:380px;">
+      <div class="chart-container" style="height:340px;">
         <canvas id="crossClassChart"></canvas>
       </div>
     </div>

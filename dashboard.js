@@ -69,7 +69,12 @@ async function loadAllClassData() {
   );
   CLASS_FILES.forEach((cls, i) => { allClassData[cls] = results[i]; });
   document.getElementById("cross-class-loading").style.display = "none";
-  renderCrossClassChart();
+
+  const { subjects } = computeCrossClassStats();
+  const sel = document.getElementById("subjectSelect");
+  sel.innerHTML = subjects.map(s => `<option value="${s}">${s}</option>`).join("");
+  sel.addEventListener("change", () => renderCrossClassChart(sel.value));
+  renderCrossClassChart(subjects[0]);
 }
 
 // ── Core aggregation ─────────────────────────────────────────────────────────
@@ -159,7 +164,20 @@ function computeStats(classData) {
     });
   });
 
-  return { total, passCount, failCount, passPct, classAvg, topper, gradeBands, top5, bottom5, subjectStats, allSubjects, sections, sectionData };
+  // Failed students with per-subject breakdown
+  const failedStudents = studentResults
+    .filter(s => !s.passed)
+    .map(s => {
+      const totals = s.exams?.TOTAL || {};
+      const failedSubjects = (s.subjects || []).filter(sub => {
+        const m = totals[sub];
+        return !(typeof m === "number" && m >= 33);
+      });
+      return { name: s.name, section: s.section, rank: s.rank, percent: s.percent, failedSubjects };
+    })
+    .sort((a, b) => (a.rank || 9999) - (b.rank || 9999));
+
+  return { total, passCount, failCount, passPct, classAvg, topper, gradeBands, top5, bottom5, subjectStats, allSubjects, sections, sectionData, failedStudents };
 }
 
 // ── Cross-class aggregation ───────────────────────────────────────────────────
@@ -343,35 +361,43 @@ function renderSubjectChart(stats) {
   });
 }
 
-function renderCrossClassChart() {
+function renderCrossClassChart(subject) {
   if (crossClassChartInstance) crossClassChartInstance.destroy();
-  const { subjects, seriesData } = computeCrossClassStats();
+  const { seriesData } = computeCrossClassStats();
+  if (!subject || !seriesData[subject]) return;
+
+  const allSubjects = Object.keys(seriesData);
+  const colorIndex = allSubjects.indexOf(subject);
+  const color = SUBJECT_COLORS[colorIndex % SUBJECT_COLORS.length];
 
   const ctx = document.getElementById("crossClassChart").getContext("2d");
   crossClassChartInstance = new Chart(ctx, {
     type: "line",
     data: {
       labels: CLASS_FILES.map(c => "Class " + CLASS_LABELS[c]),
-      datasets: subjects.map((sub, i) => ({
-        label: sub,
-        data: CLASS_FILES.map(cls => seriesData[sub]?.[cls] ?? null),
+      datasets: [{
+        label: subject,
+        data: CLASS_FILES.map(cls => seriesData[subject]?.[cls] ?? null),
         spanGaps: false,
-        borderColor: SUBJECT_COLORS[i % SUBJECT_COLORS.length],
-        backgroundColor: "transparent",
-        pointRadius: 5,
-        pointHoverRadius: 7,
-        borderWidth: 2,
+        borderColor: color,
+        backgroundColor: color + "22",
+        fill: true,
+        pointRadius: 6,
+        pointHoverRadius: 8,
+        borderWidth: 2.5,
         tension: 0.3
-      }))
+      }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       spanGaps: false,
       plugins: {
-        legend: { position: "top" },
-        title: { display: true, text: "Average Subject Score across Classes (Annual Exam)", font: { size: 13 } },
-        tooltip: { mode: "index", intersect: false }
+        legend: { display: false },
+        title: { display: true, text: `${subject} — Average Score by Class (Annual Exam)`, font: { size: 13 } },
+        tooltip: {
+          callbacks: { label: ctx => `Avg: ${ctx.raw ?? "N/A"}` }
+        }
       },
       scales: {
         y: {
@@ -396,12 +422,45 @@ function renderDashboard() {
   renderRankTable(stats.top5, "top5-tbody");
   renderRankTable(stats.bottom5, "bottom5-tbody");
   renderGradeChart(stats);
+  renderFailedStudentsTable(stats);
   renderSubjectTable(stats);
   renderSectionTable(stats);
   renderSubjectChart(stats);
 
   document.getElementById("loading-msg").style.display = "none";
   document.getElementById("dashboard-wrapper").style.display = "block";
+}
+
+function renderFailedStudentsTable(stats) {
+  const wrap = document.getElementById("failed-students-wrap");
+  if (stats.failedStudents.length === 0) {
+    wrap.innerHTML = `<div style="background:#e8f5e9;color:#2e7d32;padding:12px 16px;border-radius:6px;font-size:13px;font-weight:bold;margin-top:8px;">
+      &#10003; All students passed this class.
+    </div>`;
+    return;
+  }
+  wrap.innerHTML = `
+    <table class="dash-table" style="margin-top:8px;">
+      <thead>
+        <tr>
+          <th>Rank</th><th>Name</th><th>Section</th><th>Overall %</th>
+          <th>Subjects Failed</th><th>No. of Fails</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${stats.failedStudents.map(s => `
+          <tr>
+            <td>${s.rank}</td>
+            <td>${s.name}</td>
+            <td>${s.section || "—"}</td>
+            <td>${s.percent}%</td>
+            <td class="fail-cell">${s.failedSubjects.join(", ")}</td>
+            <td style="text-align:center;font-weight:bold;color:#b71c1c;">${s.failedSubjects.length}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  `;
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
