@@ -24,6 +24,30 @@ function getGrade(pct) {
   return GRADE_SCALE[GRADE_SCALE.length - 1];
 }
 
+// Compute true weighted % from all exam components
+// PT-I/II/III/IV: 10% each (max 40), HFY: 20% (max 100), Annual (TOTAL=ANNUAL+IA): 40% (max 100)
+function computeWeighted(exams, sub) {
+  const total = (exams.TOTAL || {})[sub];
+  if (total === "ABS") return "ABS";
+
+  const pt1 = exams["PT-I"]?.[sub];
+  const pt2 = exams["PT-II"]?.[sub];
+  const hfy = exams["HFY"]?.[sub];
+  const pt3 = exams["PT-III"]?.[sub];
+  const pt4 = exams["PT-IV"]?.[sub];
+
+  const toNum = v => (typeof v === "number" ? v : 0);
+
+  const w = toNum(pt1) / 40 * 10
+          + toNum(pt2) / 40 * 10
+          + toNum(hfy) / 100 * 20
+          + toNum(pt3) / 40 * 10
+          + toNum(pt4) / 40 * 10
+          + toNum(total) / 100 * 40;
+
+  return typeof total === "number" ? w : null;
+}
+
 function getClassName() {
   const map = {
     class6: "VI", class7: "VII", class8: "VIII", class9: "IX",
@@ -100,9 +124,9 @@ function loadReport(adm) {
   const n        = subjects.length;
   const maxTotal = s.max_total || 800;
 
-  // PASS: all annual exam marks >= 33 out of 100 (ANNUAL+IA combined)
+  // PASS: weighted % >= 33 in every subject
   const passed = subjects.every(sub => {
-    const m = totals[sub];
+    const m = computeWeighted(exams, sub);
     return typeof m === "number" && m >= 33;
   });
 
@@ -114,7 +138,7 @@ function loadReport(adm) {
     const hfy = exams["HFY"]?.[sub]    ?? null;
     const pt3 = exams["PT-III"]?.[sub] ?? null;
     const pt4 = exams["PT-IV"]?.[sub]  ?? null;
-    const ann = totals[sub]            ?? null;  // ANNUAL + IA combined
+    const ann = computeWeighted(exams, sub);  // true weighted % (PT×10% + HY×20% + Annual×40%)
 
     let wt = "-", gInfo = { grade: "-", color: "#ddd" };
     if (typeof ann === "number") {
