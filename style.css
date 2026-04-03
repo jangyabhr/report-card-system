@@ -399,22 +399,42 @@ tr.pct-row td.sub-name { color: #b71c1c; }
   -webkit-overflow-scrolling: touch;
 }
 
-/* ── Print / PDF ─────────────────────────────── */
+/* ── Print / Save as PDF ─────────────────────── */
 @media print {
-  body { padding: 0; background: #fff; }
-  .search-bar, #dl-wrap { display: none !important; }
-  .report-card { box-shadow: none; border: none; margin: 0; }
-  .table-scroll { overflow: visible !important; max-width: none !important; }
+  body {
+    padding: 0;
+    background: #fff;
+  }
+  .search-bar,
+  #dl-wrap {
+    display: none !important;
+  }
+  #report-wrapper {
+    padding: 0;
+  }
+  .report-card {
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .table-scroll {
+    overflow: visible !important;
+    max-width: none !important;
+  }
+  /* Prevent breaks inside key blocks */
+  .student-section,
+  .chart-wrap,
+  .scholastic-table,
+  .co-section,
+  .sig-section,
+  .grading-note,
+  .bottom-info {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
-
-/* Prevent html2canvas / pdf from cutting inside these blocks */
-.student-section { page-break-inside: avoid; }
-.chart-wrap      { page-break-inside: avoid; }
-.scholastic-table{ page-break-inside: avoid; }
-.co-section      { page-break-inside: avoid; }
-.sig-section     { page-break-inside: avoid; }
-.grading-note    { page-break-inside: avoid; }
-.bottom-info     { page-break-inside: avoid; }
 
 /* ── Mobile Responsive ───────────────────────── */
 @media (max-width: 640px) {
