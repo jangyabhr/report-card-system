@@ -133,6 +133,8 @@ function loadReport(adm) {
 
   // ── Subject rows ────────────────────────────────────────────────────
   let subjectRows = "";
+  const weightedScores = [];  // accumulate per-subject weighted % for overall calculation
+
   for (const sub of subjects) {
     const pt1 = exams["PT-I"]?.[sub]   ?? null;
     const pt2 = exams["PT-II"]?.[sub]  ?? null;
@@ -141,6 +143,8 @@ function loadReport(adm) {
     const pt4 = exams["PT-IV"]?.[sub]  ?? null;
     const rawAnn = totals[sub] ?? null;           // ANNUAL + IA marks (for ANNUAL column display)
     const ann    = computeWeighted(exams, sub);  // true weighted % (PT×10% + HY×20% + Annual×40%)
+
+    if (typeof ann === "number") weightedScores.push(ann);
 
     let wt = "-", gInfo = { grade: "-", color: "#ddd" };
     if (typeof ann === "number") {
@@ -176,7 +180,20 @@ function loadReport(adm) {
   const fmtT = v => v !== null ? v : "-";
   const fmtP = (v, max) => v !== null ? (v / max * 100).toFixed(2) + "%" : "-";
 
-  const overallGrade = getGrade(s.percent);
+  // Overall weighted % = average of per-subject weighted scores
+  const overallWeightedPct = weightedScores.length > 0
+    ? weightedScores.reduce((a, b) => a + b, 0) / weightedScores.length
+    : 0;
+  const overallGrade = getGrade(overallWeightedPct);
+
+  // Recompute rank based on weighted % across all students in this class
+  const weightedRank = Object.values(data).filter(st => {
+    const ex = st.exams || {};
+    const subs = st.subjects || SUBJECTS;
+    const ws = subs.map(sub => computeWeighted(ex, sub)).filter(v => typeof v === "number");
+    const pct = ws.length > 0 ? ws.reduce((a, b) => a + b, 0) / ws.length : 0;
+    return pct > overallWeightedPct;
+  }).length + 1;
 
   // ── Co-scholastic rows ──────────────────────────────────────────────
   const co = s.co_scholastic || {};
@@ -290,8 +307,8 @@ function loadReport(adm) {
               <td>${fmtT(tPT3)}</td>
               <td>${fmtT(tPT4)}</td>
               <td>${s.total} / ${maxTotal}</td>
-              <td>${s.percent}</td>
-              <td class="grade-cell" style="background:${overallGrade.color}">${s.grade}</td>
+              <td>${overallWeightedPct.toFixed(2)}</td>
+              <td class="grade-cell" style="background:${overallGrade.color}">${overallGrade.grade}</td>
             </tr>
             <tr class="pct-row">
               <td class="sub-name">Percentage</td>
@@ -300,8 +317,8 @@ function loadReport(adm) {
               <td>${fmtP(tHFY, mHFY)}</td>
               <td>${fmtP(tPT3, mPT)}</td>
               <td>${fmtP(tPT4, mPT)}</td>
-              <td>${s.percent}%</td>
-              <td class="overall-grade-cell" colspan="2">OVERALL GRADE : ${s.grade} &nbsp;|&nbsp; Rank : ${s.rank}</td>
+              <td>${overallWeightedPct.toFixed(2)}%</td>
+              <td class="overall-grade-cell" colspan="2">OVERALL GRADE : ${overallGrade.grade} &nbsp;|&nbsp; Rank : ${weightedRank}</td>
             </tr>
           </tbody>
         </table>
